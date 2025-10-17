@@ -14,6 +14,31 @@
 
 ---
 
+## Pre-Search Preparation
+
+### Step 0: Google Earth Reconnaissance (HIGHLY RECOMMENDED)
+
+**Before visiting trails, collect data to prioritize your searches:**
+
+See **`NEXT_STEPS_GOOGLE_EARTH.md`** for detailed instructions.
+
+**Quick Task (45 minutes):**
+1. Load `trails_priority_only.kml` into Google Earth
+2. Check cell tower proximity for your planned trails
+3. Take satellite screenshots of trail segments
+4. Identify specific zones 20-50 yards off trail
+5. Submit data for AI analysis
+
+**Benefits:**
+- Eliminates trails without cell coverage (saves hours of driving)
+- Provides specific GPS waypoints instead of searching entire trails
+- Updates confidence scores with visual matching
+- Reduces field time by 40-60%
+
+**Output:** You'll receive prioritized GPS waypoints ranked by probability before field visit.
+
+---
+
 ## Pre-Search Checklist
 
 ### Essential Equipment

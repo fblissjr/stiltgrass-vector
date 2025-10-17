@@ -7,9 +7,10 @@
 **Read these files in order:**
 
 1. **[FINAL_COMPREHENSIVE_REPORT.md](FINAL_COMPREHENSIVE_REPORT.md)** - Complete analysis with all findings (START HERE)
-2. **[FIELD_GUIDE.md](FIELD_GUIDE.md)** - Practical field search instructions
-3. **[treasure_map.html](treasure_map.html)** - Interactive map (open in browser)
-4. **[data/top_20_verified.csv](data/top_20_verified.csv)** - Final ranked trail list
+2. **[NEXT_STEPS_GOOGLE_EARTH.md](NEXT_STEPS_GOOGLE_EARTH.md)** - Manual data collection to enhance analysis (RECOMMENDED BEFORE FIELD)
+3. **[FIELD_GUIDE.md](FIELD_GUIDE.md)** - Practical field search instructions
+4. **[treasure_map.html](treasure_map.html)** - Interactive map (open in browser)
+5. **[data/top_20_verified.csv](data/top_20_verified.csv)** - Final ranked trail list
 
 ## Results Summary
 
@@ -66,6 +67,27 @@ treasure/
 3. **Constraint Filtering** - Applied surface, difficulty, access restrictions
 4. **Verification** - Cross-checked against AllTrails, USFS databases
 5. **Ranking** - Scored trails using 130-point system
+6. **Google Earth Enhancement** (Optional) - Manual data collection for cell tower validation and visual matching
+
+## Next Steps
+
+### Before Field Searches (Recommended)
+
+**Enhance analysis with Google Earth data collection (45 mins - 2 hours):**
+
+See **[NEXT_STEPS_GOOGLE_EARTH.md](NEXT_STEPS_GOOGLE_EARTH.md)** for:
+- Cell tower proximity validation (critical - can eliminate 40-60% of trails)
+- Satellite screenshot collection for visual matching
+- Specific GPS waypoint identification
+- Historical imagery comparison for ground disturbances
+
+**Benefits:**
+- Get prioritized GPS waypoints instead of searching entire trails
+- Validate cellular coverage requirement (master constraint)
+- Reduce field search time by 40-60%
+- Update confidence scores before driving 2 hours
+
+**Minimum viable:** Just cell tower check for top 5 trails (45 minutes)
 
 ## Installation & Setup
 

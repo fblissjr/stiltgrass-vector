@@ -421,6 +421,28 @@ Ranks 7-18: Various Forest Service roads and trails with scores 115-120. All hav
 
 ## Next Steps: Recommended Action Plan
 
+### Pre-Field: Google Earth Analysis (RECOMMENDED)
+
+**Before field searches, enhance analysis with manual Google Earth data:**
+
+See **`NEXT_STEPS_GOOGLE_EARTH.md`** for detailed instructions.
+
+**Quick Win (45 minutes):**
+- Check cell tower proximity for top 5 trails
+- Take satellite screenshots at 500-1000 ft altitude
+- Identify specific GPS waypoints 20-50 yards off trail
+- Submit data for AI analysis to get prioritized search zones
+
+**Expected Output:**
+- Updated confidence scores based on cellular coverage validation
+- Specific GPS waypoints ranked by probability
+- Visual match analysis (satellite vs aerial photos)
+- Elimination of trails without cell coverage
+
+**Why Important:** Can eliminate 40-60% of trails and focus field searches on highest-probability zones.
+
+---
+
 ### Week 1: Field Reconnaissance (Top 5 Trails)
 
 **Day 1: Bent Creek Trail**

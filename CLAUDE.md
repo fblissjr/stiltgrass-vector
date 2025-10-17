@@ -15,9 +15,10 @@ This is an AI-assisted analysis project for the **Countdown Treasure** hunt - a 
 **For new users, read these files in order:**
 
 1. **`FINAL_COMPREHENSIVE_REPORT.md`** - Complete analysis, findings, and recommendations (START HERE)
-2. **`FIELD_GUIDE.md`** - Practical instructions for field searches
-3. **`treasure_map.html`** - Interactive map showing all candidates (open in browser)
-4. **`data/top_20_verified.csv`** - Final ranked list of trail candidates
+2. **`NEXT_STEPS_GOOGLE_EARTH.md`** - Manual data collection from Google Earth for enhanced analysis
+3. **`FIELD_GUIDE.md`** - Practical instructions for field searches
+4. **`treasure_map.html`** - Interactive map showing all candidates (open in browser)
+5. **`data/top_20_verified.csv`** - Final ranked list of trail candidates
 
 ## Project Structure
 
