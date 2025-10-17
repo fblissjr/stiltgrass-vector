@@ -1,0 +1,8 @@
+trailhead,latitude,longitude,straight_distance_miles,estimated_driving_distance_miles,estimated_drive_time_hours,estimated_drive_time_minutes,route_type,access_road,popularity
+Downtown Asheville,35.595,-82.551,99.5,134.3,2.38,143.0,interstate,I-40,reference point
+Bent Creek - Hard Times Trailhead,35.5,-82.6,100.8,136.1,2.41,144.0,interstate,I-26 to NC 191 to Bent Creek Ranch Rd,high
+Looking Glass Rock Trailhead,35.290991,-82.776671,109.2,147.4,3.08,185.0,highway,US 276 + FR 475,high
+Craggy Gardens,35.7,-82.38,92.5,124.8,3.59,215.0,mountain,Blue Ridge Parkway MP 364-365,very high
+Craggy Pinnacle,35.698,-82.38,92.4,124.8,3.59,215.0,mountain,Blue Ridge Parkway MP 364.1,high
+Mount Pisgah Trailhead,35.40278,-82.75667,108.6,146.6,4.21,253.0,mountain,Blue Ridge Parkway MP 407.6,very high
+Graveyard Fields Trailhead,35.32031,-82.847057,113.2,152.9,4.39,264.0,mountain,Blue Ridge Parkway MP 418.8,very high
