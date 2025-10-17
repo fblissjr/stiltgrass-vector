@@ -1,0 +1,200 @@
+{
+  "webcam_analysis": {
+    "url": "https://countdowntreasure.com/webcam",
+    "update_frequency": "10 minutes",
+    "access_method": "Direct page view (no downloadable image URL found)",
+    "status": "Active as of October 17, 2025"
+  },
+  "reference_image_exif": {
+    "source": "whoops.jpeg (reference image from October 9, 2025)",
+    "file_name": "whoops.jpeg",
+    "timestamp": "2025:10:09 23:37:26",
+    "make": "STEALTHCAM",
+    "model": "STC-DCPTRX",
+    "image_description": "Trail Camera[MP:05][TP:055F]",
+    "software_version": "11.024.125",
+    "resolution": {
+      "width": 1280,
+      "height": 720,
+      "megapixels": 0.922,
+      "format": "720p HD"
+    },
+    "camera_settings": {
+      "exposure_time": "1/100",
+      "f_number": 2.8,
+      "iso": 100,
+      "flash": "Fired",
+      "focal_length": "0.0 mm"
+    },
+    "custom_codes": {
+      "mp_code": "05",
+      "mp_interpretation": "5 MegaPixel capture mode",
+      "mp_confidence": "95%",
+      "tp_code": "055F",
+      "tp_interpretation": "55 degrees Fahrenheit",
+      "tp_confidence": "90%"
+    },
+    "gps_data": {
+      "latitude": "35 deg 4' 23.97\" N",
+      "longitude": "80 deg 48' 6.76\" W",
+      "decimal_coords": [35.073325, -80.801878],
+      "location_name": "Charlotte, NC (Creator's house)",
+      "note": "GPS coordinates are RED HERRING - not treasure location"
+    }
+  },
+  "camera_specifications": {
+    "model": "StealthCam Deceptor MAX",
+    "model_number": "STC-DCPTRX",
+    "type": "Cellular Trail Camera",
+    "cellular_technology": {
+      "type": "Dual SIM 4G LTE",
+      "carriers": ["AT&T", "Verizon"],
+      "automatic_switching": true,
+      "signal_requirement": "2-3 bars minimum on either carrier"
+    },
+    "image_capabilities": {
+      "max_resolution": "40 MP (interpolated)",
+      "native_sensor": "16 MP",
+      "configured_mode": "5 MP (per EXIF)",
+      "transmission_resolution": "720p (1280x720)",
+      "video_resolution": "1440P QHD",
+      "video_fps": 30
+    },
+    "detection": {
+      "trigger_speed": "0.4 seconds",
+      "detection_range": "80-120 feet",
+      "sensor_type": "PIR (Passive Infrared)",
+      "flash_type": "940nm No-Glo (invisible)"
+    },
+    "power": {
+      "battery_type": "16 AA batteries",
+      "standard_life": "8.4 months (30 photos/day)",
+      "webcam_mode_estimate": "1.75-2.5 months (144 photos/day)",
+      "solar_compatible": true,
+      "external_power": "12V DC input"
+    },
+    "environmental": {
+      "operating_temp": "-20°F to 120°F",
+      "weather_rating": "IP66 (weatherproof)",
+      "recorded_temperature": "55°F at photo time"
+    }
+  },
+  "upload_characteristics": {
+    "frequency": "Every 10 minutes",
+    "daily_uploads": 144,
+    "monthly_uploads": 4320,
+    "data_per_image": "100-200 KB estimated",
+    "daily_data_usage": "14-28 MB",
+    "monthly_data_usage": "420-840 MB",
+    "required_plan": "Premium/Unlimited tier",
+    "estimated_cost": "$15-20/month"
+  },
+  "temporal_data": {
+    "treasure_placement_date": "2025-10-09 (or earlier)",
+    "reference_photo_timestamp": "2025-10-09 23:37:26 (11:37 PM)",
+    "time_of_day": "Night (23:37:26)",
+    "flash_used": true,
+    "season": "Fall (Early October)",
+    "temperature": "55°F",
+    "weather_consistency": "Typical for western NC mountains in October"
+  },
+  "location_implications": {
+    "cellular_coverage": {
+      "required": "AT&T or Verizon 4G LTE",
+      "minimum_signal": "2-3 bars",
+      "eliminates": [
+        "Deep wilderness areas",
+        "Valley floors with no coverage",
+        "Remote backcountry locations",
+        "Areas near TN border (weak AT&T)"
+      ],
+      "suggests": [
+        "Near maintained trails",
+        "Within 2-3 miles of towns",
+        "Ridge or elevated terrain",
+        "Line-of-sight to cell towers"
+      ]
+    },
+    "elevation_estimate": {
+      "from_temperature": "2,500-5,000 feet",
+      "reasoning": "55°F at midnight in early October typical for mid-elevation",
+      "too_low": "Below 2,500 ft would be warmer (60-65°F)",
+      "too_high": "Above 5,000 ft would be cooler (45-50°F)"
+    },
+    "accessibility": {
+      "maintenance_required": "Battery changes every 6-8 weeks OR solar panel installed",
+      "suggests": "Accessible location OR long-term solar setup",
+      "camera_placement": "Within 80-120 feet of treasure (detection range)",
+      "mounting": "Tree, post, or rock face 4-6 feet high"
+    }
+  },
+  "strategic_analysis": {
+    "camera_choice_reasoning": [
+      "Dual-SIM maximizes coverage in mountains",
+      "No-Glo flash prevents detection at night",
+      "Long battery life reduces maintenance visits",
+      "4G LTE supports 10-minute update frequency",
+      "Solar compatibility enables indefinite operation",
+      "Remote monitoring without site visits"
+    ],
+    "location_scouting": [
+      "Creator likely tested cellular coverage at multiple locations",
+      "Final location chosen for reliable dual-carrier signal",
+      "Sync button feature used for coverage testing",
+      "Location accessible enough for camera setup and maintenance"
+    ],
+    "search_area_impact": [
+      "Cellular requirement is a MAJOR constraint",
+      "Eliminates large portions of wilderness",
+      "Focuses search on accessible trails with coverage",
+      "Combined with 2-hour drive time, creates focused search zone",
+      "Northern Blue Ridge mountains most likely (Boone/Blowing Rock area)"
+    ]
+  },
+  "verification_opportunities": {
+    "future_analysis": [
+      "Download multiple webcam images over time to observe TP (temperature) variation",
+      "Correlate temperature readings with weather data",
+      "Monitor for any MP setting changes (would indicate manual adjustment)",
+      "Check if EXIF data changes in downloaded images vs reference",
+      "Analyze image content for seasonal changes (leaves, snow, etc.)"
+    ],
+    "coverage_testing": [
+      "Visit candidate locations with AT&T and Verizon test phones",
+      "Use OpenSignal or CellMapper apps to verify coverage",
+      "Check signal strength at various elevations and terrain types",
+      "Identify optimal dual-coverage zones within search area"
+    ]
+  },
+  "confidence_assessment": {
+    "cellular_requirement": {
+      "confidence": "100%",
+      "reasoning": "Camera model confirmed as dual-SIM cellular, requires data plan"
+    },
+    "exif_code_interpretation": {
+      "mp_05_confidence": "95%",
+      "mp_05_reasoning": "Standard camera terminology, consistent with specs",
+      "tp_055f_confidence": "90%",
+      "tp_055f_reasoning": "Format matches temperature reading, consistent with weather data"
+    },
+    "location_constraints": {
+      "coverage_requirement_confidence": "95%",
+      "elevation_estimate_confidence": "75%",
+      "accessibility_requirement_confidence": "80%"
+    }
+  },
+  "metadata": {
+    "analysis_date": "2025-10-17",
+    "analyst": "Agent B2 - Trail Camera Technical Analysis",
+    "research_duration": "60 minutes",
+    "sources": [
+      "StealthCam official specifications",
+      "TrailCamPro.com reviews",
+      "EXIF data from whoops.jpeg",
+      "Cellular coverage maps (AT&T/Verizon)",
+      "Western NC weather historical data",
+      "Blue Ridge Mountains climate data",
+      "Trail camera metadata conventions"
+    ]
+  }
+}

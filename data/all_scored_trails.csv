@@ -1,0 +1,1114 @@
+trail_name,osm_id,total_score,breakdown,distance_miles,surface,difficulty,highway_type,county,ref
+Mountains-to-Sea Trail,98261216,82,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",9.436,ground,mountain_hiking,path,Unknown,nan
+South Mills River Road,152547221,62,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",8.731,unpaved,grade4,path,Unknown,TR 133
+Cove Mountain Trail,167431878,72,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",8.567,ground,unknown,path,Unknown,nan
+Jarrett Creek Road,492139569,72,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 2, 'named': 10, 'forest_service': 10}",8.297,gravel,unknown,track,Unknown,FS 4030
+Wayehutta Loop,1160894020,77,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 2, 'named': 10, 'forest_service': 0}",8.162,ground,unknown,track,Unknown,nan
+Fletcher Creek Road,112927488,62,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 2, 'named': 10, 'forest_service': 0}",7.758,gravel,unknown,track,Unknown,nan
+Lickstone Ridge Road,627923007,82,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 2, 'named': 10, 'forest_service': 0}",7.638,gravel,grade2,track,Unknown,nan
+Mountains-to-Sea Trail,425618401,82,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",7.559,ground,mountain_hiking,path,Unknown,nan
+Squirrel Gap,481473985,67,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",7.465,dirt,unknown,path,Unknown,147
+Goshen Prong Trail,167432194,72,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",7.413,ground,unknown,path,Unknown,nan
+Maddron Bald Trail,167432621,72,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 2, 'named': 10, 'forest_service': 0}",7.129,ground,unknown,path,Unknown,nan
+Fork Mountain Trail,114815734,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",6.82,ground,unknown,footway,Unknown,nan
+Bull Head Trail,167431777,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",6.221,ground,unknown,path,Unknown,nan
+Laurel Mountain,152407167,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",6.202,ground,unknown,path,Unknown,121
+Weed Patch Mountain Trail,584740355,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",6.115,ground,unknown,footway,Unknown,nan
+Mountains-to-Sea Trail,663589372,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",6.095,ground,mountain_hiking,path,Unknown,nan
+Trail 199226508,199226508,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",6.086,ground,grade2,track,Unknown,nan
+Baxter Creek Trail,167431666,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.946,ground,unknown,path,Unknown,nan
+Rainbow Falls Trail,167433880,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.791,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,218911669,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.758,ground,mountain_hiking,path,Unknown,nan
+Art Loeb Trail,267283621,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.598,ground,unknown,path,Unknown,nan
+Neverending Road,467780745,75,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",5.558,gravel,unknown,track,Unknown,FS 5097
+Gabes Mountain Trail,167432179,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.515,ground,unknown,path,Unknown,nan
+Wash Creek Road,112927468,75,"{'surface': 20, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",5.439,unpaved,grade1,track,Unknown,FS 5000
+Avery Creek Road,231342205,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",5.429,gravel,grade2,track,Transylvania,FS 477
+South Ridge Road,114869553,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",5.405,gravel,grade3,track,Unknown,FS 479M
+475C,267283620,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",5.16,unpaved,grade3,track,Unknown,FS 475C
+Boulevard Trail,167431761,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.146,ground,unknown,path,Unknown,nan
+Yellow Gap Road,265512581,70,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",5.014,gravel,grade1,track,Henderson,NFD 1206
+Trail 1160805295,1160805295,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 10}",5.014,ground,unknown,track,Unknown,FS 4652
+Little Cataloochee Trail,167432567,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",5.009,ground,unknown,path,Unknown,nan
+Fork Ridge Trail,167432151,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.97,ground,unknown,path,Unknown,nan
+Golden Ridge Trail,666361537,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.927,ground,unknown,path,Unknown,TR 294
+Moses Creek Road–Mysterious Cabin Loop,1160864035,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",4.9,gravel,unknown,footway,Unknown,nan
+Alum Cave Trail,288576403,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.852,ground,unknown,path,Unknown,nan
+Flint Mountain Trail,19646370,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.803,ground,unknown,path,Unicoi,nan
+Bradley Creek Trail,112927501,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.707,ground,unknown,path,Unknown,351
+Mountains-to-Sea Trail,114815664,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.661,ground,mountain_hiking,path,Unknown,nan
+Moses Creek Road,1160875813,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",4.659,gravel,unknown,footway,Unknown,nan
+Art Loeb Trail,453604210,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.629,ground,unknown,path,Unknown,nan
+Paint Mountain Trail,611634257,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.628,ground,unknown,path,Unknown,TR 7
+Thomas Divide Trail,167434380,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.608,ground,unknown,path,Unknown,nan
+Jerry Miller Trail,693048981,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.513,ground,unknown,path,Unknown,TR 286
+Slate Rock Creek Trail,112927486,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.448,ground,unknown,path,Unknown,320
+Art Loeb Trail,902808469,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.429,ground,unknown,path,Unknown,nan
+North Boundary Road,162931586,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",4.396,gravel,grade2,track,Unknown,FS 485
+Appalachian Trail,30673774,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.135,ground,unknown,path,Unknown,TR 1-08
+Mysterious Cabin Loop,1160808884,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",4.101,ground,unknown,footway,Unknown,nan
+Appalachian Trail,237614144,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",4.033,ground,unknown,path,Unknown,nan
+Boogerman Trail,167431748,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.984,ground,unknown,path,Unknown,nan
+Appalachian Trail,237582438,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.958,ground,unknown,path,Unknown,nan
+Shining Creek Trail,114815722,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 10}",3.903,ground,unknown,path,Unknown,FS 363
+Laurel Ridge Road,659194924,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",3.888,gravel,grade2,track,Henderson,nan
+Trail 734309868,734309868,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",3.874,gravel,grade2,track,Unknown,FS 3548
+Ramsey Cascades Trail,279159542,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.82,ground,unknown,path,Unknown,nan
+Art Loeb Trail,166036050,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.815,ground,unknown,path,Unknown,nan
+Trail 766775014,766775014,85,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",3.815,unpaved,grade2,track,Haywood,FS 289
+Forney Ridge Trail,167432169,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.782,ground,unknown,path,Unknown,nan
+Smokemont Loop Trail,167434271,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.76,ground,unknown,path,Unknown,nan
+Sam Smith Loop,1113392611,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",3.754,ground,unknown,track,Jackson,BIA-433
+Lickstone Ridge Road,16602137,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",3.737,gravel,grade2,track,Unknown,FS 97
+Trail 267559573,267559573,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",3.689,ground,grade4,track,Unknown,FS 140B
+North Slope Trail,449217435,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.626,ground,unknown,path,Unknown,359
+Funneltop Mountail Trail,152673006,85,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",3.619,unpaved,grade4,track,Unknown,FS 5018
+Neal Barnett Road,16656816,85,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",3.612,unpaved,grade4,track,Unknown,FS 3514
+Wolf Mountain Road,16630779,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",3.607,ground,unknown,track,Unknown,nan
+Sweat Heifer Creek Trail,167434371,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.595,ground,unknown,path,Unknown,nan
+Art Loeb Trail,98441969,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.573,ground,unknown,path,Unknown,nan
+Kitsuma/Youngs Ridge Trail,333032293,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.556,ground,mountain_hiking,path,Unknown,TR206
+Long Bunk Trail,167432585,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.538,ground,unknown,path,Unknown,nan
+Old Butt Knob Trail,114815601,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 10}",3.468,ground,unknown,path,Unknown,FS 332
+Deep Creek Trail,991009472,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.464,ground,hiking,path,Unknown,nan
+Little River Trail,167432581,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.457,ground,unknown,path,Unknown,nan
+Trail 1160805297,1160805297,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",3.454,ground,unknown,track,Unknown,FS 4653
+Appalachian Trail,237582434,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.438,ground,unknown,path,Unknown,nan
+Big East Fork Trail,114815726,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 10}",3.417,ground,unknown,path,Unknown,FS 357
+Mountains-to-Sea Trail,98261231,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.365,ground,mountain_hiking,path,Unknown,nan
+Green Mountain Trail,616960232,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.356,ground,mountain_hiking,path,Unknown,nan
+Indian Creek Road,277636235,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",3.33,gravel,grade3,track,Unknown,FS 5003
+Horse Creek Road,653672166,110,"{'surface': 35, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",3.322,dirt,grade3,track,Unknown,FS 94
+Trail 1069949997,1069949997,50,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",3.312,gravel,unknown,footway,Unknown,nan
+Right Loop,164856358,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.29,ground,unknown,path,Unknown,nan
+Appalachian Trail,30671408,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.202,ground,unknown,path,Unknown,TR 1-08
+Roundtop Ridge Trail,655220025,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.175,ground,unknown,path,Unknown,TR 295
+Mountains-to-Sea Trail,587054175,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.169,ground,mountain_hiking,path,Unknown,nan
+Appalachian Trail,30670574,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.137,ground,unknown,path,Unknown,TR 1-08
+Bernard Mountain Trail,1180075913,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.136,dirt,unknown,path,Unknown,nan
+Grapeyard Ridge Trail,167432201,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.134,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,98261242,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.129,ground,mountain_hiking,path,Unknown,nan
+Farlow Gap Trail,313769039,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.104,ground,unknown,path,Unknown,106
+Big Clifty Road,636158481,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",3.067,gravel,grade2,track,Unknown,FS 404
+Flat Laurel Creek Trail,860328531,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.005,dirt,unknown,path,Unknown,nan
+Riverside,112927462,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",3.002,ground,unknown,path,Unknown,115
+Brown Gap Road,648589972,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.967,gravel,grade2,track,Unknown,FS 2250
+Mountains-to-Sea Trail,98261246,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.958,ground,mountain_hiking,path,Unknown,nan
+South Mills River Road,815044047,75,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.942,unpaved,grade4,path,Unknown,TR 133
+Turkey Pen Gap Trail,112927428,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.933,ground,unknown,path,Unknown,322
+Sycamore Cove,152918849,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.911,ground,unknown,path,Unknown,143
+Kagle Mountain Road,16780202,85,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.903,gravel,unknown,track,Transylvania,FS 5361
+High Knob Road,16623816,70,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",2.851,unpaved,unknown,track,Jackson,nan
+Kanati Fork Trail,167432429,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.846,ground,unknown,path,Unknown,nan
+Mingus Creek Trail,167432782,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.845,ground,unknown,path,Unknown,nan
+Laurel River Trail,395478543,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.839,ground,unknown,path,Unknown,TR 310
+Demostration Trail,1126587894,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.836,dirt,unknown,path,Unknown,nan
+Looking Glass Rock Trail,28206916,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",2.835,ground,unknown,footway,Unknown,114
+Bennet Gap,152918909,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.834,ground,unknown,path,Unknown,138
+Trail 655108520,655108520,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",2.834,ground,grade4,track,Unknown,FS 3512
+Explorer Loop,114869544,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.819,ground,hiking,path,Unknown,FS 337
+Buckeye Gap Trail,614072314,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.814,ground,mountain_hiking,path,Unknown,nan
+Appalachian Trail,30673761,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.791,ground,unknown,path,Unknown,TR 1-08
+Cantrell Creek,745933843,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.783,dirt,unknown,path,Unknown,nan
+Trace Ridge,112927459,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.747,ground,unknown,path,Unknown,354
+Cat Gap Loop Trail,267283650,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.741,ground,unknown,path,Unknown,120
+Northern Boundary Trail,1005899589,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",2.735,ground,unknown,footway,Unknown,nan
+Canebrake Trail,283807342,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.725,ground,mountain_hiking,path,Transylvania,nan
+Rough Creek Trail,167434057,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.719,ground,unknown,path,Unknown,nan
+Douglas Falls Trail,16435220,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.708,ground,unknown,path,Unknown,TR 162
+Mountains-to-Sea Trail,958919833,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.706,ground,mountain_hiking,path,Unknown,nan
+Appalachian Trail,359902629,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.702,ground,unknown,path,Unknown,nan
+Rumbling Bald Ridgeline,879996631,90,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.691,dirt,grade4,path,Unknown,nan
+Mountains-to-Sea Trail,588790637,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.674,ground,mountain_hiking,path,Unknown,nan
+Davis Creek Trail,708825146,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.652,ground,unknown,path,Unknown,TR 19
+Sarvis Cove Trail,653672635,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.623,ground,unknown,path,Unknown,TR 14
+Flat Creek Trail,167432123,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.6,ground,unknown,path,Unknown,nan
+M3 Loop,164856354,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.58,ground,unknown,path,Unknown,nan
+Trail 363346980,363346980,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",2.574,unpaved,unknown,path,Unknown,nan
+Big Creek,112927479,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.571,ground,unknown,path,Unknown,102
+Long Branch Trail,152918879,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.571,ground,unknown,path,Unknown,116
+Sheep Rock,363234521,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.57,dirt,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,98261141,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.558,ground,mountain_hiking,path,Unknown,nan
+Paint Mountain Trail,611634266,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.546,ground,unknown,path,Unknown,TR 7
+Brown Creek,16653362,70,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",2.489,unpaved,unknown,track,Macon,7072
+Trombatore Trail,854676961,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",2.457,ground,unknown,footway,Unknown,nan
+Lower Sidehill Trail,99872859,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.452,ground,hiking,path,Unknown,FS 137A
+Green Knob Trail,146253829,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.446,ground,mountain_hiking,path,Unknown,TR 182
+Green Ridge Trail,653667175,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.438,ground,unknown,path,Unknown,TR 287
+Pink Beds Loop Trail,453518939,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.431,ground,unknown,path,Unknown,nan
+Turkey Pen Gap Trail,1181917844,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.424,ground,unknown,path,Unknown,322
+Little Hickory Top,114869551,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.417,ground,hiking,path,Unknown,FS 136
+Art Loeb Trail,403379242,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.363,ground,unknown,path,Unknown,nan
+Butter Gap Trail,172819700,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.36,ground,unknown,path,Unknown,123
+Hickey Fork Trail,653662020,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.359,ground,unknown,path,Unknown,TR 292
+Stoney Fork Road,16438375,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.344,gravel,grade2,track,Unknown,FS 63A
+Trail 453516549,453516549,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",2.335,ground,grade5,track,Unknown,FS 5019
+Trail 1189691765,1189691765,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",2.33,gravel,unknown,path,Unknown,nan
+Meadow Creek Road,19435227,85,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.302,gravel,unknown,track,Cocke,FS 142
+Little Paint Creek Trail,895263130,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.294,ground,unknown,path,Unknown,TR 11
+Lower Heartbreak Ridge,1285273478,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.293,dirt,unknown,path,Unknown,nan
+Copper Ridge Trail,1179828243,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.292,dirt,unknown,path,Unknown,nan
+Pilot Rock Trail,84491740,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.28,ground,unknown,path,Unknown,321
+Mount Sterling Trail,167432896,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.269,ground,unknown,path,Unknown,nan
+Appalachian Trail,115004765,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.263,ground,unknown,path,Unknown,TR 1-08
+Pink Beds Loop Trail,112927464,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.255,ground,unknown,path,Unknown,nan
+Cove Creek Trail,152918962,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.247,ground,unknown,path,Unknown,340
+Road Prong Trail,167434042,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.244,ground,unknown,path,Unknown,nan
+Big Creek Trail,431473126,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",2.239,ground,unknown,track,Unknown,nan
+Haywood Gap Trail,616960234,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.211,ground,mountain_hiking,path,Unknown,nan
+Newberry Creek Trail,410475881,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.205,ground,mountain_hiking,path,Unknown,TR 210
+Indian Creek Trail,167432347,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",2.192,ground,unknown,track,Unknown,nan
+Avery Creek,152732182,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.188,ground,unknown,path,Unknown,327
+Mountains-to-Sea Trail,587054166,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.178,ground,mountain_hiking,path,Unknown,nan
+Catheys Creek Road,16786659,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.169,gravel,grade2,track,Unknown,FS 471
+Vinyard Gap,152672982,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.163,ground,unknown,path,Unknown,324
+Trail 16655100,16655100,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",2.162,gravel,grade2,track,Madison,FS 275
+Catawba Falls Ridge Trail,1305574249,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.155,unpaved,unknown,path,Unknown,nan
+Locust Gap Trail,1160915111,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",2.151,ground,unknown,track,Unknown,nan
+Barnett Branch Trail,424738951,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.145,ground,unknown,path,Unknown,618
+West Ridge Trail,430789107,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.133,ground,demanding_mountain_hiking,path,Unknown,nan
+White Oak Flats Trail,653661358,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.13,ground,unknown,path,Unknown,TR 293
+Pilot Cove Loop,112927509,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.114,ground,unknown,path,Unknown,320a
+Deep Gap Trail,18937690,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.111,ground,demanding_mountain_hiking,path,Unknown,nan
+Graybeard Trail,224378846,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.097,ground,hiking,path,Unknown,nan
+North Mills River Trail,112927507,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.082,ground,unknown,path,Unknown,nan
+Thompson Creek,112927490,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.079,ground,unknown,path,Unknown,662
+Wilson Boundary Road,274851180,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",2.062,ground,grade4,track,Yancey,nan
+Big Clifty Road,636162608,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.04,gravel,grade2,track,Unknown,FS 404
+Chestnut Branch Trail,167431826,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.038,ground,unknown,path,Unknown,nan
+Right Prong Road,976235973,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.032,ground,unknown,path,Unknown,nan
+Greens Lick Trail,114869515,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.016,ground,hiking,path,Unknown,FS 139
+Stoney Fork Road,279671519,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",2.004,gravel,grade2,track,Unknown,FS 63
+Chimney Rocks Trail,611634253,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",2.003,ground,unknown,path,Unknown,TR 154
+Big Creek,202430384,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.999,ground,unknown,path,Unknown,102
+Big Hurricane Creek Road,395477396,90,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.998,unpaved,grade4,track,Unknown,FS 3578
+Carolina Loop,1217896823,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.995,ground,unknown,footway,Unknown,nan
+Trail 16619179,16619179,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.992,ground,unknown,track,Jackson,FS 4644
+Fork Ridge Trail,653666203,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.991,ground,unknown,path,Unknown,TR 285
+Cove Creek Road,497201396,110,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.988,ground,grade4,track,Unknown,FS 225
+Huskey Gap Trail,167432336,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.987,ground,unknown,path,Unknown,nan
+Appalachian Trail,543420931,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.975,ground,unknown,path,Unknown,TR 1-08
+Appalachian Trail,30671405,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.97,ground,unknown,path,Unknown,TR 1-08
+Cowee Bald Road,16776938,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.968,gravel,grade2,track,Unknown,FS 70
+Black Mountain Trail,503074050,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.961,ground,unknown,path,Unknown,127
+Trail 1160071680,1160071680,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.942,ground,unknown,track,Unknown,nan
+Rock Quarry Road,16787836,75,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.941,gravel,unknown,track,Transylvania,nan
+Lanning Ridge Road,267289204,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.933,gravel,grade2,track,Unknown,FS 5046
+Graveyard Ridge Trail,453604223,80,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.932,unpaved,mountain_hiking,track,Unknown,GRT
+Appalachian Trail,395188925,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.931,ground,unknown,path,Unknown,TR 1-08
+Turkey Pen Cove Trail,977072720,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.929,ground,unknown,path,Unknown,TR 15
+Deep Creek Trail,981371506,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.929,ground,unknown,path,Unknown,nan
+Hard Times Road,271771479,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.924,gravel,grade2,track,Unknown,FS 480
+Artie Hollow Trail,708825142,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.923,ground,unknown,path,Unknown,TR 18
+Summey Cove Trail,319945121,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.917,ground,demanding_mountain_hiking,path,Unknown,nan
+Trail 267283639,267283639,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.906,unpaved,grade3,track,Unknown,FS 475C
+475B,313768902,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.894,gravel,grade2,track,Unknown,FS 475B
+Conservation Road,266891766,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.875,gravel,grade2,track,Unknown,nan
+Twin Creeks Trail,226158355,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.873,ground,unknown,path,Unknown,nan
+Bent Creek Trail,266170525,125,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.858,gravel,grade2,track,Buncombe,FS 480A
+Headwater Road,628901563,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.831,gravel,grade2,track,Unknown,FS 475B
+Trail 425618400,425618400,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.824,ground,mountain_hiking,path,Unknown,nan
+New Butter Gap Trail,1310761563,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.82,dirt,unknown,path,Unknown,nan
+Flat Top Road,161778979,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.814,gravel,grade2,track,Unknown,FS 278
+Deep Creek Trail,978558768,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.813,ground,unknown,path,Unknown,nan
+Trail 1241711578,1241711578,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.812,ground,grade3,track,Unknown,nan
+Black Mountain Trail,1009980092,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.809,ground,unknown,path,Unknown,127
+Hard Times Road,1236751299,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.809,gravel,grade2,track,Unknown,FS 480
+Trail 1180534876,1180534876,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.807,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,587054193,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.797,ground,mountain_hiking,path,Unknown,nan
+Big Butt Road,653670288,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.795,ground,grade5,track,Unknown,nan
+Ivestor Gap Trail,114815658,100,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.786,unpaved,grade2,track,Unknown,FS 101
+Trail 989734611,989734611,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.785,ground,unknown,path,Unknown,nan
+Buckhorn Gap,279403595,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.779,ground,unknown,path,Unknown,nan
+Spencer Gap,178179374,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.777,ground,unknown,path,Unknown,600
+Big Clifty Road,727188020,85,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.769,gravel,unknown,track,Cocke,FS 404
+Porters Creek Trail,167433591,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.767,ground,unknown,path,Unknown,nan
+Pine Tree Loop,99868531,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.758,ground,hiking,path,Unknown,FS 336
+Paint Creek Trail,666337151,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.758,ground,unknown,path,Unknown,TR 10
+East Fork Trail,1158262589,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.743,ground,unknown,footway,Unknown,nan
+Green Mountain Trail,616960235,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.741,ground,mountain_hiking,path,Unknown,nan
+Bad Fork Trail,112927470,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.735,ground,unknown,path,Unknown,nan
+Trail 1160767694,1160767694,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.731,ground,unknown,track,Unknown,FS 4645
+Trail 1160887050,1160887050,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.73,ground,unknown,track,Unknown,FS 4651C
+Appalachian Trail,30671402,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.727,ground,unknown,path,Unknown,TR 1-08
+River Trail,135346216,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.725,ground,unknown,path,Unknown,nan
+Buck Forest Road,265280229,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.725,unpaved,grade2,track,Unknown,nan
+Paint Mountain Trail,666337144,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.725,ground,unknown,path,Unknown,TR 7
+Boyd Branch Road,163002619,105,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.711,gravel,unknown,track,Buncombe,FS 479F
+Appalachian Trail,30671399,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.706,ground,unknown,path,Unknown,TR 1-08
+Black Mountain Trail,313768212,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.706,ground,unknown,path,Unknown,127
+Mount Sterling Ridge Trail,167432907,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.699,ground,unknown,path,Unknown,nan
+Quartz Mtn Trail,16435689,120,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.695,ground,grade4,track,Buncombe,nan
+Stickman,1188153943,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.684,ground,unknown,path,Unknown,nan
+Trail 173653240,173653240,80,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.668,unpaved,grade4,track,Unknown,FS 5057
+Brushy Creek Trail,249744094,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.666,dirt,unknown,path,Unknown,nan
+Squibb Creek Trail,791174342,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.665,ground,unknown,path,Unknown,TR 23
+Trail 1182374619,1182374619,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.664,unpaved,unknown,track,Unknown,nan
+Chimney Tops Trail,648859821,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.63,ground,unknown,path,Unknown,nan
+Grassy Fork Road,723549675,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.621,gravel,grade2,track,Cocke,nan
+Rockhouse Creek Road,279457182,80,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.617,unpaved,grade5,track,Unknown,FS 5049
+Mountains-to-Sea Trail,855942769,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.613,ground,mountain_hiking,path,Unknown,nan
+Mountains-to-Sea Trail,98261215,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.608,ground,mountain_hiking,path,Unknown,nan
+Big Ivy Road,16444776,110,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.593,gravel,grade1,track,Buncombe,FS 74
+Cascade Loop,162989447,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.593,unpaved,unknown,path,Unknown,nan
+Upper Long Branch,770940357,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.593,dirt,unknown,path,Unknown,nan
+Viper Tower Road,16756850,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.58,gravel,grade2,track,Unknown,nan
+John Rock Trail,762747710,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.575,ground,unknown,path,Unknown,365
+Trail 16420205,16420205,95,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.563,ground,unknown,path,Buncombe,nan
+Farmer Mountain Road,16654853,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.559,gravel,grade2,track,Madison,nan
+Cherry Cove Road,279408544,90,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.559,unpaved,grade4,track,Unknown,FS 5032
+Laurel Log Branch Trail,410475880,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.554,ground,demanding_mountain_hiking,path,Unknown,nan
+Trail 1189691761,1189691761,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.545,gravel,unknown,path,Unknown,nan
+Appalachian Trail,30671407,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.542,ground,unknown,path,Unknown,TR 1-08
+Thomas Cemetery Road,162972896,80,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.542,unpaved,grade4,track,Unknown,nan
+Mountains-to-Sea Trail,98261192,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.539,ground,mountain_hiking,path,Unknown,nan
+Appalachian Trail,30671418,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.531,ground,unknown,path,Unknown,TR 1-08
+Mount Mitchell Trail,429003134,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.529,ground,demanding_mountain_hiking,path,Unknown,TR 190
+CCC Road,16786729,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.514,ground,grade5,track,Transylvania,nan
+Coontree Loop,162933547,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.514,ground,unknown,path,Unknown,144
+Lower Long Branch,770940356,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.508,dirt,unknown,path,Unknown,nan
+Laurel Creek,135895811,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.498,ground,unknown,path,Unknown,348
+Forest Service Road 288,492458252,100,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.498,unpaved,grade2,track,Haywood,FS 288
+Courthouse Creek Road,16786673,90,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.481,gravel,grade1,track,Transylvania,FS 140
+Phillips Hollow Trail,708825143,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.481,ground,unknown,path,Unknown,TR 17
+Catheys Creek Road,270725020,85,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.47,gravel,unknown,track,Transylvania,FS 471
+Buckwheat Knob,152918886,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.466,ground,unknown,path,Unknown,122
+Mill Creek Road,474641632,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.458,gravel,grade1,track,Unknown,nan
+Lickstone Ridge Road,1189851089,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.451,gravel,grade2,track,Unknown,FS 97
+Headwater Road,817015144,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.435,gravel,grade2,track,Unknown,FS 475B
+Trail 267283649,267283649,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.434,unpaved,grade3,track,Unknown,FS 475C
+Trail 899314482,899314482,70,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.432,unpaved,grade4,track,Unknown,nan
+Pounding Mill,112927500,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.424,ground,unknown,path,Unknown,349
+Deep Gap Trail,945136722,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.409,ground,demanding_mountain_hiking,path,Unknown,nan
+Adventure Trail,410475887,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.408,ground,mountain_hiking,path,Unknown,nan
+Trail 1182374617,1182374617,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.4,ground,unknown,path,Unknown,nan
+Trail 16781490,16781490,80,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.397,unpaved,grade2,track,Transylvania,nan
+Trail 16631270,16631270,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.39,ground,unknown,track,Unknown,FS 4643
+Auger Hole Trail,283841092,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.387,ground,mountain_hiking,path,Unknown,nan
+Golden Ridge Trail,666361555,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.375,ground,unknown,path,Unknown,TR 294
+Buckhorn Gap,129035302,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.374,ground,unknown,path,Unknown,103
+Angel Mountain Drive,16753262,75,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.372,gravel,unknown,track,Rutherford,nan
+Trail 945136751,945136751,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.368,ground,grade5,track,Unknown,nan
+Case Camp Ridge Trail,503396953,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.359,ground,unknown,footway,Unknown,119
+Pinnacle Trail,210998518,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.357,ground,unknown,footway,Unknown,nan
+Wolf Ford Road,453509862,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.341,gravel,grade2,track,Unknown,FS 476
+Horse Cove Gap,152672995,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.335,ground,unknown,path,Unknown,325
+Trace Ridge,840275776,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.333,ground,unknown,path,Unknown,354
+Baskins Creek Trail,981356153,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.329,ground,unknown,path,Unknown,nan
+Hemlock Ridge,1161197017,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.322,ground,unknown,track,Unknown,nan
+Sawmill Bottoms Trail,1161222041,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.32,ground,unknown,track,Unknown,nan
+Buck Knob,1161225726,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.32,ground,unknown,track,Unknown,nan
+Davidson River Trail,152922838,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.317,ground,hiking,path,Unknown,650
+Cove Creek Road,313768899,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.305,gravel,grade2,track,Unknown,FS 225
+Trail 648369658,648369658,65,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.299,unpaved,grade4,path,Unknown,nan
+Daniel Ridge Loop,16786617,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.291,ground,unknown,path,Unknown,105
+Trail 16586721,16586721,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.286,gravel,grade3,track,Unknown,FS 148A
+Mountains-to-Sea Trail,697612044,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.284,ground,mountain_hiking,path,Unknown,nan
+Caney Bottom Trail,172822396,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.276,ground,unknown,path,Unknown,361
+Trail 663589307,663589307,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.262,ground,grade4,track,Unknown,FS 4652
+Mullinax Trail,112927475,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.261,ground,unknown,path,Unknown,nan
+Middle Fork,112927480,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.259,ground,unknown,path,Unknown,352
+Pump Gap Loop,655217708,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.25,ground,unknown,path,Unknown,TR 309
+Pump Gap Loop,655217699,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.248,ground,unknown,path,Unknown,TR 309
+Appalachian Trail,30671411,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.245,ground,unknown,path,Unknown,TR 1-08
+Yellow Gap Road,840282104,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.243,gravel,grade1,track,Transylvania,NFD 1206
+Trail 725732027,725732027,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.237,ground,grade5,track,Unknown,nan
+Big Glassy Trail,326453731,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.232,unpaved,unknown,footway,Unknown,nan
+Rocky Cove Road,39799998,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.227,gravel,hiking,track,Unknown,FS 4791
+Cascade Loop,319278809,75,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.226,unpaved,mountain_hiking,path,Unknown,nan
+Appalachian Trail,30673823,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.212,ground,unknown,path,Unknown,TR 1-08
+Beetree Hollow Trail,708519187,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.212,ground,unknown,path,Unknown,nan
+Mount Mitchell Trail,114576860,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.208,ground,mountain_hiking,path,Unknown,TR 190
+Higgins Bald Trail,146253896,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.208,ground,mountain_hiking,path,Unknown,TR 190A
+Trail 1160767693,1160767693,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.207,ground,unknown,track,Unknown,FS 4652B
+Appalachian Trail,30673782,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.205,ground,unknown,path,Unknown,TR 1-08
+Fletcher Creek Trail,112927497,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.201,ground,unknown,path,Unknown,350
+Trail 945136759,945136759,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.201,ground,grade4,track,Unknown,nan
+Baskins Creek Trail,167431652,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.185,ground,unknown,path,Unknown,nan
+Wolf Branch Trail,114869521,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.183,ground,hiking,path,Unknown,FS 666
+Trail 288669150,288669150,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.182,ground,unknown,path,Transylvania,nan
+Mount Pisgah Trail,601775560,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.181,ground,unknown,footway,Unknown,nan
+Perry Cove,162933205,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.178,ground,unknown,path,Unknown,151
+CCC Road,16780802,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.177,unpaved,grade3,track,Transylvania,nan
+Bear Branch,152389516,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.177,ground,unknown,path,Unknown,328
+Courthouse Creek Road,267506026,90,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.176,gravel,grade1,track,Transylvania,FS 140
+Coontree Loop,162933524,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.164,ground,unknown,path,Unknown,144
+Trail 1189853513,1189853513,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",1.164,ground,unknown,footway,Unknown,nan
+Daniel Ridge Loop,628901570,110,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.162,ground,grade2,track,Unknown,105
+Mount Mitchell Trail,146253906,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.16,ground,demanding_mountain_hiking,path,Unknown,TR 190
+Skyline Trail,542669226,75,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.16,unpaved,mountain_hiking,path,Unknown,nan
+Auger Hole Trail,725732046,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.16,ground,mountain_hiking,path,Unknown,nan
+Pump Gap Loop,672349740,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.157,ground,unknown,path,Unknown,TR 309
+Lookut Mountain Perimeter Trail,1326270871,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.157,dirt,unknown,footway,Unknown,nan
+Bent Creek Gap Road,16436878,110,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.148,gravel,grade1,track,Buncombe,FS 479
+Ingles Field Gap,114869516,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.147,ground,hiking,path,Unknown,FS 150
+Trail 1354056976,1354056976,80,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",1.144,unpaved,grade3,track,Unknown,nan
+Deer Lake Lodge Trail,114869528,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.138,ground,hiking,path,Unknown,FS 664
+Spruce Mountain Trail,167434354,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.138,ground,unknown,path,Unknown,nan
+Commissary Trail,274850232,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.138,gravel,grade2,track,Yancey,nan
+Appalachian Trail,30673788,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.127,ground,unknown,path,Unknown,TR 1-08
+Black Mountain Trail,1009980090,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.125,ground,unknown,path,Unknown,127
+Rocky Branch,656801240,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.123,gravel,grade2,track,Unknown,FS 3550
+Soapstone Road,279400894,110,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.115,ground,grade4,track,Unknown,FS 5059A
+Trail 363234524,363234524,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.111,unpaved,unknown,path,Unknown,nan
+Big Butt Road,977039310,100,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.107,ground,grade5,track,Unknown,FS 94A
+Spencer Branch Upper,402083696,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.106,ground,unknown,path,Unknown,600
+Mountains-to-Sea Trail,663589331,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.105,ground,mountain_hiking,path,Unknown,nan
+Black Mountain Trail,614095578,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.102,ground,unknown,path,Unknown,127
+Searcy Connector,1354661607,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.102,dirt,unknown,footway,Unknown,nan
+Grassy Road Trail,152918966,120,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.099,ground,grade3,track,Unknown,FS 5061A;TR 364
+Big Ivy Road,113233049,110,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.096,gravel,grade1,track,Buncombe,FS 74
+Mountains-to-Sea Trail,663589338,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.095,ground,mountain_hiking,path,Unknown,nan
+Mountains-to-Sea Trail,663589356,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.095,ground,mountain_hiking,path,Unknown,nan
+Trail 286154577,286154577,55,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",1.087,gravel,unknown,footway,Unknown,nan
+Mountains-to-Sea Trail,98442049,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.08,ground,mountain_hiking,path,Unknown,nan
+Justus Cove,279415113,90,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.078,unpaved,grade4,track,Unknown,FS 5040
+Middle Prong Road,616960233,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.073,ground,mountain_hiking,path,Unknown,nan
+Brushy Creek,249745447,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.072,dirt,unknown,path,Unknown,nan
+Hickey's Fork Road,829330306,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.072,gravel,grade2,track,Unknown,FS 465
+Fire Tower Road,16439932,115,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.066,gravel,grade2,track,Buncombe,nan
+Upper Cove Creek - C,279439244,110,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.066,ground,grade4,track,Unknown,FS 225C
+Seniard Ridge Trail,503400011,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.066,ground,unknown,footway,Unknown,nan
+Catheys Creek Road,1002681965,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.066,gravel,grade2,track,Unknown,FS 471
+Appalachian Trail,30671415,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.065,ground,unknown,path,Unknown,TR 1-08
+Canebrake Trail,725732065,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.065,ground,mountain_hiking,path,Transylvania,nan
+Old Mitchell Toll Road,16418489,120,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.061,ground,grade4,track,Buncombe,nan
+CCC Road,16781601,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.061,unpaved,grade3,track,Transylvania,nan
+Farmer Mountain Road,658008831,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.061,ground,grade4,track,Unknown,nan
+Nancy Fields Road,275513599,110,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.06,ground,grade4,track,Unknown,FS 86F
+Catheys Creek Road,494010121,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.047,gravel,grade2,track,Unknown,FS 471
+Clawhammer Cove,481458418,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",1.043,ground,unknown,footway,Unknown,342
+Three Lakes Trail,162987369,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.04,dirt,unknown,path,Unknown,nan
+Trail 1389745251,1389745251,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.04,gravel,unknown,path,Unknown,nan
+Deep Gap Road,945136750,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.034,ground,grade4,track,Unknown,nan
+Middle Spring Ridge Trail,977072719,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.032,ground,unknown,path,Unknown,TR 4
+Mount Pisgah Trail,81137458,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.03,ground,unknown,path,Unknown,nan
+Stony Knob Trail,963993804,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.03,dirt,unknown,path,Unknown,nan
+Alarka Road,16777593,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.023,ground,grade4,track,Swain,nan
+Yellow Gap Road,840282116,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.022,gravel,grade1,track,Henderson,NFD 1206
+Yellow Gap Road,16786639,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.02,gravel,grade1,track,Transylvania,NFD 1206
+Trail 960679018,960679018,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.017,dirt,unknown,path,Unknown,nan
+Trail 938607322,938607322,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",1.016,ground,unknown,path,Unknown,nan
+Lake Imaging Road,267238360,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.015,gravel,grade3,track,Transylvania,nan
+Fletcher Creek Trail,112927483,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.013,ground,unknown,path,Unknown,350
+Mountains-to-Sea Trail,663624410,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.013,ground,mountain_hiking,path,Unknown,nan
+Wilson Boundary Road,945136765,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.013,ground,grade4,track,Yancey,nan
+Spencer Gap,178179373,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.012,ground,unknown,path,Unknown,600
+Trail 266733170,266733170,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",1.003,unpaved,grade3,track,Unknown,FS 475C
+Bent Creek Trail,363235985,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.003,dirt,unknown,path,Unknown,nan
+Big Piney Ridge Trail,171710193,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",1.0,ground,mountain_hiking,path,Unknown,nan
+Trail 16779317,16779317,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.993,ground,grade5,track,Transylvania,nan
+Yellow Gap Road,840282109,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.992,gravel,grade1,track,Transylvania,NFD 1206
+Buck Knob,1161225725,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.988,ground,unknown,track,Unknown,nan
+Flat Branch,671104460,80,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.986,unpaved,grade4,track,Unknown,nan
+Trail 1113392614,1113392614,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.979,ground,unknown,track,Unknown,nan
+Trail 16426246,16426246,85,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.978,gravel,grade2,track,Unknown,nan
+Lower Piney Trail,171710443,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.975,ground,hiking,path,Unknown,nan
+Cove Creek Road,628901564,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.973,gravel,grade2,track,Unknown,FS 225
+Carolina Loop,1348957806,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.973,ground,unknown,footway,Unknown,nan
+Art Loeb Trail,98441954,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.972,ground,unknown,path,Unknown,nan
+Perimeter Trail,286154576,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.972,unpaved,unknown,footway,Unknown,nan
+Trail 16780365,16780365,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.971,ground,unknown,path,Transylvania,nan
+Avery Creek Road,16786719,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.962,gravel,grade2,track,Transylvania,FS 477
+Trail 1354056992,1354056992,85,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.961,gravel,grade2,track,Unknown,nan
+Appalachian Trail,30671398,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.959,ground,unknown,path,Unknown,TR 1-08
+Slick Rock Falls Trail,172819697,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.952,ground,unknown,footway,Unknown,117
+Rice Pinnacle Road,271627451,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.951,gravel,grade2,track,Unknown,FS 491
+Corn Mill Shoals Trail,162982000,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.947,ground,grade4,path,Unknown,nan
+Kitsuma Trail,684292853,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.946,ground,mountain_hiking,path,Unknown,TR205
+Owl Ridge Trail,271782279,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.945,gravel,grade3,track,Unknown,nan
+Hickey's Fork Road,395478688,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.942,gravel,grade2,track,Unknown,FS 465
+Buckhorn Gap,816523711,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.937,ground,unknown,path,Unknown,103
+Oconaluftee River Trail,167433134,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.936,ground,unknown,path,Unknown,nan
+Worm Hole,404661878,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.935,ground,unknown,path,Unknown,nan
+South Mills River Road,481453251,80,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.933,unpaved,grade4,track,Unknown,TR 133
+Turkey Knob Trail,225350655,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.93,ground,unknown,path,Unknown,nan
+Catheys Creek Road,1002681967,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.93,gravel,grade2,track,Unknown,FS 471
+Stomping Knob Trail,171709273,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.929,ground,demanding_mountain_hiking,path,Unknown,nan
+Trail 463545303,463545303,85,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.928,gravel,grade2,track,Unicoi,nan
+Fighting Creek Nature Trail,520363754,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.925,ground,unknown,path,Unknown,nan
+Riverview Quiet Walkway,167434016,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.924,ground,unknown,path,Unknown,nan
+Whitehouse Cliffs Trail,990205327,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.924,ground,unknown,path,Unknown,nan
+Graveyard Upper Falls Trail,121741650,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.922,dirt,unknown,footway,Unknown,nan
+Sandy John Ridge Road,766775015,90,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.92,unpaved,grade4,track,Unknown,FS 3520A
+Bracken Mountain Trail,249742270,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.913,dirt,unknown,path,Unknown,nan
+North Slope Connector Trail,172822395,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.912,ground,unknown,path,Unknown,359A
+Wilson Boundary Road,18940034,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.904,ground,grade4,track,Yancey,nan
+Corvair Trail,277156039,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.898,dirt,unknown,path,Unknown,nan
+Green River Trail,1302149761,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.896,dirt,unknown,path,Unknown,nan
+Mount Mitchell Trail,429003135,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.891,ground,demanding_mountain_hiking,path,Unknown,TR 190
+Sidehill Trail,114869514,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",0.887,ground,hiking,path,Unknown,FS 145
+Deep Creek Trail,447301202,110,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.886,ground,grade2,track,Unknown,nan
+Pinnacle Trail,673257119,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.882,ground,unknown,path,Unknown,nan
+Camp Creek Bald Road,16651290,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.88,gravel,grade2,track,Madison,FS 42
+Trail 448826141,448826141,70,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.88,gravel,grade1,track,Unknown,nan
+Spencer Gap,112927493,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.879,ground,unknown,path,Unknown,600
+Trail 725732024,725732024,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.875,ground,grade5,track,Unknown,nan
+Big Butt Road,983370939,100,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.866,ground,grade5,track,Unknown,FS 94A
+Trail 279413662,279413662,95,"{'surface': 35, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.864,dirt,grade4,track,Unknown,FS 5042
+Pink Beds Connector,453509861,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.863,ground,unknown,path,Unknown,nan
+Trail 1354056987,1354056987,80,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.862,unpaved,grade3,track,Unknown,nan
+Rice Creek Road,19643122,100,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.858,unpaved,grade3,track,Unicoi,FS 540901
+Balsam Point Quiet Walkway,167431644,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.857,ground,unknown,path,Unknown,nan
+Black Mountain,1161192494,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.854,ground,unknown,track,Unknown,nan
+Flat Branch,16587899,90,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.851,unpaved,grade4,track,Haywood,FS 3520
+Trail 604440025,604440025,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",0.851,dirt,unknown,footway,Unknown,nan
+Bearwallow Mountain Trail,133059667,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.85,ground,unknown,footway,Unknown,nan
+Trail 800787979,800787979,95,"{'surface': 35, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.839,dirt,grade3,track,Unknown,nan
+Trail 691525348,691525348,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",0.838,dirt,unknown,footway,Unknown,nan
+Deerfield Loop,114869543,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",0.834,ground,hiking,path,Unknown,FS 335
+Graybeard Trail,16648109,115,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.828,ground,mountain_hiking,path,Buncombe,nan
+Cat Gap Loop,172819683,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.828,ground,unknown,path,Unknown,120
+Trail 1160767692,1160767692,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.827,ground,unknown,track,Unknown,nan
+Trail 1158530518,1158530518,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.824,ground,unknown,track,Unknown,FS 359
+Yellow Gap Road,481453258,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.822,gravel,grade1,track,Transylvania,NFD 1206
+Little Green Trail,150212312,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.816,ground,unknown,path,Unknown,TR 485
+Seniard Ridge Road,502917327,100,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.816,unpaved,grade3,track,Unknown,FS 5045
+Cemetary Trail,969486873,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.815,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,587054173,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.812,ground,mountain_hiking,path,Unknown,nan
+Three Lakes Trail,319287808,100,"{'surface': 35, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.805,dirt,hiking,path,Unknown,nan
+Yellow Gap,112927466,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.803,ground,unknown,track,Unknown,611
+Trail 717795272,717795272,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.803,ground,grade4,track,Madison,nan
+Hickory Nut Falls Trail,75489499,85,"{'surface': 20, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.799,unpaved,hiking,path,Unknown,nan
+Peace Lily Drive,691635185,70,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.798,unpaved,unknown,track,Unknown,nan
+Appalachian Trail,30671414,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.797,ground,unknown,path,Unknown,TR 1-08
+Royal Gorge Trail,410475890,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.797,ground,mountain_hiking,path,Unknown,nan
+Cowee Bald Road,16776941,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.794,gravel,grade2,track,Unknown,nan
+Cat Gap Loop Trail,152918900,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.794,ground,unknown,path,Unknown,120
+Trail 1112770772,1112770772,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.788,ground,unknown,track,Unknown,nan
+Trail 1158532195,1158532195,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.782,ground,unknown,track,Unknown,FS 359A
+Hardtimes Connector,114869508,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",0.777,ground,hiking,path,Unknown,FS 661
+Old Trestle Road,16437646,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.775,ground,hiking,path,Buncombe,nan
+Sam Knob Trail,403202417,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.774,ground,unknown,path,Unknown,nan
+Paint Rock Trail,611634252,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.774,ground,unknown,path,Unknown,TR 154A
+Gulf Road,995014860,85,"{'surface': 25, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.773,gravel,grade4,track,Cocke,nan
+Wash Creek,152389519,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.772,ground,unknown,path,Unknown,606
+Rocky Head Trail,410475884,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.767,ground,demanding_mountain_hiking,path,Unknown,nan
+Catawba Falls River Trail,170364159,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.763,ground,unknown,path,Unknown,nan
+East Ridge Trail,410475883,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.762,ground,mountain_hiking,path,Unknown,nan
+Yuto's Trail,815669680,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.761,ground,unknown,path,Unknown,nan
+Old Trestle Road,224383718,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.754,ground,hiking,path,Buncombe,nan
+Trail 1189691763,1189691763,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.748,gravel,unknown,path,Unknown,nan
+Bennett Knob Road,279416178,120,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.745,ground,grade3,track,Unknown,FS 5044
+Trail 467871777,467871777,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.745,dirt,unknown,path,Unknown,nan
+Quartz Mtn Trail,16435674,130,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.743,ground,grade2,track,Buncombe,nan
+Cedar Rock Mountain Trail,98442097,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.742,ground,unknown,path,Transylvania,nan
+Conservation Road,162977130,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.739,gravel,grade2,track,Unknown,nan
+Appalachian Trail,30673710,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.737,ground,unknown,path,Unknown,TR 1-08
+Club Gap,152732184,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.736,ground,unknown,path,Unknown,343
+Trail 1160808878,1160808878,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.736,ground,unknown,track,Unknown,FS 4651D
+Jarrett Creek Road,430789865,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.734,unpaved,grade2,track,Unknown,nan
+Appalachian Trail,893791077,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.734,ground,unknown,path,Unknown,TR 1-08
+East Ridge Trail,410475886,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.732,ground,mountain_hiking,path,Unknown,nan
+Rock House Extension,279457178,80,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.73,unpaved,grade5,track,Unknown,FS 5049A
+Farmer Mountain Road,16656188,95,"{'surface': 35, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.728,dirt,grade4,track,Madison,nan
+North Face,817015146,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.728,ground,unknown,footway,Unknown,nan
+Appalachian Trail,30673708,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.723,ground,unknown,path,Unknown,TR 1-08
+Barnett Branch Trail,172828033,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.723,ground,unknown,path,Unknown,618
+HIgh Falls Loop,275490460,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.721,unpaved,grade2,track,Unknown,nan
+Grassy Knob Trail,723251952,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.714,ground,unknown,footway,Unknown,nan
+Art Loeb Trail,308431954,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.713,ground,unknown,path,Unknown,nan
+South Mills River Road,815044045,75,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.709,unpaved,grade4,path,Unknown,TR 133
+Trail 481458291,481458291,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",0.704,ground,unknown,footway,Unknown,nan
+High Windy,1218007256,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.702,ground,unknown,footway,Unknown,nan
+Trail 1160101347,1160101347,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.701,ground,unknown,track,Unknown,nan
+Trail 977028246,977028246,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.698,ground,grade4,track,Unknown,nan
+Natural Garden Trail,125755878,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.697,ground,hiking,footway,Unknown,nan
+Noah 'Bud' Ogle Place Nature Trail,167432952,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.688,ground,unknown,path,Unknown,nan
+Flat Laurel Creek Trail,106632461,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.684,dirt,unknown,path,Unknown,nan
+Courthouse Creek Road,267518642,120,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.684,ground,grade3,track,Transylvania,FS 140
+Rainbow Mountain Trail,430789114,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.682,ground,demanding_mountain_hiking,path,Unknown,nan
+Trail 1182374621,1182374621,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.681,ground,unknown,path,Unknown,nan
+Appalachian Trail,30673713,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.677,ground,unknown,path,Unknown,TR 1-08
+Ledford Trail,114869511,95,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",0.677,ground,unknown,path,Unknown,FS 660
+Art Loeb Trail,39063277,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.669,ground,mountain_hiking,path,Unknown,footpath
+Appalachian Trail,30673760,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.668,ground,unknown,path,Unknown,TR 1-08
+Poplar Hill Trail,1385085144,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.668,ground,unknown,path,Unknown,nan
+Mac's Gap Trail,16619645,90,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.666,dirt,grade4,path,Jackson,TR 482
+Appalachian Trail,30673711,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.664,ground,unknown,path,Unknown,TR 1-08
+Cat Gap Bypass Trail,172819680,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.663,ground,unknown,path,Unknown,120A
+Trail 1111157209,1111157209,65,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.663,gravel,unknown,track,Unknown,nan
+Balsam Mountain Nature Trail,167431637,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.661,ground,unknown,path,Unknown,nan
+Trail 1185540310,1185540310,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.655,ground,unknown,track,Unknown,nan
+Trail 1354056978,1354056978,70,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.653,unpaved,grade4,track,Unknown,nan
+Buck Spring Trail,393925891,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.652,ground,unknown,path,Unknown,nan
+Barnett Branch Trail,481460794,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.649,ground,unknown,footway,Unknown,618
+Boyd Branch Trail,114869506,95,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",0.645,ground,unknown,path,Unknown,FS 665
+Trail 727273633,727273633,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.644,ground,unknown,path,Unknown,nan
+Wagon Road Gap,112927491,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.643,ground,unknown,path,Unknown,134
+Beech Flats Quiet Walkway,167431712,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.643,ground,unknown,path,Unknown,nan
+Trail 410475882,410475882,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.642,dirt,unknown,path,Unknown,nan
+Appalachian Trail,30670576,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.639,ground,unknown,path,Unknown,TR 1-08
+Bracken Mountain Trail,249742685,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.639,dirt,unknown,path,Unknown,nan
+Cataloochee Entrance Road,1216178661,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.636,gravel,grade2,track,Unknown,nan
+Trail 1069951541,1069951541,65,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.634,gravel,unknown,track,Unknown,nan
+Grassy Branch Trail,1278016073,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.634,ground,unknown,path,Unknown,nan
+Trail 657741554,657741554,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.632,gravel,grade2,track,Unknown,FS 3551
+Trail 990091948,990091948,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.629,ground,unknown,path,Unknown,nan
+Old Trestle Road,1037894213,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.629,ground,hiking,path,Buncombe,nan
+Trail 1287231138,1287231138,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.627,ground,unknown,track,Unknown,nan
+Neighborhood Trail,277156036,100,"{'surface': 35, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.626,dirt,hiking,path,Unknown,nan
+Trail 18940038,18940038,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.625,ground,grade4,track,Yancey,nan
+Albright Grove Loop Trail,167431520,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.623,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,84491756,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.62,ground,unknown,path,Unknown,nan
+Rainbow Road,16430359,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.618,ground,hiking,path,Buncombe,nan
+Ingles Field Gap,202318819,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",0.618,ground,hiking,path,Unknown,FS 150
+Trail 725732022,725732022,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.618,ground,grade5,track,Unknown,nan
+Seniard Ridge Trail,903828143,80,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.614,unpaved,grade4,track,Unknown,nan
+Mountains-to-Sea Trail,588790613,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.613,ground,mountain_hiking,path,Unknown,nan
+Hunt Camp Road,1135484881,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.611,gravel,grade3,track,Unknown,FS 5500A
+Haywood Gap Trail,976238835,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.609,ground,mountain_hiking,path,Unknown,nan
+West Ridge Trail,171709737,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.608,ground,mountain_hiking,path,Unknown,nan
+Daniel Ridge Loop,1109808014,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.607,ground,unknown,path,Unknown,105
+Trail 754997760,754997760,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.606,gravel,grade2,track,Madison,FS 3506
+Fawn Lake Loop Road,267229651,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.605,ground,grade4,track,Unknown,nan
+Headwater Road,903836396,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.605,gravel,grade2,track,Unknown,FS 475B
+Upper Wayehutta Creek,1160894021,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.603,ground,unknown,track,Unknown,nan
+Little Bald Mountain Trail,376240377,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.599,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Trail,663589345,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.594,ground,mountain_hiking,path,Unknown,nan
+Old Mitchell Trail,274850226,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.593,ground,demanding_mountain_hiking,path,Unknown,nan
+White Pine Loop,294112192,90,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.592,dirt,grade4,path,Unknown,nan
+Trail 957394513,957394513,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.587,unpaved,grade5,track,Unknown,nan
+Mount Cammerer Trail,167432868,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.586,ground,unknown,path,Unknown,nan
+Trail 1160719688,1160719688,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 10}",0.586,ground,unknown,track,Unknown,FS 4650A
+Rhododendron Ridge Trail,430789110,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.582,ground,mountain_hiking,path,Unknown,nan
+Ferguson Cabin Trail,167432041,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.581,ground,unknown,path,Unknown,nan
+Indian Creek Trail,1109766012,90,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.58,ground,unknown,track,Unknown,nan
+Trail 668680066,668680066,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.578,ground,grade3,track,Unknown,nan
+Buck Forest Road,172513225,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.577,gravel,grade2,track,Unknown,nan
+Rainbow Road,543309865,105,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.574,ground,unknown,path,Buncombe,nan
+Roberts Mountain Road,691676956,70,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.572,unpaved,unknown,track,Haywood,nan
+Mt Hardy Trail,617192362,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.571,ground,mountain_hiking,path,Unknown,nan
+Trail 1240865002,1240865002,80,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.571,unpaved,grade3,track,Unknown,nan
+Trail 172852487,172852487,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",0.57,ground,hiking,footway,Unknown,nan
+Memminger Trail Loop,326770104,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.569,unpaved,unknown,footway,Unknown,nan
+Mac's Gap Trail,570278647,90,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.567,dirt,grade4,path,Jackson,TR 482
+Deep Gap Road,196194084,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.566,ground,grade4,track,Unknown,nan
+Cosby Nature Trail,167431869,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.564,ground,unknown,path,Unknown,nan
+Trail 725732023,725732023,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.564,ground,grade5,track,Unknown,nan
+Camp Summit Road,162976928,75,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.56,gravel,unknown,track,Unknown,nan
+Mountains-to-Sea Trail,663589325,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.56,ground,mountain_hiking,track,Unknown,nan
+Appalachian Trail,30673784,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.559,ground,unknown,path,Unknown,TR 1-08
+Boyd Logging Trail,478429570,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.558,ground,unknown,path,Unknown,nan
+Grassy Fork Road,19435281,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.554,gravel,grade2,track,Cocke,nan
+Fawn Lake Road,162987401,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.543,gravel,grade3,track,Unknown,nan
+Heath Pine Ridge Trail,725732067,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.542,ground,mountain_hiking,path,Unknown,nan
+Daniel Ridge Loop,1317304211,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.54,ground,unknown,path,Unknown,105
+Trail 669412045,669412045,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.539,ground,unknown,path,Unknown,nan
+Rocky Fork Trail,19639248,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.537,unpaved,unknown,path,Unicoi,nan
+East Ridge Trail,430789111,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.537,ground,mountain_hiking,path,Unknown,nan
+Graybeard Trail,150615716,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.536,ground,mountain_hiking,path,Unknown,nan
+Cove Hardwood Nature Trail,167431871,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.535,ground,unknown,path,Unknown,nan
+Twin Falls Trail,268623900,90,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.535,dirt,mountain_hiking,path,Unknown,nan
+Trail 478429562,478429562,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",0.535,ground,unknown,footway,Unknown,nan
+Wilson Boundary Road,945136763,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.531,ground,grade4,track,Yancey,nan
+Sleepy Gap Trail,163002615,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 10, 'length': 15, 'named': 10, 'forest_service': 0}",0.526,ground,mountain_hiking,footway,Unknown,TR 339
+Smokemont Nature Trail,167434288,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.526,ground,unknown,path,Unknown,nan
+Yellow Gap Road,840282101,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.526,gravel,grade1,track,Transylvania,NFD 1206
+Trail 663589312,663589312,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.525,ground,grade4,track,Unknown,nan
+Trail 953205137,953205137,105,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.525,gravel,grade2,track,Buncombe,nan
+Trail 366164782,366164782,80,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 0, 'forest_service': 0}",0.524,dirt,grade4,path,Unknown,nan
+Bull Creek Tr,294685319,80,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.522,dirt,unknown,path,Unknown,nan
+Corn Mill Shoals Trail,267242756,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.521,ground,unknown,path,Unknown,nan
+Trail 16617170,16617170,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 15, 'named': 0, 'forest_service': 0}",0.518,unpaved,unknown,track,Henderson,nan
+Mountains-to-Sea Trail,663589319,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.515,ground,mountain_hiking,path,Unknown,nan
+Dodge Lake Tr,294113172,90,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.513,dirt,grade4,path,Unknown,nan
+Slate Rock Connector,160844059,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.512,ground,unknown,path,Unknown,nan
+Kuwohi Bypass Trail,167431848,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.512,ground,unknown,path,Unknown,nan
+Trail 1310963981,1310963981,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 15, 'named': 0, 'forest_service': 0}",0.505,dirt,unknown,footway,Unknown,nan
+Rattlesnake Trail,410475889,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.5,ground,mountain_hiking,path,Unknown,nan
+Sunwall,817015147,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.497,ground,unknown,footway,Unknown,nan
+Pete's Branch Trail,708519190,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.495,ground,unknown,path,Unknown,TR 12
+Trail 977093004,977093004,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.493,ground,unknown,path,Unknown,nan
+Appalachian Trail,30670580,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.492,ground,unknown,path,Unknown,TR 1-08
+Pilot Cove Road,404325084,105,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.491,ground,grade4,track,Unknown,FS 5014
+Parker Knob Connector,1161197015,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.489,ground,unknown,track,Unknown,nan
+Gum Springs Trail,636345142,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.486,ground,unknown,path,Unknown,TR 5
+Pilot Rock Trail,178182542,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.484,ground,unknown,path,Unknown,321
+Porters Creek Trail,1072666699,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.483,ground,unknown,path,Unknown,nan
+Avery Creek,816523714,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.482,ground,unknown,path,Unknown,327
+Trail 1354056977,1354056977,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.482,unpaved,unknown,track,Unknown,nan
+Wesley Branch Trail,39799999,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.481,ground,hiking,footway,Unknown,nan
+Little Glassy Mountain Trail,326475497,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.481,unpaved,unknown,footway,Unknown,nan
+Streets Gap Road,495952152,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.481,gravel,grade2,track,Madison,nan
+Old Mitchell Toll Road,374384283,115,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.479,ground,grade4,track,Buncombe,nan
+Trail 668680067,668680067,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.478,ground,grade3,track,Unknown,nan
+Trail 16647991,16647991,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",0.477,gravel,grade2,track,Madison,FS 4681
+Trail 503387712,503387712,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.476,dirt,unknown,path,Unknown,nan
+Trail 1241711574,1241711574,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.476,ground,grade3,track,Unknown,nan
+Hog Rock Road,935712764,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.475,unpaved,unknown,track,Henderson,nan
+Appalachian Trail,30673766,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.473,ground,unknown,path,Unknown,TR 1-08
+Black Balsam Summit Trail,887652239,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.472,ground,unknown,path,Unknown,nan
+Cascade Loop,319284443,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.471,unpaved,unknown,path,Unknown,nan
+Crab Creek Trail,1126587902,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.471,gravel,unknown,footway,Unknown,nan
+Ferguson Cabin Trail,167432045,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.467,ground,unknown,path,Unknown,nan
+Trail 891375553,891375553,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.467,unpaved,unknown,track,Unknown,nan
+Mountains-to-Sea Trail,860328535,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.466,ground,mountain_hiking,path,Unknown,nan
+Trail 1113384137,1113384137,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.465,ground,unknown,track,Unknown,nan
+Long Winding Road,16635097,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.464,unpaved,unknown,track,Jackson,nan
+Pilot Connector,902827014,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.46,ground,unknown,path,Unknown,nan
+Swinging Bridge Quiet Walkway,167434372,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.459,ground,unknown,path,Unknown,nan
+Yellow Gap,178179378,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.455,ground,unknown,path,Unknown,611
+Lower Staire,16427729,120,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.454,gravel,grade2,track,Buncombe,FS 231
+Buck Forest Road,483799153,85,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.453,unpaved,grade2,track,Unknown,nan
+Trail 1241711579,1241711579,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.452,ground,grade3,track,Unknown,nan
+Bullhead View Quiet Walkway,167431781,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.451,ground,unknown,path,Unknown,nan
+Trail 265685646,265685646,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.451,ground,grade3,path,Unknown,nan
+Trail 366560957,366560957,45,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.45,unpaved,unknown,footway,Unknown,nan
+Weatherford Trail,1218017348,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.448,ground,unknown,footway,Unknown,nan
+Turkey Knob Trail,225350654,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.446,ground,unknown,path,Unknown,nan
+Fawn Lake Road,267229652,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.445,gravel,grade2,track,Unknown,nan
+Guion Parking,106595806,80,"{'surface': 25, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.444,gravel,grade4,track,Unknown,nan
+Trail 691525363,691525363,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.442,dirt,unknown,footway,Unknown,nan
+Lanning Ridge Road,628901568,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.44,gravel,grade2,track,Unknown,FS 5046
+Trail 1182374618,1182374618,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.439,ground,unknown,track,Unknown,nan
+Trail 1188153923,1188153923,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.439,ground,unknown,path,Unknown,nan
+Trail 16628369,16628369,75,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.438,unpaved,grade3,track,Unknown,nan
+Trail 146689759,146689759,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.438,ground,grade3,track,Unknown,nan
+Yellow Gap Road,481453254,75,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.435,gravel,grade1,track,Transylvania,NFD 1206
+Trail 395622044,395622044,75,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.434,unpaved,grade3,track,Unknown,nan
+Appalachian Trail,120104251,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.433,ground,unknown,path,Unknown,TR 1-08
+Cliif Top Trail,106336037,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.431,ground,unknown,path,Unknown,nan
+Round Knob Road,654623266,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.431,ground,grade3,track,Unknown,nan
+Foster Creek Road,16597535,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.428,gravel,grade2,track,Unknown,FS 5026
+Graybeard Trail,150634910,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.428,ground,mountain_hiking,path,Unknown,nan
+Indian Flats Drive,693451584,85,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.427,unpaved,grade3,track,Unknown,nan
+Trail 146689756,146689756,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.425,ground,grade3,track,Unknown,nan
+Daniel Ridge Loop,1317304214,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.425,ground,unknown,path,Unknown,105
+Headwater Road,903836405,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.424,gravel,grade2,track,Unknown,FS 475B
+Appalachian Way,16424256,90,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.423,gravel,unknown,track,Buncombe,nan
+Trail 1160887052,1160887052,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",0.423,ground,unknown,track,Unknown,FS 4651E
+Conleys Creek Road,275497545,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.422,gravel,grade2,track,Unknown,nan
+Appalachian Trail,30673786,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.421,ground,unknown,path,Unknown,TR 1-08
+Riverview Quiet Walkway,167434031,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.42,ground,unknown,path,Unknown,nan
+Ivestor Gap Trail,453605919,95,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.42,unpaved,grade3,track,Unknown,FS 101
+Trail 754997761,754997761,80,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.42,gravel,grade2,track,Madison,nan
+Dam Pasture Trail,295320537,85,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.419,dirt,grade4,path,Unknown,nan
+Little East Fork Trail,16586444,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.418,ground,unknown,footway,Haywood,TR 107
+Riverside,112927494,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.418,ground,unknown,path,Unknown,115
+Trail 945136769,945136769,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.418,ground,grade4,track,Unknown,nan
+Trail,16777120,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.413,dirt,unknown,footway,Swain,nan
+Trail 313876281,313876281,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.409,unpaved,unknown,path,Unknown,nan
+Art Loeb Spur Trail,453612419,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.409,ground,mountain_hiking,path,Unknown,TR 108
+Shumont Mountain Fire Road,1092100536,90,"{'surface': 35, 'difficulty': 25, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.408,dirt,grade2,footway,Unknown,nan
+Appalachian Trail,30671412,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.407,ground,unknown,path,Unknown,TR 1-08
+Dam Pasture Road,294239261,85,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.403,dirt,grade4,path,Unknown,nan
+Trail 609065420,609065420,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.402,dirt,unknown,footway,Unknown,nan
+Homestead Trail,99868527,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.401,ground,hiking,path,Unknown,nan
+Wilson Boundary Road,18940854,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.4,ground,grade4,track,Yancey,nan
+Camp Alice Trail,146253914,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.4,ground,demanding_mountain_hiking,path,Unknown,nan
+Pilot Rock Trail,178182541,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.4,ground,unknown,path,Unknown,nan
+Washboard Road,1078932029,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.399,ground,unknown,track,Unknown,nan
+Big Clifty Road,754727151,80,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.398,gravel,unknown,track,Cocke,FS 404
+Trail 976865803,976865803,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.398,ground,unknown,path,Unknown,nan
+Trail 993293826,993293826,45,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.397,unpaved,unknown,footway,Unknown,nan
+Paint Creek Trail (ext),611634265,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.396,ground,unknown,path,Unknown,nan
+Trail 1240627430,1240627430,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.395,ground,grade4,track,Unknown,nan
+Low Gap Trail,167432593,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.394,ground,unknown,path,Unknown,nan
+Trail 478429551,478429551,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.394,dirt,unknown,footway,Unknown,nan
+Paint Pond Road,483220669,110,"{'surface': 35, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.392,dirt,grade2,track,Unknown,FS 41P
+Trail 725732025,725732025,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.392,ground,grade5,track,Unknown,nan
+Wilson Boundary Road,945136767,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.391,ground,grade2,track,Yancey,nan
+Jump Off Trail,590837928,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.39,ground,unknown,footway,Unknown,nan
+Cedar Rock Mountain Trail,1138658228,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.39,ground,unknown,path,Transylvania,nan
+Trail 1354056986,1354056986,75,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.387,unpaved,grade2,track,Unknown,nan
+Rail Line Way,1161222040,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.386,ground,unknown,track,Unknown,nan
+Yellow Gap Road,481453257,75,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.385,gravel,grade1,track,Transylvania,NFD 1206
+Trail 976865798,976865798,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.385,unpaved,grade5,track,Unknown,nan
+Stairs (Upper),478429517,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.383,ground,unknown,footway,Unknown,nan
+Bar-B-Q Pit Road,483228623,85,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.383,unpaved,grade4,track,Unknown,FS 209CB
+Trail 686880908,686880908,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.383,dirt,unknown,footway,Unknown,nan
+Trail 146689762,146689762,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.382,ground,grade3,track,Unknown,nan
+Trail 725732032,725732032,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.381,ground,grade5,track,Unknown,nan
+Richland Creek Greenway,1202867027,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.38,gravel,unknown,footway,Unknown,nan
+Lower Sidehill Connector,114869512,110,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 10}",0.379,ground,hiking,path,Unknown,FS 145
+Trail 1242337102,1242337102,80,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.378,gravel,grade2,track,Unknown,nan
+Yellow Gap Road,840282103,75,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.377,gravel,grade1,track,Transylvania,NFD 1206
+Deep Creek Trail,978558750,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.374,ground,grade2,track,Unknown,nan
+Dakota Springs Loop,16620518,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.373,ground,unknown,path,Unknown,nan
+Trail 1240048790,1240048790,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.37,ground,unknown,track,Unknown,nan
+Brushy Mountain Trail,167431774,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.369,ground,unknown,path,Unknown,nan
+Avery Creek Road,231342202,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.369,gravel,grade2,track,Transylvania,FS 477
+Trail 725732030,725732030,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.369,ground,grade5,track,Unknown,nan
+Blanton Branch,1161199182,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.369,ground,unknown,track,Unknown,nan
+Trail 1241711576,1241711576,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.369,ground,grade3,track,Unknown,nan
+Trail 1287231139,1287231139,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.369,ground,unknown,track,Unknown,nan
+Trail 1189853514,1189853514,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.367,ground,unknown,path,Unknown,nan
+Old Toll Road,16453157,110,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.364,gravel,grade2,track,Buncombe,nan
+Trail 930428385,930428385,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.364,unpaved,unknown,track,Unknown,nan
+Trail 542987879,542987879,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.361,ground,unknown,path,Unknown,nan
+Big Tom Gap Trail,388053897,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.36,ground,alpine_hiking,path,Unknown,TR 191A
+Blue Ridge Parkway Visitor Center TRACK Trail,680918732,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.359,ground,unknown,footway,Unknown,nan
+Rainbow Road,16419052,110,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.358,ground,mountain_hiking,path,Buncombe,nan
+Green Knob Trail,146253848,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.358,ground,mountain_hiking,path,Unknown,TR 182
+Trail 668680065,668680065,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.358,ground,grade3,track,Unknown,nan
+Art Loeb Trail,453605917,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.357,ground,unknown,path,Unknown,nan
+Seniard Ridge Trail,903828144,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.356,unpaved,grade5,track,Unknown,nan
+Porters Creek Trail,1072666701,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.356,ground,unknown,path,Unknown,nan
+Lookout Trail,452831939,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.355,ground,mountain_hiking,path,Unknown,nan
+Auger Hole Trail,725732045,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.354,ground,mountain_hiking,path,Unknown,nan
+Trail 1322293968,1322293968,75,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.354,unpaved,grade3,track,Unknown,nan
+Trail 146689752,146689752,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.353,ground,grade4,track,Unknown,nan
+Harry Bryan Trail,150634909,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.352,ground,hiking,path,Unknown,nan
+Big Green Trail footpath connector to Mac's Gap Trail,368708330,80,"{'surface': 20, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.352,unpaved,hiking,path,Jackson,nan
+Black Mountain Trail,1009980088,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.351,ground,unknown,path,Unknown,127
+Seniard Ridge Trail,903828138,85,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.35,unpaved,grade3,track,Unknown,nan
+Trail 903828145,903828145,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.35,unpaved,grade5,track,Unknown,nan
+Mountains-to-Sea Trail,627876811,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.346,ground,mountain_hiking,path,Unknown,nan
+UNCA Perimeter Trail,686880924,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.344,dirt,unknown,footway,Unknown,nan
+Hemlock Springs Tr.,294112193,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.343,dirt,unknown,path,Unknown,nan
+Sam Knob Trail,403539762,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.343,ground,unknown,path,Unknown,nan
+Round Knob Trail,988925567,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.342,ground,unknown,path,Unknown,nan
+Deep Gap,1161192495,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.342,ground,unknown,track,Unknown,nan
+Trail 1326051482,1326051482,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.342,dirt,unknown,footway,Unknown,nan
+Allens Branch Pond Loop,727189475,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.341,ground,unknown,path,Unknown,TR 209
+Trail 844663980,844663980,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.341,ground,unknown,path,Unknown,nan
+Trail 326452450,326452450,45,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.34,unpaved,unknown,footway,Unknown,nan
+Trail 503989684,503989684,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.34,ground,unknown,path,Unknown,nan
+Bradley Creek Trail,814325892,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.34,ground,unknown,path,Unknown,351
+Bearwallow Valley Trail,518163397,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.339,ground,mountain_hiking,path,Unknown,nan
+Reese Trail,683267168,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.339,ground,unknown,path,Unknown,nan
+Blue Ridge Environmental Defense League Nature Trail,703450649,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.339,dirt,unknown,footway,Unknown,nan
+Trail 725732006,725732006,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.338,ground,grade5,track,Unknown,nan
+Trail 1113384136,1113384136,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.338,ground,unknown,track,Unknown,nan
+CCC Road,725732029,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.335,ground,grade5,track,Transylvania,nan
+Trail 1112770773,1112770773,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.335,ground,unknown,track,Unknown,nan
+Trail 172853614,172853614,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.333,ground,hiking,path,Unknown,nan
+Trail 16634119,16634119,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 10}",0.332,ground,unknown,track,Unknown,FS 4643
+Trail 1354056974,1354056974,75,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.332,unpaved,grade3,track,Unknown,nan
+Trace Ridge,202430397,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.331,ground,unknown,path,Unknown,354
+Crayton Trail,685481777,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.331,dirt,unknown,footway,Unknown,nan
+Trail 609065417,609065417,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.33,dirt,unknown,footway,Unknown,nan
+Trail 1272611364,1272611364,45,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.33,unpaved,unknown,footway,Unknown,nan
+Gabes Mountain Trail,1185062685,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.329,ground,unknown,path,Unknown,nan
+Trail 135266423,135266423,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.327,ground,grade3,track,Unknown,nan
+Campground Trail,146253897,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.324,ground,mountain_hiking,path,Unknown,nan
+Upper Cove Creek - B,628901557,105,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.322,ground,grade4,track,Unknown,FS 225B
+Trail 684498478,684498478,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.322,ground,grade4,track,Unknown,nan
+Graybeard Trail,1037894187,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.321,ground,mountain_hiking,path,Unknown,nan
+Trail 16622349,16622349,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.319,unpaved,unknown,track,Jackson,nan
+Trail 684498482,684498482,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.318,ground,grade4,track,Unknown,nan
+Trail 945136753,945136753,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.318,ground,grade4,track,Unknown,nan
+Trail 478429513,478429513,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.314,ground,unknown,footway,Unknown,nan
+Trail 363234525,363234525,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.313,unpaved,unknown,path,Unknown,nan
+Cove Creek - Daniel Connector,313769041,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.312,dirt,unknown,path,Unknown,nan
+Golden Ridge Trail,938617446,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.31,ground,unknown,path,Unknown,TR 294
+Washburn Trail,1218019396,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.31,ground,unknown,footway,Unknown,nan
+Carolina Mountain Trail,271670190,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.309,ground,hiking,path,Unknown,nan
+Deep Creek Trail,943764565,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.306,ground,unknown,track,Unknown,nan
+Trail 609065421,609065421,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.304,dirt,unknown,footway,Unknown,nan
+Blue Ridge Parkway Visitor Center TRACK Trail,680918737,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.304,ground,unknown,footway,Unknown,nan
+Ashton's Trail,815669675,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.304,ground,unknown,path,Unknown,nan
+Trail 1113384138,1113384138,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.304,ground,unknown,track,Unknown,nan
+Trail 1113392638,1113392638,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.304,ground,unknown,track,Unknown,nan
+Trail 977039308,977039308,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.302,ground,unknown,path,Unknown,nan
+Trail 1157670334,1157670334,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.302,dirt,unknown,track,Unknown,nan
+Waterrock Knob Trail,210982483,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.301,ground,mountain_hiking,path,Unknown,nan
+Old Mill Trail,408780323,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.301,ground,unknown,footway,Unknown,nan
+Big Berea Road,295320535,85,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.299,dirt,grade4,path,Unknown,nan
+Cove Creek Trail,628901560,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.298,ground,unknown,path,Unknown,340
+Warbler Trail,734257147,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.298,dirt,unknown,path,Unknown,nan
+Plott Balsam Trail,800789917,75,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.298,dirt,unknown,path,Unknown,nan
+Log Hollow Road,903828137,95,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.298,unpaved,grade3,track,Unknown,FS 5045
+Commissary Trail,146253867,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.297,ground,grade4,track,Yancey,nan
+Trail 1413418817,1413418817,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.297,unpaved,unknown,track,Unknown,nan
+Big Berea Trail,135346064,85,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.296,dirt,grade4,path,Unknown,nan
+Trail 166036055,166036055,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.296,ground,unknown,path,Unknown,nan
+Appalachian Trail,30673712,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.295,ground,unknown,path,Unknown,TR 1-08
+Lake Julia Road,162977414,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.294,gravel,grade2,track,Unknown,nan
+Courthouse Creek Road,267506018,85,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.294,gravel,grade1,track,Transylvania,FS 140
+Trail 1009713003,1009713003,90,"{'surface': 25, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.293,gravel,grade4,track,Buncombe,nan
+Ingles Field Connector,114869546,110,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 10}",0.292,ground,hiking,path,Unknown,FS 150A
+Triple Falls Trail,28206929,65,"{'surface': 25, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.291,gravel,unknown,path,Unknown,nan
+Lanning Ridge Road,628901569,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.289,gravel,grade2,track,Unknown,FS 5046
+Trail 1173816660,1173816660,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.287,dirt,unknown,track,Unknown,nan
+Trail 1182374608,1182374608,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.286,ground,unknown,path,Unknown,nan
+Elders Road,16657200,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.284,unpaved,unknown,track,Macon,nan
+Firescald Ridge Trail,1030401192,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.284,ground,unknown,track,Unknown,nan
+Brown Branch Road,16647521,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.283,unpaved,unknown,track,Macon,nan
+Trail 1158997013,1158997013,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.283,ground,unknown,track,Unknown,nan
+Trail 1395881370,1395881370,45,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.281,unpaved,unknown,footway,Unknown,nan
+Trail 1171046297,1171046297,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.28,gravel,unknown,track,Unknown,nan
+Gabes Mountain Trail,1185062693,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.278,ground,unknown,path,Unknown,nan
+Bridal Veil Falls Road,266899469,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.276,gravel,grade2,track,Unknown,nan
+Picnic Connector Trail,518163398,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.275,ground,hiking,path,Unknown,nan
+Trail 848557248,848557248,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.275,ground,unknown,path,Unknown,nan
+Baxter Cliff Trail,891318741,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.275,ground,unknown,path,Unknown,nan
+Trail 1182374620,1182374620,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.275,ground,unknown,path,Unknown,nan
+Rocky Knob Trail,1037894260,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.274,unpaved,unknown,footway,Unknown,nan
+Gibbs Road,675676902,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.273,ground,unknown,track,Unknown,nan
+Balsam Nature Trail,146253902,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.272,ground,mountain_hiking,path,Unknown,nan
+Cove Creek Connector,162927688,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.271,ground,unknown,path,Unknown,nan
+Big Ivy Road,265620287,85,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.27,gravel,grade1,track,Unknown,FS 74
+Graybeard Trail,1037894257,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.27,ground,mountain_hiking,path,Unknown,nan
+Breedlove Road,1084058247,65,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.269,unpaved,unknown,track,Unknown,nan
+Private Trial,1326500481,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.269,dirt,unknown,footway,Unknown,nan
+Lake Imaging Road,267218295,90,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 0}",0.267,gravel,grade2,track,Transylvania,nan
+Trail 1158814089,1158814089,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 0, 'forest_service': 0}",0.265,ground,unknown,track,Unknown,nan
+Trail 977079600,977079600,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.264,ground,unknown,path,Unknown,nan
+Trail 654363679,654363679,50,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.263,gravel,unknown,footway,Unknown,nan
+Trail 686880920,686880920,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 0, 'forest_service': 0}",0.262,dirt,unknown,footway,Unknown,nan
+Weaver Bend Fields Road,754775519,85,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.261,unpaved,grade4,track,Unknown,FS 209CA
+Gorenflo Gap Road,740402065,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.258,gravel,grade2,track,Madison,FS 3543
+Campground Connector,266170528,95,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.257,ground,unknown,track,Unknown,FS 329
+John P. Gregg Memorial Greenway,267071420,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 10, 'named': 10, 'forest_service': 0}",0.256,unpaved,unknown,footway,Unknown,nan
+Carver Cemeter Access,288576417,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.255,ground,unknown,path,Unknown,nan
+Trail 1125908764,1125908764,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 0, 'forest_service': 0}",0.254,unpaved,unknown,path,Unknown,nan
+Summey Cove Trail,392284022,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.252,ground,demanding_mountain_hiking,path,Unknown,nan
+Gabes Mountain Trail,167432173,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.251,ground,unknown,path,Unknown,nan
+Auger Hole Trail,725732044,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.251,ground,mountain_hiking,path,Unknown,nan
+Mount Mitchell Trail,945136731,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.251,ground,mountain_hiking,path,Unknown,TR 190
+Cosby Horse Trail,167432602,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 10, 'named': 10, 'forest_service': 0}",0.25,ground,unknown,path,Unknown,nan
+Avery Creek Road,231342204,100,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.25,gravel,grade2,track,Transylvania,FS 477
+Trail 150835154,150835154,65,"{'surface': 25, 'difficulty': 25, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.249,gravel,grade2,footway,Unknown,nan
+Lyn Lowry Trail,800790864,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.248,dirt,unknown,path,Unknown,nan
+Anthony's Road,135346067,80,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.247,dirt,grade4,path,Unknown,nan
+Snake Den Ridge Trail,167434311,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.247,ground,unknown,path,Unknown,nan
+Trail 609065419,609065419,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.247,dirt,unknown,footway,Unknown,nan
+Little Cataloochee Trail,962913982,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.246,ground,unknown,path,Unknown,nan
+HHS Connector,770940354,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.245,dirt,unknown,path,Unknown,nan
+Catawba Falls Trail,1305574251,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.245,unpaved,unknown,path,Unknown,nan
+Nature Trail,1037894203,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.244,ground,mountain_hiking,path,Unknown,nan
+Buckhorn Gap,816523707,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.243,ground,unknown,path,Unknown,103
+Sleepy Gap Trail,114869502,95,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 10}",0.241,ground,mountain_hiking,path,Unknown,FS 339
+Trail 150835153,150835153,65,"{'surface': 25, 'difficulty': 25, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.24,gravel,grade2,footway,Unknown,nan
+Trail 153736239,153736239,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.24,dirt,unknown,footway,Henderson,nan
+Trail 1243557574,1243557574,85,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 10}",0.24,gravel,grade2,track,Madison,FS 275
+Laurel Mountain Connecter,112927472,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.239,ground,unknown,path,Unknown,110
+Trail 1157668389,1157668389,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.239,dirt,unknown,path,Unknown,nan
+Sarvis Cove Road,653672165,85,"{'surface': 35, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.238,dirt,grade4,track,Unknown,nan
+Upper Cove Creek - B,1240957759,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.238,ground,grade4,track,Unknown,FS 225B
+Trail 725732007,725732007,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.237,ground,grade5,track,Unknown,nan
+Pink Beds Loop Trail,813166033,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.237,ground,unknown,path,Unknown,nan
+Trail 1272611361,1272611361,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.236,unpaved,unknown,footway,Unknown,nan
+Art Loeb Trail,481036002,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.235,ground,mountain_hiking,path,Unknown,nan
+Trail 1081023185,1081023185,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.234,ground,unknown,path,Unknown,nan
+Small Creek Trail,114869519,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 10}",0.233,ground,hiking,path,Unknown,FS 334
+House on a Hill Hiking Trail,841407681,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.233,ground,unknown,footway,Unknown,nan
+Pilot Cove Road,902827013,100,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.233,ground,grade4,track,Unknown,FS 5014
+Old Mitchell Toll Road,543309867,110,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.232,ground,grade4,track,Buncombe,nan
+Poplar Cove Horse Trail,708519189,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.232,ground,unknown,path,Unknown,TR 22
+Trail 1180534877,1180534877,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.232,ground,unknown,path,Unknown,nan
+John P. Gregg Memorial Greenway,267071418,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.23,dirt,unknown,footway,Unknown,nan
+Bent Creek Trail,271782270,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.227,ground,hiking,path,Unknown,nan
+Lower Indian-Queen Cemetery Access,288576432,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.227,ground,unknown,track,Unknown,nan
+Homestead Trail,178174608,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.226,ground,hiking,footway,Unknown,nan
+Trail 725732021,725732021,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.226,ground,grade5,track,Unknown,nan
+Trail 1112521244,1112521244,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.226,ground,unknown,track,Unknown,nan
+Mountains-to-Sea Trail,627876814,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.225,ground,mountain_hiking,path,Unknown,nan
+Trail 725732005,725732005,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.225,ground,grade2,track,Unknown,nan
+Log Hollow Road,903828135,70,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.224,unpaved,unknown,track,Unknown,FS 5043
+Wildflower Trail,1309951596,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.222,ground,unknown,path,Unknown,nan
+Chimney Tops Trail,275606039,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.22,ground,unknown,path,Unknown,nan
+Locust Gap Connector,1160894022,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.219,ground,unknown,track,Unknown,nan
+Trail 1189856920,1189856920,60,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.219,ground,unknown,footway,Unknown,nan
+Trail 1189856916,1189856916,60,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.218,ground,unknown,footway,Unknown,nan
+Squibb Creek Trail,989734609,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.215,ground,unknown,path,Unknown,TR 23
+Trail 279413668,279413668,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.214,ground,unknown,path,Unknown,nan
+Horse Creek Road,985367123,90,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.212,unpaved,grade2,track,Unknown,FS 94
+Sheperd Creek Road,1056333890,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.212,unpaved,unknown,track,Macon,nan
+Memminger Trail Loop,326475498,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.211,unpaved,unknown,footway,Unknown,nan
+Trail 993293825,993293825,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.211,unpaved,unknown,footway,Unknown,nan
+Trail 452768357,452768357,75,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.21,gravel,grade2,track,Henderson,nan
+High Falls Trail,484940828,55,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.21,gravel,unknown,footway,Unknown,nan
+Trail 618023918,618023918,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.209,ground,unknown,track,Unknown,nan
+Trail 1161199181,1161199181,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 10}",0.209,ground,unknown,track,Unknown,FS 4650A
+Rattlesnake Trail,430789109,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.208,ground,mountain_hiking,path,Unknown,nan
+Silvermine Road,672349744,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.207,gravel,grade1,track,Madison,FS 162
+Trail 16780647,16780647,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.206,unpaved,unknown,track,Transylvania,nan
+Wilson Boundary Road,945136764,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.205,ground,grade4,track,Yancey,nan
+Trail 1180534875,1180534875,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.205,unpaved,unknown,track,Unknown,nan
+Trail 1241711580,1241711580,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.205,ground,grade3,track,Unknown,nan
+Stone Mountain Trail,1420964920,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.205,dirt,unknown,path,Unknown,nan
+Trail 1161225741,1161225741,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.204,ground,unknown,track,Unknown,nan
+Trail 1192135779,1192135779,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.204,ground,unknown,path,Unknown,nan
+Trail 1160071682,1160071682,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.202,ground,unknown,track,Unknown,nan
+Lake Imaging Road,267238355,85,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.201,gravel,grade2,track,Transylvania,nan
+Friendship Baptist Church Cemetery Access,288576425,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.201,ground,unknown,footway,Unknown,nan
+Appalachian Trail,977084486,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.201,ground,unknown,path,Unknown,TR 1-08
+Old Trestle Road,150639869,105,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.199,ground,mountain_hiking,path,Buncombe,nan
+Lickstone Ridge Road,627923018,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.199,gravel,grade1,track,Unknown,FS 97
+Baskins Creek Trail,981356152,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.199,ground,unknown,path,Unknown,nan
+Trail 1326268366,1326268366,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.198,dirt,unknown,footway,Unknown,nan
+Trail 453509870,453509870,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.197,ground,grade5,track,Unknown,nan
+Deerfield Connector,114869504,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 10}",0.196,ground,hiking,path,Unknown,FS 335A
+Paint Creek Trail,991015633,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.196,ground,unknown,path,Unknown,TR 10
+Trail 764143156,764143156,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.195,ground,unknown,path,Unknown,nan
+Short Cut Trail,1126587899,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.194,dirt,unknown,path,Unknown,nan
+Trail,16774292,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.193,dirt,unknown,footway,Swain,nan
+Running Cedar Road,39799997,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.193,ground,hiking,track,Unknown,nan
+Trail 957396586,957396586,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.192,ground,unknown,path,Unknown,nan
+Trail 135266422,135266422,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.19,ground,grade3,track,Unknown,nan
+Camp Creek Bald Firetower Trail,653663700,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.189,ground,unknown,path,Unknown,nan
+Trail 663589299,663589299,80,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.189,ground,grade4,track,Jackson,nan
+Avery Creek,816523716,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.188,ground,unknown,path,Unknown,327
+Courthouse Creek Road,267518638,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.187,gravel,grade1,track,Transylvania,FS 140
+Rattlesnake Trail,1037894234,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.187,ground,mountain_hiking,path,Unknown,nan
+Log Cabin Road,893555129,70,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.186,unpaved,grade4,track,Greene,nan
+Gabes Mountain Trail,1185062689,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.186,ground,unknown,path,Unknown,nan
+Trail 1240048791,1240048791,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.186,ground,unknown,track,Unknown,nan
+Hooker Creek - Climbing Trail,1420090018,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.186,dirt,unknown,path,Unknown,nan
+Headwater Road,903836402,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.185,gravel,grade2,track,Unknown,FS 475B
+Berea Connector,135346061,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.184,dirt,unknown,path,Unknown,nan
+Chestnut Ridge Road,994959071,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.184,gravel,grade2,track,Cocke,FS 22501
+Trail 1189851092,1189851092,55,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.184,gravel,unknown,track,Unknown,nan
+Trail 1385473792,1385473792,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.183,dirt,unknown,footway,Unknown,nan
+Kanati Fork Quiet Walkway,167432416,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.182,ground,unknown,path,Unknown,nan
+The Gate Trail,430789115,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.181,ground,mountain_hiking,path,Unknown,nan
+Trail 1113384162,1113384162,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.181,ground,unknown,track,Unknown,nan
+Fork Mountain Ridge Trail,1190281939,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.181,ground,unknown,footway,Unknown,nan
+Trail 326452451,326452451,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.18,unpaved,unknown,footway,Unknown,nan
+Trail 1434826559,1434826559,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.18,dirt,unknown,footway,Unknown,nan
+Trail 326452454,326452454,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.179,unpaved,unknown,footway,Unknown,nan
+Trail 988129626,988129626,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.179,ground,unknown,path,Unknown,nan
+Trail 1167811570,1167811570,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.179,dirt,unknown,track,Unknown,nan
+Old Mitchell Trail,146253863,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.178,ground,demanding_mountain_hiking,path,Unknown,nan
+Vanderbeek Drive,693160597,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.178,unpaved,unknown,track,Unknown,nan
+Trail 1208396895,1208396895,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.178,unpaved,grade5,track,Unknown,nan
+Big Ivy Road,112873699,80,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.176,gravel,grade1,track,Unknown,FS 74
+Buck Forest Road,266888665,65,"{'surface': 20, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.176,unpaved,grade1,track,Unknown,nan
+East Ridge Trail,1037894244,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.176,ground,mountain_hiking,path,Unknown,nan
+Trail 1413418816,1413418816,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.176,unpaved,unknown,track,Unknown,nan
+Big Creek Group Camp,16587936,60,"{'surface': 25, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.175,gravel,unknown,path,Unknown,nan
+Short Cut Trail,1126587898,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.175,dirt,unknown,path,Unknown,nan
+Trail 1180512424,1180512424,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.175,ground,unknown,track,Unknown,nan
+Trail 135266421,135266421,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.173,ground,grade3,track,Unknown,nan
+Meadow Creek Road,636164965,75,"{'surface': 25, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.173,gravel,unknown,track,Unknown,FS 142
+Trail 1160101349,1160101349,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.173,ground,unknown,track,Unknown,nan
+Trail 16651311,16651311,75,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.171,gravel,grade2,track,Madison,nan
+CCC Road,725732034,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.171,ground,grade5,track,Transylvania,nan
+Old Mitchell Trail,945136741,80,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.17,ground,demanding_mountain_hiking,track,Unknown,nan
+Trail 1113384139,1113384139,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.17,ground,unknown,track,Unknown,nan
+Wilson Boundary Road,945136768,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.168,ground,grade2,track,Yancey,nan
+Bridal Veil Falls Road,162981999,85,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.167,gravel,grade2,track,Unknown,nan
+Old Mitchell Trail,114576858,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.165,ground,demanding_mountain_hiking,path,Unknown,nan
+Trail 164856360,164856360,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.165,ground,unknown,path,Unknown,nan
+Trail 725732019,725732019,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.165,ground,grade5,track,Unknown,nan
+Trail 1005899591,1005899591,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.165,unpaved,unknown,footway,Unknown,nan
+Trail 732146823,732146823,45,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.163,gravel,unknown,footway,Unknown,nan
+Trail 16653607,16653607,75,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.162,gravel,grade2,track,Madison,nan
+Lookout Trail,410475885,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.162,ground,mountain_hiking,path,Unknown,nan
+Trail 125812494,125812494,45,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.161,gravel,unknown,footway,Unknown,nan
+Sanders Connector,294112188,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.161,dirt,unknown,path,Unknown,nan
+Trail 446476043,446476043,45,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.161,gravel,unknown,footway,Unknown,nan
+Mountains-to-Sea Trail,663589396,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.161,ground,mountain_hiking,track,Unknown,nan
+Trail 945136752,945136752,80,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.16,ground,grade4,track,Unknown,nan
+Trail 1167811569,1167811569,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.158,dirt,unknown,track,Unknown,nan
+Trail 1037894255,1037894255,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.157,ground,grade2,track,Unknown,nan
+Trail 1182374613,1182374613,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.157,unpaved,unknown,track,Unknown,nan
+Trail 1056215821,1056215821,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.156,unpaved,unknown,track,Unknown,nan
+Old Deep Creek Quiet Walkway,167433141,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.155,ground,unknown,path,Unknown,nan
+Rich Mountain Access Trail,655223746,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.155,ground,unknown,path,Unknown,nan
+Trail 1370407188,1370407188,75,"{'surface': 35, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.155,dirt,grade4,track,Unknown,nan
+Deer Lake Lodge Trail,114869549,85,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 10}",0.154,ground,unknown,path,Unknown,FS 664
+Trail 448943271,448943271,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.153,ground,unknown,path,Unknown,nan
+Seniard Ridge Trail,903828146,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.152,ground,unknown,footway,Unknown,nan
+Juney Whank Falls Trail,167432403,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.15,ground,unknown,path,Unknown,nan
+Trail 581730833,581730833,75,"{'surface': 25, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 10}",0.15,gravel,grade4,track,Unknown,FS 3509
+Trail 725732015,725732015,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.15,ground,grade5,track,Unknown,nan
+Walker's Knob Trail,1033871211,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.15,ground,mountain_hiking,path,Unknown,nan
+North Slope,172822393,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.149,ground,unknown,path,Unknown,359
+Trail 977028247,977028247,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.149,dirt,unknown,path,Unknown,nan
+Trail 686880903,686880903,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.148,dirt,unknown,footway,Unknown,nan
+Trail 1286980231,1286980231,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.148,ground,unknown,track,Unknown,nan
+Trail 1326500480,1326500480,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.148,dirt,unknown,footway,Unknown,nan
+Trail 1392471371,1392471371,85,"{'surface': 35, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.148,dirt,grade3,track,Unknown,nan
+Sutton-McGhee Cemetery Access,288576441,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.147,ground,unknown,path,Unknown,nan
+Adventure Trail,1037894210,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.147,ground,mountain_hiking,path,Unknown,nan
+Trail 1286627381,1286627381,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.147,ground,unknown,track,Unknown,nan
+Trail 1326500476,1326500476,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.146,dirt,unknown,footway,Unknown,nan
+CCC Road,725732035,100,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.145,ground,grade2,track,Transylvania,nan
+Trail 1160767686,1160767686,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.145,ground,unknown,track,Unknown,nan
+Jones Meadow Access Trail,495930197,90,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.144,ground,grade4,track,Unknown,nan
+Old Trestle Road,543309870,105,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.143,ground,mountain_hiking,path,Buncombe,nan
+Wagon Road Gap,1181917845,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.143,ground,unknown,path,Unknown,134
+Trail 135266420,135266420,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.142,ground,grade3,track,Unknown,nan
+Trail 575441350,575441350,60,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.142,ground,unknown,footway,Unknown,nan
+Trail 668680071,668680071,90,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.142,ground,grade3,track,Unknown,nan
+Trail 594832133,594832133,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.139,unpaved,unknown,track,Unknown,nan
+Devils Courthouse Trail,860328532,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.139,ground,unknown,path,Unknown,nan
+Mountains-to-Sea Connector,958919835,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.139,ground,unknown,path,Unknown,nan
+Trail 16779126,16779126,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.137,ground,unknown,path,Transylvania,nan
+Trail 1037894237,1037894237,60,"{'surface': 25, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.136,gravel,mountain_hiking,path,Unknown,nan
+Lower Piney Trail,430789106,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.134,ground,mountain_hiking,path,Unknown,nan
+Cove Hardwood Nature Trail,1069098953,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.134,ground,unknown,path,Unknown,nan
+Trail 1286698335,1286698335,45,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.134,gravel,unknown,footway,Unknown,nan
+Trail 725732026,725732026,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.132,ground,grade5,track,Unknown,nan
+Art Loeb Trail,887652240,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.132,ground,unknown,path,Unknown,nan
+Monteith Park Nature Trail,1408684208,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.132,dirt,unknown,footway,Unknown,nan
+Trail 646449920,646449920,85,"{'surface': 35, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.13,dirt,grade3,track,Unknown,nan
+Baskins Creek Cemetery Access Trail,977079872,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.13,ground,unknown,path,Unknown,nan
+Trail 1005899590,1005899590,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.13,unpaved,unknown,footway,Unknown,nan
+Trail 1299415228,1299415228,60,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.13,ground,unknown,footway,Unknown,nan
+Trail 725732014,725732014,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.129,ground,grade5,track,Unknown,nan
+Trail 768857995,768857995,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.127,ground,unknown,path,Unknown,nan
+Lake Trail,1037894216,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.127,ground,mountain_hiking,path,Unknown,nan
+Trail 1326269677,1326269677,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.125,dirt,unknown,footway,Unknown,nan
+Trail 1358471039,1358471039,60,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.125,dirt,unknown,path,Unknown,nan
+Looking Glass Rock Trail,1375105415,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.125,ground,unknown,footway,Unknown,114
+Running Water Circle,16627883,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.124,unpaved,unknown,track,Jackson,nan
+Trail 16779394,16779394,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.124,dirt,unknown,track,Transylvania,nan
+Trail 725732018,725732018,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.124,ground,grade5,track,Unknown,nan
+Fighting Creek Nature Trail,970240654,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.124,ground,unknown,path,Unknown,nan
+Trail 757872420,757872420,60,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.123,unpaved,grade4,track,Unknown,nan
+Trail 993293830,993293830,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.123,unpaved,unknown,footway,Unknown,nan
+Trail 1037894204,1037894204,75,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.123,gravel,grade2,track,Unknown,nan
+Mac's Gap Trail,570278645,80,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.122,dirt,grade4,path,Jackson,TR 482
+Trail 648369656,648369656,55,"{'surface': 20, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.122,unpaved,grade4,path,Unknown,nan
+Trail 930428382,930428382,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.122,ground,unknown,track,Unknown,nan
+Trail 988129627,988129627,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.122,ground,unknown,path,Unknown,nan
+Buck Gap Trail,1037894259,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.122,ground,mountain_hiking,path,Unknown,nan
+Bullhead View Quiet Walkway,167431780,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.121,ground,unknown,path,Unknown,nan
+Lower Mount Cammerer Trail,167432607,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.121,ground,unknown,path,Unknown,nan
+Catawba Falls River Trail,1309952907,55,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.121,unpaved,unknown,path,Unknown,nan
+Trail 1391435644,1391435644,60,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.121,ground,unknown,footway,Unknown,nan
+Hog Rock Road,1392141822,60,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.121,unpaved,unknown,track,Henderson,nan
+Paint Mountain Trail,992950714,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.119,ground,unknown,path,Unknown,TR 7
+Trail 1326269678,1326269678,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.119,dirt,unknown,footway,Unknown,nan
+Bullhead View Quiet Walkway,167431779,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.118,ground,unknown,path,Unknown,nan
+Trail 453516552,453516552,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.118,ground,grade5,track,Unknown,nan
+Teaberry Ridge Road,694650778,80,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.118,unpaved,grade2,track,Haywood,nan
+Trail 757049764,757049764,60,"{'surface': 20, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.118,unpaved,grade4,track,Unknown,nan
+Cove Creek to 225 Connector,397733501,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.117,ground,unknown,path,Unknown,nan
+Hickory Ridge Trail,543309871,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.117,ground,mountain_hiking,path,Unknown,nan
+Trail 609065416,609065416,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.116,dirt,unknown,footway,Unknown,nan
+Trail 1370407197,1370407197,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.116,unpaved,unknown,track,Unknown,nan
+Trail 461255251,461255251,80,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.115,ground,mountain_hiking,track,Unknown,nan
+Trail 725732076,725732076,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.115,ground,grade5,track,Unknown,nan
+Jones Meadow Trail,653664265,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.114,ground,unknown,path,Unknown,nan
+Trail 686880921,686880921,45,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.114,gravel,unknown,footway,Unknown,nan
+Trail 1264544041,1264544041,75,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.114,gravel,grade2,track,Unknown,nan
+Trail 16632800,16632800,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.113,unpaved,unknown,track,Unknown,nan
+Appalachian Trail,977039311,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.113,ground,unknown,path,Unknown,TR 1-08
+Carolina Loop,1385710850,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.113,ground,unknown,footway,Unknown,nan
+Trail 594832134,594832134,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.112,unpaved,unknown,track,Unknown,nan
+Trail 1287231153,1287231153,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.112,ground,unknown,track,Unknown,nan
+Mountains-to-Sea Trail,588790607,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.111,ground,mountain_hiking,path,Unknown,nan
+Trail 1354056989,1354056989,75,"{'surface': 35, 'difficulty': 15, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.111,dirt,grade4,track,Unknown,nan
+High Falls Trail,263169472,55,"{'surface': 25, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 10, 'forest_service': 0}",0.11,gravel,unknown,footway,Unknown,nan
+Avery Creek,816523713,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.11,ground,unknown,path,Unknown,327
+Avery Creek Road,868207607,95,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 10}",0.11,gravel,grade2,track,Transylvania,FS 477
+Dam Pasture Connector,295320536,80,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.108,dirt,grade4,path,Unknown,nan
+Copperhead Mountain Trail,1037894229,85,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.107,ground,mountain_hiking,path,Unknown,nan
+Trail 19622884,19622884,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.106,dirt,unknown,track,Unknown,nan
+Trail 815669677,815669677,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.106,ground,unknown,path,Unknown,nan
+Daniel Ridge Connector,397733505,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.105,ground,unknown,path,Unknown,nan
+Old Trestle Road,542315315,105,"{'surface': 40, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.105,ground,mountain_hiking,path,Buncombe,nan
+Trail 651234353,651234353,65,"{'surface': 35, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.105,dirt,unknown,track,Unknown,nan
+Buckhorn Gap,816523701,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.105,ground,unknown,path,Unknown,103
+Trail 976865793,976865793,65,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.105,ground,unknown,path,Unknown,nan
+Julia Woodward Trail,1037894261,95,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.105,ground,hiking,path,Unknown,nan
+Trail 1354056975,1354056975,70,"{'surface': 20, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.105,unpaved,grade3,track,Unknown,nan
+Carson-Messer Cemetery Access,288576416,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.104,ground,unknown,path,Unknown,nan
+Trail 1180512418,1180512418,70,"{'surface': 40, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.104,ground,unknown,track,Unknown,nan
+Trail 1189691764,1189691764,45,"{'surface': 20, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 0, 'forest_service': 0}",0.104,unpaved,unknown,path,Unknown,nan
+Doc Caldwell Cemetery Access,288576420,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.103,ground,unknown,path,Unknown,nan
+Dead end trail,294346084,80,"{'surface': 35, 'difficulty': 15, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.103,dirt,grade4,path,Unknown,nan
+Alt Explorer,114869517,105,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 10}",0.102,ground,hiking,path,Unknown,FS 337a
+Wolf Ford Horse Camp,453509859,70,"{'surface': 25, 'difficulty': 10, 'trail_type': 20, 'length': 5, 'named': 10, 'forest_service': 0}",0.102,gravel,grade1,track,Unknown,nan
+Trail 844750313,844750313,50,"{'surface': 20, 'difficulty': 5, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.102,unpaved,unknown,track,Unknown,nan
+Little Green Trail,967113678,75,"{'surface': 40, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.102,ground,unknown,path,Unknown,TR 485
+Trail 286154579,286154579,40,"{'surface': 20, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.101,unpaved,unknown,footway,Unknown,nan
+Trail 686880902,686880902,55,"{'surface': 35, 'difficulty': 5, 'trail_type': 10, 'length': 5, 'named': 0, 'forest_service': 0}",0.101,dirt,unknown,footway,Unknown,nan
+Trail 266756056,266756056,75,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 5, 'named': 0, 'forest_service': 0}",0.1,gravel,grade2,track,Unknown,nan
+Short Cut Trail,1126587897,70,"{'surface': 35, 'difficulty': 5, 'trail_type': 15, 'length': 5, 'named': 10, 'forest_service': 0}",0.1,dirt,unknown,path,Unknown,nan

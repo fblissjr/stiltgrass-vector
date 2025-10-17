@@ -1,0 +1,21 @@
+trail_name,osm_id,total_score,breakdown,distance_miles,surface,difficulty,highway_type,county,ref
+Quartz Mtn Trail,16435674,130,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",0.743,ground,grade2,track,Buncombe,nan
+Bent Creek Trail,266170525,125,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.858,gravel,grade2,track,Buncombe,FS 480A
+Old Trestle Road,16437646,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.775,ground,hiking,path,Buncombe,nan
+Old Trestle Road,224383718,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.754,ground,hiking,path,Buncombe,nan
+Old Trestle Road,1037894213,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.629,ground,hiking,path,Buncombe,nan
+Rainbow Road,16430359,125,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 0}",0.618,ground,hiking,path,Buncombe,nan
+Quartz Mtn Trail,16435689,120,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.695,ground,grade4,track,Buncombe,nan
+Grassy Road Trail,152918966,120,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",1.099,ground,grade3,track,Unknown,FS 5061A;TR 364
+Old Mitchell Toll Road,16418489,120,"{'surface': 40, 'difficulty': 15, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 0}",1.061,ground,grade4,track,Buncombe,nan
+Bennett Knob Road,279416178,120,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.745,ground,grade3,track,Unknown,FS 5044
+Courthouse Creek Road,267518642,120,"{'surface': 40, 'difficulty': 25, 'trail_type': 20, 'length': 15, 'named': 10, 'forest_service': 10}",0.684,ground,grade3,track,Transylvania,FS 140
+Lower Staire,16427729,120,"{'surface': 25, 'difficulty': 25, 'trail_type': 20, 'length': 10, 'named': 10, 'forest_service': 10}",0.454,gravel,grade2,track,Buncombe,FS 231
+Explorer Loop,114869544,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.819,ground,hiking,path,Unknown,FS 337
+Lower Sidehill Trail,99872859,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.452,ground,hiking,path,Unknown,FS 137A
+Little Hickory Top,114869551,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.417,ground,hiking,path,Unknown,FS 136
+Greens Lick Trail,114869515,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",2.016,ground,hiking,path,Unknown,FS 139
+Pine Tree Loop,99868531,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.758,ground,hiking,path,Unknown,FS 336
+Wolf Branch Trail,114869521,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.183,ground,hiking,path,Unknown,FS 666
+Ingles Field Gap,114869516,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.147,ground,hiking,path,Unknown,FS 150
+Deer Lake Lodge Trail,114869528,115,"{'surface': 40, 'difficulty': 25, 'trail_type': 15, 'length': 15, 'named': 10, 'forest_service': 10}",1.138,ground,hiking,path,Unknown,FS 664

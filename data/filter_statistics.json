@@ -1,0 +1,58 @@
+{
+  "total_trails": 11954,
+  "passed_all_constraints": 235,
+  "elimination_rate_percent": 98.03,
+  "constraints_applied": {
+    "elevation_range": "3000-4500 ft",
+    "drive_time_range": "60-180 minutes",
+    "cellular_coverage": "minimum 3/10 score"
+  },
+  "eliminated_by_constraint": {
+    "elevation": 5458,
+    "drive_time": 10057,
+    "cellular_coverage": 8095
+  },
+  "scoring_weights": {
+    "surface_suitable": 40,
+    "difficulty_moderate": 30,
+    "buncombe_county": 20,
+    "stilt_grass_habitat": 15,
+    "forest_service_road": 10,
+    "named_trail": 10,
+    "cell_coverage": 10,
+    "optimal_elevation": 10
+  },
+  "filtered_trails_surface_distribution": {
+    "ground": 24,
+    "gravel": 7,
+    "dirt": 17,
+    "unknown": 135,
+    "unpaved": 6,
+    "concrete": 22,
+    "earth": 1,
+    "wood": 3,
+    "paved": 9,
+    "paving_stones": 4,
+    "asphalt": 6,
+    "grass": 1
+  },
+  "filtered_trails_difficulty_distribution": {
+    "grade3": 32,
+    "grade2": 5,
+    "mountain_hiking": 15,
+    "unknown": 155,
+    "grade4": 16,
+    "hiking": 6,
+    "grade5": 2,
+    "grade1": 1,
+    "demanding_mountain_hiking": 3
+  },
+  "top_candidate": {
+    "name": "Trail 135266420",
+    "score": 123,
+    "latitude": 35.60167753333334,
+    "longitude": -82.44658078333333,
+    "elevation_ft": 3100,
+    "drive_time_minutes": 175.35379211169422
+  }
+}

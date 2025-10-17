@@ -1,0 +1,51 @@
+rank,name,score,osm_id,latitude,longitude,elevation_ft,drive_time_min,distance_miles,county,surface,difficulty,highway_type,ref,score_surface,score_difficulty,score_buncombe,score_stilt_grass,score_forest_service,score_named,score_cell,score_elevation
+1,Trail 135266420,123,135266420,35.601678,-82.446581,3100,175,0.14,Unknown,ground,grade3,track,,40,30,20,15,0,0,8,10
+2,Trail 135266421,123,135266421,35.598847,-82.446406,3100,175,0.17,Unknown,ground,grade3,track,,40,30,20,15,0,0,8,10
+3,Trail 135266422,123,135266422,35.600536,-82.447281,3100,175,0.19,Unknown,ground,grade3,track,,40,30,20,15,0,0,8,10
+4,Trail 135266423,123,135266423,35.600176,-82.445652,3100,175,0.33,Unknown,ground,grade3,track,,40,30,20,15,0,0,8,10
+5,Trail 265685646,123,265685646,35.576374,-82.485054,3100,178,0.45,Unknown,ground,grade3,path,,40,30,20,15,0,0,8,10
+6,Bear Path Trail,111,946880172,35.806870,-82.314816,3500,172,0.03,Unknown,gravel,grade2,track,,40,30,0,15,0,10,6,10
+7,Bear Path Trail,111,946880176,35.807480,-82.314744,3500,172,0.07,Unknown,gravel,grade2,track,,40,30,0,15,0,10,6,10
+8,Mountains-to-Sea Trail,103,98261192,35.568709,-82.483371,3100,178,1.54,Unknown,ground,mountain_hiking,path,,40,0,20,15,0,10,8,10
+9,Berea Connector,103,135346061,35.619263,-82.456869,3100,177,0.18,Unknown,dirt,unknown,path,,40,0,20,15,0,10,8,10
+10,Big Berea Trail,103,135346064,35.617278,-82.456538,3100,177,0.30,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+11,Anthony's Road,103,135346067,35.620087,-82.458498,3100,177,0.25,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+12,River Trail,103,135346216,35.607749,-82.452203,3100,176,1.73,Unknown,ground,unknown,path,,40,0,20,15,0,10,8,10
+13,Sanders Connector,103,294112188,35.618901,-82.461168,3100,177,0.16,Unknown,dirt,unknown,path,,40,0,20,15,0,10,8,10
+14,White Pine Loop,103,294112192,35.621760,-82.459005,3100,177,0.59,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+15,Hemlock Springs Tr.,103,294112193,35.617977,-82.457838,3100,177,0.34,Unknown,dirt,unknown,path,,40,0,20,15,0,10,8,10
+16,Dodge Lake Tr,103,294113172,35.620388,-82.461668,3100,178,0.51,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+17,Dam Pasture Road,103,294239261,35.618320,-82.460317,3100,177,0.40,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+18,Dead end trail,103,294346084,35.618633,-82.458934,3100,177,0.10,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+19,Bull Creek Tr,103,294685319,35.617052,-82.460490,3100,177,0.52,Unknown,dirt,unknown,path,,40,0,20,15,0,10,8,10
+20,Big Berea Road,103,295320535,35.615032,-82.455796,3100,177,0.30,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+21,Dam Pasture Connector,103,295320536,35.614567,-82.455003,3100,177,0.11,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+22,Dam Pasture Trail,103,295320537,35.613214,-82.454150,3100,177,0.42,Unknown,dirt,grade4,path,,40,0,20,15,0,10,8,10
+23,Blue Ridge Parkway Visitor Center TRACK Trail,103,680918732,35.563780,-82.490153,3100,179,0.36,Unknown,ground,unknown,footway,,40,0,20,15,0,10,8,10
+24,Blue Ridge Parkway Visitor Center TRACK Trail,103,680918737,35.566067,-82.485719,3100,178,0.30,Unknown,ground,unknown,footway,,40,0,20,15,0,10,8,10
+25,Blue Ridge Parkway Visitor Center TRACK Trail,103,680918741,35.567287,-82.484462,3100,178,0.01,Unknown,ground,unknown,footway,,40,0,20,15,0,10,8,10
+26,Blue Ridge Parkway Visitor Center TRACK Trail,103,680918744,35.566981,-82.484181,3100,178,0.06,Unknown,ground,unknown,footway,,40,0,20,15,0,10,8,10
+27,Mounts to the Sea Trail Access,103,920989128,35.557685,-82.497363,3100,179,0.05,Unknown,dirt,unknown,path,,40,0,20,15,0,10,8,10
+28,Trail 146689756,101,146689756,35.811362,-82.254083,3500,166,0.42,Unknown,ground,grade3,track,,40,30,0,15,0,0,6,10
+29,Trail 146689759,101,146689759,35.813963,-82.257841,3500,167,0.44,Unknown,ground,grade3,track,,40,30,0,15,0,0,6,10
+30,Trail 146689762,101,146689762,35.815169,-82.258592,3500,167,0.38,Unknown,ground,grade3,track,,40,30,0,15,0,0,6,10
+31,Trail 16420205,93,16420205,35.669804,-82.425077,3100,176,1.56,Buncombe,ground,unknown,path,,40,0,20,15,0,0,8,10
+32,Trail 135346057,93,135346057,35.620390,-82.458081,3100,177,0.02,Unknown,dirt,grade4,path,,40,0,20,15,0,0,8,10
+33,Trail 135346062,93,135346062,35.605329,-82.453583,3100,176,0.01,Unknown,ground,unknown,path,,40,0,20,15,0,0,8,10
+34,Shope Creek Road,93,200663788,35.659894,-82.439013,3100,177,0.80,Unknown,unknown,grade2,track,,0,30,20,15,0,10,8,10
+35,Trail 294112191,93,294112191,35.618861,-82.456992,3100,177,0.02,Unknown,dirt,unknown,path,,40,0,20,15,0,0,8,10
+36,Trail 294268268,93,294268268,35.619157,-82.457204,3100,177,0.02,Unknown,dirt,unknown,path,,40,0,20,15,0,0,8,10
+37,Lost Whippoorwill Lane,93,697718755,35.628200,-82.413164,3100,173,0.46,Unknown,unknown,grade3,track,,0,30,20,15,0,10,8,10
+38,Firefly Lane,93,697719056,35.629329,-82.416400,3100,173,0.31,Unknown,unknown,grade3,track,,0,30,20,15,0,10,8,10
+39,Burnette Park Lane,93,697721075,35.627815,-82.418272,3100,173,0.52,Unknown,unknown,grade3,track,,0,30,20,15,0,10,8,10
+40,Mount Ridge Road,93,697726560,35.645197,-82.411219,3100,173,0.48,Unknown,unknown,grade3,track,,0,30,20,15,0,10,8,10
+41,Mount Ridge Road,93,697726561,35.645202,-82.415771,3100,174,0.01,Unknown,unknown,grade2,track,,0,30,20,15,0,10,8,10
+42,Mount Ridge Road,93,697726562,35.645713,-82.414725,3100,174,0.27,Unknown,unknown,grade2,track,,0,30,20,15,0,10,8,10
+43,Ratatat Ridge Road,93,697761515,35.639949,-82.447950,3100,177,0.09,Unknown,unknown,grade3,track,,0,30,20,15,0,10,8,10
+44,Trail 764143156,93,764143156,35.553378,-82.444052,3100,174,0.20,Unknown,ground,unknown,path,,40,0,20,15,0,0,8,10
+45,Trail 1272611361,93,1272611361,35.614458,-82.458834,3100,177,0.24,Unknown,unpaved,unknown,footway,,40,0,20,15,0,0,8,10
+46,Trail 1272611362,93,1272611362,35.612945,-82.459996,3100,177,0.08,Unknown,unpaved,unknown,footway,,40,0,20,15,0,0,8,10
+47,Trail 1272611363,93,1272611363,35.613200,-82.459442,3100,177,0.00,Unknown,unpaved,unknown,footway,,40,0,20,15,0,0,8,10
+48,Trail 1272611364,93,1272611364,35.609686,-82.460897,3100,177,0.33,Unknown,unpaved,unknown,footway,,40,0,20,15,0,0,8,10
+49,Trail 1272611365,93,1272611365,35.613620,-82.458552,3100,177,0.04,Unknown,unpaved,unknown,footway,,40,0,20,15,0,0,8,10
+50,Trail 1272611366,93,1272611366,35.612939,-82.459337,3100,177,0.03,Unknown,unpaved,unknown,footway,,40,0,20,15,0,0,8,10
