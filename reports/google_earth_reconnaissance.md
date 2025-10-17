@@ -55,7 +55,7 @@ Based on analysis of the 8 aerial photos, the treasure location exhibits these c
 - **Trail appearance**: Brown/tan bare dirt surface
 - **Trail width**: 3-6 feet (1-2 meters)
 - **Trail pattern**: Linear with gentle curves
-- **Trail orientation**: N-S to NW-SE direction (0-15° or 165-180°)
+- **Trail orientation**: Variable (orientation not confirmed from available photos)
 - **Surrounding vegetation**: Dense green understory on both sides
 - **Trail edges**: Distinct but irregular/natural
 - **Surface type**: Bare ground (NOT paved, NOT gravel)
@@ -407,7 +407,7 @@ For trails that pass Phase 1-2 screening:
 4. **3D perspective:**
    - Tilt view to 45-60° angle
    - Rotate around trail location
-   - Assess slope aspect (south-facing preferred)
+   - Assess terrain (flat areas or slopes - orientation not confirmed as constraint)
    - Visualize accessibility from trail to 50 yards off
 
 ---
@@ -420,7 +420,7 @@ For trails that pass Phase 1-2 screening:
 |----------|-------------------|------------------------|--------|
 | **Trail width** | 3-6 feet | 1-2 pixels @ 1m resolution | HIGH |
 | **Trail surface** | Bare dirt, brown/tan | RGB(140,120,90) range | CRITICAL |
-| **Trail orientation** | N-S to NW-SE | 0-15° or 165-180° | HIGH |
+| **Trail orientation** | Variable | Cannot confirm from photos | LOW |
 | **Trail pattern** | Linear w/ gentle curves | Consistent corridor | MEDIUM |
 | **Vegetation** | Dense green understory | High NDVI on both sides | HIGH |
 | **Canopy type** | Deciduous dominant | Light yellow-green | CRITICAL |
@@ -607,7 +607,7 @@ Based on aerial photo characteristics and typical Google Earth resolution:
 4. **Shadow Effects:**
    - North-south trails = even illumination (good)
    - East-west trails = shadows can obscure detail (bad)
-   - South-facing slopes = better lighting (matches photo hypothesis)
+   - Slope orientation cannot be confirmed from available photos (removed as constraint)
 
 ---
 
