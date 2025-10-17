@@ -1,0 +1,65 @@
+{
+  "4": {
+    "mean_angle_degrees": 139.8,
+    "median_angle_degrees": 165.0,
+    "std_angle_degrees": 58.2,
+    "compass_bearing_approx": 310.2,
+    "total_lines_detected": 169088,
+    "dominant_angle_bins": [
+      {
+        "range": "165-180 degrees",
+        "count": 87044
+      },
+      {
+        "range": "150-165 degrees",
+        "count": 44340
+      },
+      {
+        "range": "0-15 degrees",
+        "count": 20666
+      }
+    ]
+  },
+  "5": {
+    "mean_angle_degrees": 83.6,
+    "median_angle_degrees": 68.0,
+    "std_angle_degrees": 79.4,
+    "compass_bearing_approx": 6.4,
+    "total_lines_detected": 162872,
+    "dominant_angle_bins": [
+      {
+        "range": "0-15 degrees",
+        "count": 78302
+      },
+      {
+        "range": "165-180 degrees",
+        "count": 59739
+      },
+      {
+        "range": "75-90 degrees",
+        "count": 7532
+      }
+    ]
+  },
+  "6": {
+    "mean_angle_degrees": 85.3,
+    "median_angle_degrees": 74.9,
+    "std_angle_degrees": 77.7,
+    "compass_bearing_approx": 4.7,
+    "total_lines_detected": 147778,
+    "dominant_angle_bins": [
+      {
+        "range": "0-15 degrees",
+        "count": 57218
+      },
+      {
+        "range": "165-180 degrees",
+        "count": 53943
+      },
+      {
+        "range": "75-90 degrees",
+        "count": 6911
+      }
+    ]
+  }
+}
