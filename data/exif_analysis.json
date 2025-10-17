@@ -1,0 +1,178 @@
+{
+  "01_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/01_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "6004",
+      "EXIF ExifImageLength": "3376"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "6004",
+      "ExifImageHeight": "3376"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "02_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/02_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "6004",
+      "EXIF ExifImageLength": "3376"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "6004",
+      "ExifImageHeight": "3376"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "03_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/03_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "6004",
+      "EXIF ExifImageLength": "3376"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "6004",
+      "ExifImageHeight": "3376"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "04_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/04_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "10686",
+      "EXIF ExifImageLength": "6009"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "10686",
+      "ExifImageHeight": "6009"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "05_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/05_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "10686",
+      "EXIF ExifImageLength": "6009"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "10686",
+      "ExifImageHeight": "6009"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "06_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/06_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "10686",
+      "EXIF ExifImageLength": "6009"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "10686",
+      "ExifImageHeight": "6009"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "07_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/07_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "10686",
+      "EXIF ExifImageLength": "6009"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "10686",
+      "ExifImageHeight": "6009"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  },
+  "08_aerial.jpg": {
+    "path": "/Users/fredbliss/workspace/treasure/photos/08_aerial.jpg",
+    "exif_exifread": {
+      "Image ExifOffset": "26",
+      "EXIF ExifImageWidth": "10686",
+      "EXIF ExifImageLength": "6009"
+    },
+    "exif_pil": {
+      "ExifOffset": "26",
+      "ExifImageWidth": "10686",
+      "ExifImageHeight": "6009"
+    },
+    "trail_camera_analysis": {
+      "camera_make": null,
+      "camera_model": null,
+      "image_description": null,
+      "datetime": null,
+      "gps_coordinates": null,
+      "special_codes": [],
+      "camera_type": "unknown"
+    }
+  }
+}
