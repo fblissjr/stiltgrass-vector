@@ -1,0 +1,48 @@
+# GPS COORDINATES FOR GOOGLE EARTH INSPECTION
+# Copy-paste these directly into Google Earth search box
+# Format: latitude, longitude (decimal degrees)
+
+# PRIORITY 1: OLD TRESTLE ROAD (Highest confidence for visual match)
+35.6397, -82.2944
+
+# PRIORITY 2: BENT CREEK TRAIL FS 480A
+35.4999, -82.6031
+
+# PRIORITY 3: BENT CREEK EXPERIMENTAL FOREST (Main area)
+35.4743, -82.6618
+
+# PRIORITY 4: MONTREAT TRAIL SYSTEM (Rainbow Road area)
+35.639, -82.294
+
+# REFERENCE: BLACK MOUNTAIN, NC (Nearest town)
+35.6179, -82.3212
+
+# ADDITIONAL BENT CREEK LOCATIONS
+# Old Bent Creek Road trailhead
+35.4999, -82.6031
+
+# Bent Creek Road
+35.4888, -82.6267
+
+# ===================================================
+# SEARCH STRINGS (Alternative format)
+# Copy entire line including trail name
+# ===================================================
+
+Old Trestle Road, Montreat, NC
+Bent Creek Experimental Forest, NC
+Rainbow Road, Montreat, NC
+Black Mountain, NC
+
+# ===================================================
+# GOOGLE MAPS DIRECT LINKS (if Google Earth fails)
+# ===================================================
+
+# Old Trestle Road
+https://www.google.com/maps/@35.6397,-82.2944,17z
+
+# Bent Creek
+https://www.google.com/maps/@35.4999,-82.6031,17z
+
+# Montreat
+https://www.google.com/maps/@35.639,-82.294,17z

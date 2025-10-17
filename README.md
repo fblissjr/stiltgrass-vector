@@ -67,9 +67,79 @@ treasure/
 4. **Verification** - Cross-checked against AllTrails, USFS databases
 5. **Ranking** - Scored trails using 130-point system
 
+## Installation & Setup
+
+### Python Environment
+
+```bash
+# Clone/navigate to repository
+cd /Users/fredbliss/workspace/treasure
+
+# Create virtual environment with uv
+uv venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install dependencies
+uv pip install -r requirements.txt
+```
+
+### Quick Automated Analysis
+
+**Download satellite imagery for top trails (2 minutes):**
+```bash
+uv run python scripts/quick_satellite_download.py
+```
+
+**Run full automated analysis (10-15 minutes):**
+```bash
+uv run python scripts/automated_satellite_analysis.py
+```
+
+**View results:**
+- Satellite images: `data/satellite_imagery/`
+- Analysis results: `data/satellite_imagery/automated_analysis_results.json`
+
+## Automated Tools Available
+
+### 1. Satellite Imagery Download ⚡
+**Script:** `scripts/quick_satellite_download.py`
+- Downloads satellite imagery for top 5 trails
+- Uses free ESRI World Imagery (no API key needed)
+- Outputs to `data/satellite_imagery/`
+- **Time: ~2 minutes**
+
+### 2. Automated Visual Analysis 🔬
+**Script:** `scripts/automated_satellite_analysis.py`
+- Computer vision analysis of satellite imagery
+- Trail detection using edge detection and Hough transform
+- Color analysis (brown/tan trail vs green forest)
+- Feature matching against aerial photos
+- Generates confidence scores (0-100)
+- **Time: ~10-15 minutes**
+
+### 3. Manual Analysis Tools
+- `scripts/analyze_trails.py` - Parse trail data
+- `scripts/filter_and_score_trails.py` - Score and rank trails
+- `scripts/verify_trail_access.py` - Verify access restrictions
+- `scripts/create_treasure_map.py` - Generate interactive map
+
 ## Next Steps
 
-**Field Search:**
+### Option A: Automated Satellite Analysis (Recommended)
+```bash
+# 1. Download satellite imagery
+uv run python scripts/quick_satellite_download.py
+
+# 2. Review images in data/satellite_imagery/
+# 3. Look for brown/tan trails through green forest
+
+# 4. (Optional) Run full automated analysis
+uv run python scripts/automated_satellite_analysis.py
+```
+
+### Option B: Field Search
 1. Visit Bent Creek Trail (Rank #1)
 2. Test cellular coverage with AT&T/Verizon
 3. Search areas 20-50 yards off trail
@@ -84,6 +154,8 @@ treasure/
 - **Constraint filtering**: 99.96% search space reduction
 - **Self-correction**: Found and fixed access restrictions
 - **Verification**: 77.8% confirmation rate
+- **Automated analysis**: Computer vision for satellite imagery matching
+- **Confidence scoring**: Quantified 0-100 scores for prioritization
 
 ## Learn More
 

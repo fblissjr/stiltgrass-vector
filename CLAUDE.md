@@ -59,7 +59,7 @@ treasure/
 - **Visibility**: If taller, could be seen from trail
 - **Monitoring**: Live webcam with 10-minute updates (requires cell coverage)
 - **Creator**: Lives in Charlotte, NC
-- **Environment**: South-facing slope (most likely), Japanese stilt grass present
+- **Environment**: Likely flat or south-facing slope (unconfirmed), Japanese stilt grass present
 
 ### Daily Progression (Hunt started October 9, 2024)
 
@@ -173,20 +173,32 @@ Located in `photos/` directory (taken October 8, 2024):
 
 ## Development Environment
 
-### Python Environment
-- Use `uv` for all Python package management
-- Activate: `source .venv/bin/activate` (or `uv venv` if needed)
-- Install packages: `uv pip install <package>`
+### Python Environment Setup
+
+```bash
+# Navigate to project
+cd /Users/fredbliss/workspace/treasure
+
+# Create virtual environment with uv
+uv venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install all dependencies
+uv pip install -r requirements.txt
+```
 
 ### Key Libraries Used
-- **Geospatial**: `geopandas`, `shapely`, `folium`
+- **Geospatial**: `geopandas`, `shapely`, `folium`, `rasterio`
 - **Data**: `pandas`, `numpy`
-- **Computer Vision**: `opencv-python`, `pillow`, `scikit-image`
-- **Mapping**: `folium`, `matplotlib`
+- **Computer Vision**: `opencv-python`, `pillow`, `scikit-image`, `scikit-learn`
+- **Mapping**: `folium`, `matplotlib`, `contextily`
+- **Web**: `requests` (for satellite imagery download)
 
-### Running Scripts
+### Core Analysis Scripts (Already Completed)
 
-**Trail Analysis:**
+**Trail Data Analysis:**
 ```bash
 uv run python scripts/analyze_trails.py
 ```
@@ -196,15 +208,36 @@ uv run python scripts/analyze_trails.py
 uv run python scripts/filter_and_score_trails.py
 ```
 
-**Generate Map:**
-```bash
-uv run python scripts/create_treasure_map.py
-```
-
 **Access Verification:**
 ```bash
 uv run python scripts/verify_trail_access.py
 ```
+
+**Generate Interactive Map:**
+```bash
+uv run python scripts/create_treasure_map.py
+```
+
+### NEW: Automated Satellite Analysis Scripts
+
+**Quick Satellite Image Download (2 minutes):**
+```bash
+uv run python scripts/quick_satellite_download.py
+```
+- Downloads satellite imagery for top 5 trails
+- Uses free ESRI World Imagery (no API key required)
+- Saves to `data/satellite_imagery/`
+
+**Full Automated Analysis (10-15 minutes):**
+```bash
+uv run python scripts/automated_satellite_analysis.py
+```
+- Computer vision analysis of satellite imagery
+- Trail detection using edge detection and Hough transform
+- Color analysis (brown/tan trail vs green forest)
+- Feature matching against aerial photos 4-6
+- Generates confidence scores (0-100)
+- Outputs to `data/satellite_imagery/automated_analysis_results.json`
 
 ## Important Constraints
 
@@ -290,7 +323,33 @@ These were nice-to-have but not critical for core analysis.
 
 ## Next Steps
 
-### Field Verification (Recommended)
+### Option A: Automated Satellite Analysis (NEW - Recommended First)
+
+**Step 1: Quick satellite download (2 minutes)**
+```bash
+uv run python scripts/quick_satellite_download.py
+```
+- Downloads satellite imagery for top 5 trails
+- Review images in `data/satellite_imagery/`
+- Look for brown/tan trails through green forest
+
+**Step 2: Automated analysis (10-15 minutes - optional)**
+```bash
+uv run python scripts/automated_satellite_analysis.py
+```
+- Runs computer vision analysis
+- Generates confidence scores (0-100)
+- Creates `automated_analysis_results.json`
+- Use scores to prioritize field visits
+
+**Step 3: Review results**
+- Check `data/satellite_imagery/automated_analysis_results.json`
+- Trails with 70+ confidence = HIGH priority
+- Trails with 50-70 confidence = MEDIUM priority
+- Trails with <50 confidence = LOW priority
+
+### Option B: Field Verification
+
 1. **Week 1**: Visit top 5 trails (Bent Creek, Old Trestle Road segments)
 2. **Week 2**: Expand to ranks 6-10 if needed
 3. **Test cellular coverage** at each location with AT&T/Verizon phones
@@ -298,9 +357,8 @@ These were nice-to-have but not critical for core analysis.
 
 ### Further Analysis (Optional)
 1. Download actual DEM data for elevation profiles
-2. Acquire satellite imagery for visual matching
-3. Query AllTrails API for popularity metrics
-4. Perform spatial join with county boundaries
+2. Query AllTrals API for popularity metrics
+3. Perform spatial join with county boundaries
 
 ### Tools Needed for Field Work
 - GPS device with waypoint tracking
@@ -308,6 +366,7 @@ These were nice-to-have but not critical for core analysis.
 - AT&T and Verizon phones for coverage testing
 - Print of aerial photo #1 for reference
 - Compass for slope aspect checking
+- Satellite imagery printouts (from automated download)
 
 ## Analysis Philosophy
 
@@ -329,12 +388,16 @@ This project demonstrates **AI-augmented decision making** rather than fully aut
 - Top verified candidates are in `data/top_20_verified.csv` - use this, not older files
 - All agent reports are in `reports/` directory
 - See `FINAL_COMPREHENSIVE_REPORT.md` for complete context
+- **NEW**: Automated satellite analysis tools in `scripts/automated_satellite_analysis.py` and `scripts/quick_satellite_download.py`
 
 ### For Human Users
 - Start with `FINAL_COMPREHENSIVE_REPORT.md` for full story
+- **NEW**: Run `uv run python scripts/quick_satellite_download.py` to download satellite imagery (2 min)
+- **NEW**: Run `uv run python scripts/automated_satellite_analysis.py` for automated analysis (10-15 min)
 - Use `FIELD_GUIDE.md` for practical field instructions
 - Open `treasure_map.html` in browser to see interactive map
 - Check `data/top_20_verified.csv` for current rankings
+- Review `data/satellite_imagery/automated_analysis_results.json` for confidence scores
 - Verify trail access and conditions before visiting
 
 ## Contact & Resources
@@ -356,3 +419,4 @@ This project demonstrates **AI-augmented decision making** rather than fully aut
 **Last Updated**: October 17, 2025
 **Analysis Status**: Complete
 **Next Action**: Field verification of Bent Creek Trail (Rank #1)
+- always run python and install pip packages using uv and uv venv

@@ -199,10 +199,10 @@ Most top-scored trails are real, documented public trails with good access. The 
    - **Impact:** Cannot use as strong filter
    - **Mitigation:** Visual identification during field search
 
-6. **South-Facing Slope Verification**
-   - **Gap:** Contest rules state "most likely" on south-facing slope, but not confirmed
-   - **Impact:** Treated as soft constraint only
-   - **Mitigation:** Check terrain orientation during field visits
+6. **Slope Orientation (Removed as Constraint)**
+   - **Update:** Cannot confirm slope orientation from available photos (nighttime IR, overhead drone)
+   - **Consensus:** Likely flat or south-facing, but insufficient evidence to filter by aspect
+   - **Decision:** Removed as filtering constraint - all trail orientations considered valid
 
 ### Low-Priority Gaps
 
@@ -432,7 +432,7 @@ Ranks 7-18: Various Forest Service roads and trails with scores 115-120. All hav
   - Note distinctive features from photos 4-6 (trail edges, clearings)
 - **Search Strategy:**
   - Hike entire trail, noting areas matching aerial photos
-  - Check south-facing slopes
+  - Look for flat areas or slopes (orientation not confirmed as constraint)
   - Look for Japanese stilt grass presence
   - Mark searched areas with GPS waypoints
 - **Time Estimate:** 4-6 hours (including drive from Charlotte)
@@ -507,7 +507,7 @@ If top 10 don't yield results, expand to USFS trails with excellent surface char
 - ⚠️ Trail-specific cellular coverage (needs field testing)
 
 **Lower Confidence (40-55%):**
-- ⚠️ South-facing slope (stated as "likely" but not confirmed)
+- ⚠️ Slope orientation (likely flat or south-facing, but cannot confirm from photos - REMOVED as constraint)
 - ⚠️ Japanese stilt grass as precise filter (general habitat known)
 - ⚠️ Exact coordinates within trail segments
 - ⚠️ Trail popularity/traffic patterns
@@ -744,7 +744,7 @@ The AI-assisted methodology successfully demonstrated:
 **During Search:**
 - [ ] Test cellular coverage at trailhead
 - [ ] Note any Japanese stilt grass presence
-- [ ] Look for south-facing slopes
+- [ ] Identify flat areas or accessible slopes
 - [ ] Identify areas 20-50 yards off trail
 - [ ] Compare terrain to aerial photos 4-6
 - [ ] Mark searched areas with GPS waypoints
