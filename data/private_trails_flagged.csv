@@ -1,0 +1,534 @@
+trail_name,osm_id,access,motor_vehicle,foot,bicycle,horse,highway,surface,tracktype,ref,tiger:county,sac_scale,has_private_access,has_private_motor_vehicle,has_any_restriction,access_category
+Old Mitchell Toll Road,16417691,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,16418489,,private,yes,no,no,track,ground,grade4,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Rainbow Road,16419052,,private,designated,designated,no,path,ground,,,"Buncombe, NC",mountain_hiking,False,True,True,FOOT_ONLY
+Trail 16420205,16420205,private,no,,no,no,path,ground,,,"Buncombe, NC",,True,False,True,PRIVATE
+Trail 16421895,16421895,private,,,,,track,,grade4,,"Buncombe, NC",,True,False,True,PRIVATE
+Trail 16421897,16421897,private,,,,,track,,grade4,,"Buncombe, NC",,True,False,True,PRIVATE
+Trail 16421900,16421900,private,,,,,track,,grade4,,"Buncombe, NC",,True,False,True,PRIVATE
+Trail 16421901,16421901,private,,,,,track,,grade4,,"Buncombe, NC",,True,False,True,PRIVATE
+Trail 16423941,16423941,private,,designated,,,path,,,,"Buncombe, NC",,True,False,True,PRIVATE
+Serenity Woods Lane,16423955,private,,,,,track,,grade3,,"Buncombe, NC",,True,False,True,PRIVATE
+Appalachian Way,16424256,,private,designated,designated,no,track,gravel,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,16426960,,private,designated,designated,no,track,,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,16428286,,private,designated,designated,no,track,,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Old Trestle Road,16428461,,private,designated,designated,no,track,,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Rainbow Road,16430359,,private,designated,designated,no,path,ground,,,"Buncombe, NC",hiking,False,True,True,FOOT_ONLY
+Quartz Mtn Trail,16435674,private,,,,,track,ground,grade2,,"Buncombe, NC",,True,False,True,PRIVATE
+Quartz Mtn Trail,16435689,private,,,,,track,ground,grade4,,"Buncombe, NC",,True,False,True,PRIVATE
+Trail 16586363,16586363,private,,,,,track,,,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16586773,16586773,private,,,,,track,,grade3,,"Haywood, NC;Madison, NC",,True,False,True,PRIVATE
+Trail 16587068,16587068,private,,,,,track,,grade3,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16587164,16587164,private,,,,,track,,,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16587729,16587729,private,,,,,track,,,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16587769,16587769,private,,,,,track,,,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16588788,16588788,private,,,,,track,,,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16589519,16589519,private,,,,,track,,,,"Haywood, NC",,True,False,True,PRIVATE
+Trail 16596856,16596856,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16597013,16597013,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16597112,16597112,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 16597401,16597401,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 16597610,16597610,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16599054,16599054,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16599898,16599898,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16600170,16600170,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16601389,16601389,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 16606008,16606008,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Trail 16619948,16619948,private,,,,,track,,,,"Jackson, NC",,True,False,True,PRIVATE
+Trail 16619973,16619973,private,,,,,track,,,,"Jackson, NC",,True,False,True,PRIVATE
+Birdymay Drive,16620364,private,,,,,track,,,,"Jackson, NC",,True,False,True,PRIVATE
+Trail 16622269,16622269,private,,,,,track,,,,"Jackson, NC",,True,False,True,PRIVATE
+Trail 16622349,16622349,private,,,,,track,unpaved,,,"Jackson, NC",,True,False,True,PRIVATE
+Trail 16623733,16623733,private,,,,,track,,grade4,,"Jackson, NC",,True,False,True,PRIVATE
+Baskins Lane,16629493,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 16632800,16632800,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Old Mitchell Toll Road,16646063,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,16646093,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,16646176,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Trail 16648981,16648981,private,,,,,track,,,,"McDowell, NC",,True,False,True,PRIVATE
+Old Mitchell Toll Road,16649033,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Trail 16649165,16649165,private,,,,,track,,grade4,,"Madison, NC",,True,False,True,PRIVATE
+Old Mitchell Toll Road,16649235,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Trail 16651662,16651662,private,,,,,track,,grade4,,"Madison, NC",,True,False,True,PRIVATE
+Trail 16651989,16651989,private,,,,,track,,grade4,,"Madison, NC",,True,False,True,PRIVATE
+Farmer Mountain Road,16654853,private,,,,,track,gravel,grade2,,"Madison, NC",,True,False,True,PRIVATE
+Farmer Mountain Road,16656188,private,,,,,track,dirt,grade4,,"Madison, NC",,True,False,True,PRIVATE
+Neal Barnett Road,16656816,,private,yes,yes,yes,track,unpaved,grade4,FS 3514,,,False,True,True,FOOT_ONLY
+Viper Tower Road,16756850,no,private,no,no,no,track,gravel,grade2,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 16780647,16780647,private,,,,,track,unpaved,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 16780793,16780793,private,,,,,track,,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 16780794,16780794,private,,,,,track,,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 16781400,16781400,private,,,,,track,,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 16781490,16781490,private,,,,,track,unpaved,grade2,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 16782683,16782683,private,,,,,track,,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 18936605,18936605,private,,,,,track,,,,"Yancey, NC",,True,False,True,PRIVATE
+Old Mitchell Toll Road,18939123,,private,designated,designated,no,track,,,,"Yancey, NC",,False,True,True,FOOT_ONLY
+Wilson Boundary Road,18940034,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Trail 18940038,18940038,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Wilson Boundary Road,18940854,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Trail 19430970,19430970,private,,,,,track,,,,"Cocke, TN",,True,False,True,PRIVATE
+Trail 19431158,19431158,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 19431752,19431752,private,,,,,track,,,,"Cocke, TN",,True,False,True,PRIVATE
+Wicked Hill Road,19435906,private,,,,,track,,grade4,,"Cocke, TN",,True,False,True,PRIVATE
+Trail 112927430,112927430,private,,,,,track,,,,,,True,False,True,PRIVATE
+Exercise Building Road,112927463,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 112927474,112927474,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 114576859,114576859,private,,,,,track,,,,"McDowell, NC",,True,False,True,PRIVATE
+Old Mitchell Toll Road,150639871,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Crayton Road,159101077,private,,,,,track,,,,"Buncombe, NC",,True,False,True,PRIVATE
+Thomas Cemetery Road,162972896,,private,yes,yes,yes,track,unpaved,grade4,,,,False,True,True,FOOT_ONLY
+Boyd Branch Road,163002619,,private,yes,yes,yes,track,gravel,,FS 479F,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Rice Pinnacle Road,172852493,yes,private,yes,yes,yes,track,,,FS 491,,,False,True,True,FOOT_ONLY
+Big Tom Wilson Toll Road,199226503,private,,,,,track,,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Trail 225453261,225453261,private,,,,,footway,,,,,,True,False,True,PRIVATE
+Trail 230774975,230774975,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 230774998,230774998,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+High Falls Picnic Shelter,265281648,,private,yes,yes,yes,path,,,,,,False,True,True,FOOT_ONLY
+Trail 265282305,265282305,,private,yes,yes,yes,path,gravel,,,,,False,True,True,FOOT_ONLY
+Trail 266756056,266756056,private,forestry,,,,track,gravel,grade2,,,,True,False,True,PRIVATE
+Lake Imaging Road,267218295,,private,yes,yes,yes,track,gravel,grade2,,"Transylvania, NC",,False,True,True,FOOT_ONLY
+Lake Imaging Road,267238360,,private,yes,yes,yes,track,gravel,grade3,,"Transylvania, NC",,False,True,True,FOOT_ONLY
+Trail 267430889,267430889,private,,,no,no,track,asphalt,grade1,,,,True,False,True,PRIVATE
+Trail 267430891,267430891,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Cold Mountain Road,268426713,private,,,,,track,,grade3,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 271782267,271782267,yes,private,yes,yes,no,track,,grade1,,,,False,True,True,FOOT_ONLY
+Trail 271782276,271782276,yes,private,yes,yes,no,track,,,,,,False,True,True,FOOT_ONLY
+Trail 271796475,271796475,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Trail 271796477,271796477,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Wilson Boundary Road,274851180,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Trail 283467034,283467034,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 287546903,287546903,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Trail 287546960,287546960,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Bunyan Gap Trail,301583795,private,,,,,track,,,,,,True,False,True,PRIVATE
+Cedar Creek Subdivision Road,301583797,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 312147901,312147901,permissive,private,,,,track,paved,grade1,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 312147920,312147920,permissive,private,,,,track,asphalt,grade1,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 314945454,314945454,private,,,,,path,concrete,,,,,True,False,True,PRIVATE
+Casey Connector,335035691,private,,yes,no,no,footway,earth,,,,,True,False,True,PRIVATE
+Sour Wood Court,348818169,private,,,,,track,asphalt,grade1,,,,True,False,True,PRIVATE
+Crystal Falls Drive,354973668,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Trail 363761900,363761900,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 363769119,363769119,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 363769121,363769121,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 366164744,366164744,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 366164745,366164745,private,private,,,,path,,,,,,True,True,True,PRIVATE
+Trail 366164747,366164747,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 366164748,366164748,private,private,,,,path,,,,,,True,True,True,PRIVATE
+Old Mitchell Toll Road,374384283,,private,yes,no,no,track,ground,grade4,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+East Pine Mountain Road,404246407,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 404246410,404246410,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 410475882,410475882,private,,,,,path,dirt,,,,,True,False,True,PRIVATE
+Trail 439437724,439437724,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 439437725,439437725,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 439437729,439437729,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 439437730,439437730,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 439437731,439437731,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 439437739,439437739,private,,,,,path,,,,,,True,False,True,PRIVATE
+Deep Creek Trail,447301202,,private,yes,yes,yes,track,ground,grade2,,,,False,True,True,FOOT_ONLY
+Trail 448826141,448826141,private,,,,,track,gravel,grade1,,,,True,False,True,PRIVATE
+Trail 452768357,452768357,private,,,,,track,gravel,grade2,,"Henderson, NC",,True,False,True,PRIVATE
+Old Beaverdam Creek Road,459017474,private,,,,,track,,,,"Buncombe, NC",,True,False,True,PRIVATE
+private crossing,482926005,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 482926010,482926010,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 492181756,492181756,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 492181761,492181761,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 492377444,492377444,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 492380275,492380275,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 492380276,492380276,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 492380277,492380277,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 510325169,510325169,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 519473037,519473037,private,,,,,track,,,,,,True,False,True,PRIVATE
+Old Mitchell Toll Road,542315311,,private,designated,designated,no,track,,,,,,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,542315312,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Old Trestle Road,542315314,,private,designated,designated,no,track,,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Rainbow Road,543309865,,private,designated,designated,no,path,ground,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,543309867,,private,yes,no,no,track,ground,grade4,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,543309868,,private,designated,designated,no,track,,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,543309869,,private,designated,designated,no,track,,,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Kyocera Walking Trail,543937176,private,,,,,path,earth,,,,,True,False,True,PRIVATE
+Trail 548374747,548374747,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 594771618,594771618,private,,,,,track,gravel,,,,,True,False,True,PRIVATE
+Trail 594832133,594832133,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 594832134,594832134,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 604440025,604440025,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 606794554,606794554,private,,,,,track,gravel,grade3,,,,True,False,True,PRIVATE
+Trail 609065416,609065416,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 609065417,609065417,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 609065418,609065418,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 609065419,609065419,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 609065420,609065420,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 609065421,609065421,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 627619144,627619144,private,,,,,footway,,,,,,True,False,True,PRIVATE
+Felty Trail,645813713,private,private,,,no,track,,,,,,True,True,True,PRIVATE
+Trail 649756502,649756502,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649792802,649792802,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800214,649800214,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800216,649800216,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800218,649800218,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800220,649800220,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800222,649800222,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800223,649800223,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800224,649800224,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800225,649800225,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800227,649800227,private,no,yes,no,no,footway,,,,,,True,False,True,PRIVATE
+Trail 649800229,649800229,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800230,649800230,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800231,649800231,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800232,649800232,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800233,649800233,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800234,649800234,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800235,649800235,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800236,649800236,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800238,649800238,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800239,649800239,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800240,649800240,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800241,649800241,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800242,649800242,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800243,649800243,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800244,649800244,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800245,649800245,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800246,649800246,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800248,649800248,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800249,649800249,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800250,649800250,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800251,649800251,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800252,649800252,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800253,649800253,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800254,649800254,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800255,649800255,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800256,649800256,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800257,649800257,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800258,649800258,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800259,649800259,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800260,649800260,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800261,649800261,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800262,649800262,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800263,649800263,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800264,649800264,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800267,649800267,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800268,649800268,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800269,649800269,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800270,649800270,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800273,649800273,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800274,649800274,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800275,649800275,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800276,649800276,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800277,649800277,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800280,649800280,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649800281,649800281,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649801190,649801190,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649801191,649801191,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 649801192,649801192,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 651854436,651854436,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 651854437,651854437,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 653287663,653287663,private,,,,,path,dirt,,,,,True,False,True,PRIVATE
+Trail 653287664,653287664,private,,,,,path,dirt,,,,,True,False,True,PRIVATE
+Trail 655733247,655733247,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 655733248,655733248,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Trail 655733250,655733250,private,,,,,track,,grade5,,,,True,False,True,PRIVATE
+Trail 655733251,655733251,private,,,,,track,,grade5,,,,True,False,True,PRIVATE
+Trail 655733252,655733252,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 657007429,657007429,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Farmer Mountain Road,658008831,private,,,,,track,ground,grade4,,,,True,False,True,PRIVATE
+Trail 658216747,658216747,private,no,yes,no,no,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 661882163,661882163,private,,,,,track,,,,,,True,False,True,PRIVATE
+Jeep Trail,661882166,private,,,,,track,,,,,,True,False,True,PRIVATE
+Jeep Trail,661882167,private,,,,,track,,,,,,True,False,True,PRIVATE
+Jeep Trail,661882168,private,,,,,track,,,,,,True,False,True,PRIVATE
+Jeep Trail,661882172,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 661882173,661882173,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 663661947,663661947,private,,,,,track,,,,"Madison, NC",,True,False,True,PRIVATE
+Trail 668680065,668680065,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 668680066,668680066,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 668680067,668680067,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 668680068,668680068,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 668680070,668680070,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 668680071,668680071,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 668680072,668680072,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Mill Creek Road,669412040,private,,,,,track,,grade4,,,,True,False,True,PRIVATE
+Trail 670499713,670499713,private,,,,,track,,grade2,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 674265076,674265076,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 674265083,674265083,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Trail 674265084,674265084,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Trail 674265091,674265091,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Trail 674265093,674265093,private,,,,,track,,grade4,,,,True,False,True,PRIVATE
+Trail 674265101,674265101,private,,,,,track,,grade1,,,,True,False,True,PRIVATE
+Trail 674265102,674265102,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Trail 674265103,674265103,private,,,,,track,,grade4,,,,True,False,True,PRIVATE
+Trail 674265104,674265104,private,,,,,track,,grade5,,,,True,False,True,PRIVATE
+Trail 674265105,674265105,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Gibbs Road,675676902,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 681623587,681623587,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 684498478,684498478,private,,,,,track,ground,grade4,,,,True,False,True,PRIVATE
+Trail 691525348,691525348,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 691525349,691525349,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 691525362,691525362,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 691525363,691525363,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Jessamine Drive,691627618,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Back Stage Pass,692206286,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Rosebay Ridge,694475093,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 717795272,717795272,private,,,,,track,ground,grade4,,"Madison, NC",,True,False,True,PRIVATE
+Trail 725732013,725732013,private,,,,no,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732014,725732014,private,,,,no,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732016,725732016,private,,,,no,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732018,725732018,private,,,,no,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732020,725732020,private,,,,no,track,ground,grade5,,,,True,False,True,PRIVATE
+CCC Road,725732031,private,private,no,no,no,track,ground,grade5,,"Transylvania, NC",,True,True,True,PRIVATE
+Trail 725732032,725732032,private,private,no,no,no,track,ground,grade5,,,,True,True,True,PRIVATE
+CCC Road,725732033,private,private,no,no,no,track,ground,grade5,,"Transylvania, NC",,True,True,True,PRIVATE
+CCC Road,725732035,private,private,no,no,no,track,ground,grade2,,"Transylvania, NC",,True,True,True,PRIVATE
+CCC Road,725732036,private,private,no,no,no,track,gravel,grade1,,"Transylvania, NC",,True,True,True,PRIVATE
+Trail 725732069,725732069,private,,,,,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732070,725732070,private,,,,,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732071,725732071,private,,,,,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 725732076,725732076,private,,,,,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 734824032,734824032,private,,,,,track,,,,,,True,False,True,PRIVATE
+Happy Hollow Road,749043650,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 754997761,754997761,private,,,,,track,gravel,grade2,,"Madison, NC",,True,False,True,PRIVATE
+Trail 756637488,756637488,private,,,,,track,,grade4,,"Cocke, TN",,True,False,True,PRIVATE
+Trail 764143156,764143156,private,,,,,path,ground,,,,,True,False,True,PRIVATE
+Trail 791578008,791578008,private,,private,no,no,path,ground,,,,,True,False,True,PRIVATE
+Trail 800787979,800787979,private,private,private,private,private,track,dirt,grade3,,,,True,True,True,PRIVATE
+Quartz Mtn Trail,827988486,private,,,,,track,ground,grade2,,,,True,False,True,PRIVATE
+Trail 837647555,837647555,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Trail 837647556,837647556,private,,,,,track,,grade2,,,,True,False,True,PRIVATE
+Trail 837647561,837647561,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 837647562,837647562,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 837647563,837647563,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 837647566,837647566,private,,,,,track,,,,,,True,False,True,PRIVATE
+House on a Hill Hiking Trail,841407681,private,no,private,no,no,footway,ground,,,,,True,False,True,PRIVATE
+House on a Hill Hiking Trail,841407682,private,no,private,no,no,footway,ground,,,,,True,False,True,PRIVATE
+Sparkling Springs Road,844319043,private,,,,,track,,,,,,True,False,True,PRIVATE
+Sparkling Springs Road,844319044,private,,,,,track,,,,,,True,False,True,PRIVATE
+Sparkling Springs Road,844319045,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 844896199,844896199,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 844896200,844896200,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 844896201,844896201,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 845645977,845645977,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 845938889,845938889,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 845939809,845939809,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 863190381,863190381,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 893555124,893555124,,private,,,,track,,grade3,FS 3210,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 893849869,893849869,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 897292143,897292143,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 900689745,900689745,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 901011686,901011686,private,,,,,track,,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 909678884,909678884,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 917853496,917853496,private,,,,,path,,,,,,True,False,True,PRIVATE
+Elijah Hall Road,923273651,private,,,,,track,,,,"Buncombe, NC",,True,False,True,PRIVATE
+Hog Rock Road,935712764,private,,,,,track,unpaved,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 938594996,938594996,,private,yes,,,track,,grade5,,,,False,True,True,FOOT_ONLY
+Deep Creek Trail,943739528,,private,yes,no,designated,track,,grade1,,,,False,True,True,FOOT_ONLY
+Deep Creek Trail,943764564,,private,yes,yes,yes,track,,grade1,,,,False,True,True,FOOT_ONLY
+Deep Creek Trail,943764569,,private,yes,yes,yes,track,pebblestone,grade1,,,,False,True,True,FOOT_ONLY
+Trail 945136752,945136752,private,,,,,track,ground,grade4,,,,True,False,True,PRIVATE
+Trail 945136753,945136753,private,,,,,track,ground,grade4,,,,True,False,True,PRIVATE
+Trail 945136754,945136754,private,,,,,track,ground,grade4,,,,True,False,True,PRIVATE
+Wilson Boundary Road,945136763,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Wilson Boundary Road,945136764,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Wilson Boundary Road,945136765,private,,,,,track,ground,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Wilson Boundary Road,945136768,private,,,,,track,ground,grade2,,"Yancey, NC",,True,False,True,PRIVATE
+Trail 945136769,945136769,private,,,,,track,ground,grade4,,,,True,False,True,PRIVATE
+Trail 955940573,955940573,private,,,,,track,,grade4,,,,True,False,True,PRIVATE
+Trail 957394513,957394513,,private,,,,track,unpaved,grade5,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 957708708,957708708,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708709,957708709,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708710,957708710,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708711,957708711,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708712,957708712,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708713,957708713,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708714,957708714,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708716,957708716,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708717,957708717,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708718,957708718,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708719,957708719,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708720,957708720,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708721,957708721,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708722,957708722,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708723,957708723,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708724,957708724,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708729,957708729,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 957708730,957708730,private,,,,,track,,grade4,,,,True,False,True,PRIVATE
+Trail 957708733,957708733,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Manor Drive,975626607,private,,,,,path,,,,,,True,False,True,PRIVATE
+Big Butt Road,977039310,,private,yes,,,track,ground,grade5,FS 94A,,,False,True,True,FOOT_ONLY
+Trail 978140073,978140073,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 978140074,978140074,private,,,,,track,,,,,,True,False,True,PRIVATE
+Deep Creek Trail,978558750,,private,yes,no,designated,track,ground,grade2,,,,False,True,True,FOOT_ONLY
+Trail 978558751,978558751,,private,,,,track,,grade2,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 981077471,981077471,private,,,,,track,,,,,,True,False,True,PRIVATE
+Big Butt Road,983370939,,private,yes,,,track,ground,grade5,FS 94A,,,False,True,True,FOOT_ONLY
+Horse Creek Road,983370940,,private,yes,yes,yes,track,unpaved,grade2,FS 94,,,False,True,True,FOOT_ONLY
+Trail 1002431243,1002431243,private,,,,,footway,,,,,,True,False,True,PRIVATE
+Trail 1021328723,1021328723,,private,yes,yes,yes,track,unpaved,grade2,,,,False,True,True,FOOT_ONLY
+Hooker Falls Trail,1021328725,,private,yes,yes,yes,track,unpaved,grade2,,,,False,True,True,FOOT_ONLY
+Rainbow Mountain Trail,1037894189,,private,designated,no,no,track,gravel,grade2,,,mountain_hiking,False,True,True,FOOT_ONLY
+The Gate Trail,1037894190,,private,designated,no,no,track,gravel,grade2,,,mountain_hiking,False,True,True,FOOT_ONLY
+Trail 1037894199,1037894199,,private,,,no,track,gravel,grade2,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 1037894204,1037894204,,private,,,no,track,gravel,grade2,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 1037894205,1037894205,,private,,,no,track,gravel,grade2,,,,False,True,True,NO_MOTOR_VEHICLE
+Royal Gorge Trail,1037894206,,private,designated,no,no,track,gravel,grade2,,,mountain_hiking,False,True,True,FOOT_ONLY
+Royal Gorge Trail,1037894207,,private,designated,no,no,track,gravel,grade2,,,mountain_hiking,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,1037894211,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,1037894212,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,1037894214,,private,designated,designated,no,track,,,,,,False,True,True,FOOT_ONLY
+Old Mitchell Toll Road,1037894266,,private,designated,designated,no,track,,,,"McDowell, NC",,False,True,True,FOOT_ONLY
+Trail 1037894267,1037894267,,private,yes,no,no,track,ground,grade4,,"Buncombe, NC",,False,True,True,FOOT_ONLY
+Trail 1080187657,1080187657,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 1080336693,1080336693,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1080336694,1080336694,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1080336695,1080336695,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1080336696,1080336696,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1084058248,1084058248,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1103589863,1103589863,private,,,,,footway,concrete,,,,,True,False,True,PRIVATE
+Trail 1109650850,1109650850,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1109796679,1109796679,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907381,1110907381,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907382,1110907382,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907383,1110907383,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907384,1110907384,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907387,1110907387,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907388,1110907388,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110907389,1110907389,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110930448,1110930448,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1110930449,1110930449,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1112521244,1112521244,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1112770772,1112770772,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1112770773,1112770773,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113384136,1113384136,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113384137,1113384137,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113384138,1113384138,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113384139,1113384139,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113384162,1113384162,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113384163,1113384163,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113392614,1113392614,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113392638,1113392638,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113449778,1113449778,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1113467911,1113467911,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1125880502,1125880502,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880503,1125880503,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880505,1125880505,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880506,1125880506,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880521,1125880521,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880528,1125880528,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880536,1125880536,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880541,1125880541,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125880542,1125880542,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908763,1125908763,private,,,,,path,unpaved,,,,,True,False,True,PRIVATE
+Trail 1125908764,1125908764,private,,,,,path,unpaved,,,,,True,False,True,PRIVATE
+Trail 1125908776,1125908776,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908777,1125908777,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908787,1125908787,private,,,,,path,unpaved,,,,,True,False,True,PRIVATE
+Trail 1125908790,1125908790,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908791,1125908791,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908792,1125908792,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908793,1125908793,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908809,1125908809,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908810,1125908810,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908811,1125908811,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908812,1125908812,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908813,1125908813,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908819,1125908819,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908820,1125908820,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1125908825,1125908825,private,,,,,path,paved,,,,,True,False,True,PRIVATE
+Trail 1132198659,1132198659,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1136036189,1136036189,private,,,,,track,,grade4,,,,True,False,True,PRIVATE
+Trail 1138195214,1138195214,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1151048638,1151048638,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1151375620,1151375620,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Private property,1157668387,private,,,,,path,,,,,,True,False,True,PRIVATE
+Private property,1157668388,private,,,,,path,dirt,,,,,True,False,True,PRIVATE
+Trail 1157668389,1157668389,private,,private,,,path,dirt,,,,,True,False,True,PRIVATE
+Trail 1158262590,1158262590,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1158814089,1158814089,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1158997013,1158997013,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1160767663,1160767663,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1160767686,1160767686,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1161225741,1161225741,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1180512418,1180512418,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1180512421,1180512421,private,,,,,track,ground,grade5,,,,True,False,True,PRIVATE
+Trail 1180512424,1180512424,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1180534875,1180534875,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1181908543,1181908543,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 1181908544,1181908544,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 1181908545,1181908545,private,,,,,path,,,,,,True,False,True,PRIVATE
+Wagon Road Gap,1181917845,private,,,,,path,ground,,134,,,True,False,True,PRIVATE
+Trail 1182374608,1182374608,private,,,,,path,ground,,,,,True,False,True,PRIVATE
+Trail 1182374613,1182374613,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1182374617,1182374617,private,,,,,path,ground,,,,,True,False,True,PRIVATE
+Trail 1182374618,1182374618,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1182374619,1182374619,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1182374620,1182374620,private,,,,,path,ground,,,,,True,False,True,PRIVATE
+Trail 1182374621,1182374621,private,,,,,path,ground,,,,,True,False,True,PRIVATE
+Trail 1182374622,1182374622,private,,,,,path,ground,,,,,True,False,True,PRIVATE
+Big Tom Wilson Toll Road,1182665671,private,,,,,track,,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Big Tom Wilson Toll Road,1182665672,private,,,,,track,,grade4,,"Yancey, NC",,True,False,True,PRIVATE
+Trail 1201549056,1201549056,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1201549063,1201549063,private,,,,,track,,,,"Transylvania, NC",,True,False,True,PRIVATE
+Trail 1202221185,1202221185,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1202221186,1202221186,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1202221187,1202221187,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1202221188,1202221188,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1202221192,1202221192,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1234275114,1234275114,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1236902031,1236902031,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1236902032,1236902032,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1236902033,1236902033,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1236902034,1236902034,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1236902035,1236902035,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1237883612,1237883612,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1240048790,1240048790,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1240048791,1240048791,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1241711574,1241711574,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 1241711578,1241711578,private,,,,,track,ground,grade3,,,,True,False,True,PRIVATE
+Trail 1242337102,1242337102,private,,,,,track,gravel,grade2,,,,True,False,True,PRIVATE
+Trail 1242337106,1242337106,private,,,,,track,gravel,grade2,,,,True,False,True,PRIVATE
+Trail 1242337107,1242337107,private,,,,,track,gravel,grade2,,,,True,False,True,PRIVATE
+Trail 1264544041,1264544041,permissive,private,,,,track,gravel,grade2,,,,False,True,True,NO_MOTOR_VEHICLE
+Trail 1286627365,1286627365,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1286627381,1286627381,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1286980231,1286980231,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1287231138,1287231138,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1287231139,1287231139,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1287231140,1287231140,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Trail 1287231153,1287231153,private,,,,,track,ground,,,,,True,False,True,PRIVATE
+Green RIver Trail,1301673146,private,,yes,yes,yes,footway,,,,,,True,False,True,PRIVATE
+Trail 1302619994,1302619994,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 1310964489,1310964489,private,,,,,track,,grade3,,,,True,False,True,PRIVATE
+Trail 1317541537,1317541537,private,,,,,track,,,,,,True,False,True,PRIVATE
+Blossoming Tree Lane,1318326184,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 1319860354,1319860354,private,,,,,track,,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 1322307425,1322307425,private,,,,,path,,,,,,True,False,True,PRIVATE
+Private Trial,1326500481,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 1326500482,1326500482,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 1350302018,1350302018,private,,designated,,,path,cobblestone,,,,,True,False,True,PRIVATE
+Trail 1350302019,1350302019,private,,,,,path,asphalt,,,,,True,False,True,PRIVATE
+Trail 1350828299,1350828299,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828300,1350828300,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828301,1350828301,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828302,1350828302,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828303,1350828303,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828304,1350828304,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828305,1350828305,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828306,1350828306,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828307,1350828307,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828308,1350828308,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828309,1350828309,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828310,1350828310,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1350828311,1350828311,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1354060140,1354060140,private,,,,,path,,,,,,True,False,True,PRIVATE
+Trail 1356046410,1356046410,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1356046412,1356046412,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1356046415,1356046415,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1356046416,1356046416,private,,,,,track,,,,,,True,False,True,PRIVATE
+Trail 1385473790,1385473790,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 1385473791,1385473791,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 1385473792,1385473792,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 1385473793,1385473793,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Hog Rock Road,1392141822,private,,,,,track,unpaved,,,"Henderson, NC",,True,False,True,PRIVATE
+Hog Rock Road,1392141823,private,,,,,track,unpaved,,,"Henderson, NC",,True,False,True,PRIVATE
+Trail 1413418816,1413418816,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1413418817,1413418817,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1413418818,1413418818,private,,,,,track,unpaved,,,,,True,False,True,PRIVATE
+Trail 1434563173,1434563173,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
+Trail 1434826559,1434826559,private,,,,,footway,dirt,,,,,True,False,True,PRIVATE
