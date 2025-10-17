@@ -1,0 +1,217 @@
+{
+  "summary": {
+    "total_trails": 11954,
+    "total_miles": 3198.82,
+    "named_trails": 2619,
+    "unnamed_trails": 9335,
+    "forest_service_roads": 509,
+    "trails_with_surface_tag": 5416,
+    "trails_with_difficulty_tag": 1577
+  },
+  "by_county": {
+    "Buncombe": {
+      "trail_count": 129,
+      "total_miles": 62.01,
+      "avg_miles_per_trail": 0.48
+    },
+    "Cocke": {
+      "trail_count": 92,
+      "total_miles": 85.01,
+      "avg_miles_per_trail": 0.92
+    },
+    "Greene": {
+      "trail_count": 21,
+      "total_miles": 27.61,
+      "avg_miles_per_trail": 1.31
+    },
+    "Greenville": {
+      "trail_count": 5,
+      "total_miles": 1.71,
+      "avg_miles_per_trail": 0.34
+    },
+    "Haywood": {
+      "trail_count": 117,
+      "total_miles": 63.25,
+      "avg_miles_per_trail": 0.54
+    },
+    "Henderson": {
+      "trail_count": 86,
+      "total_miles": 35.65,
+      "avg_miles_per_trail": 0.41
+    },
+    "Jackson": {
+      "trail_count": 111,
+      "total_miles": 68.73,
+      "avg_miles_per_trail": 0.62
+    },
+    "Jefferson": {
+      "trail_count": 3,
+      "total_miles": 0.72,
+      "avg_miles_per_trail": 0.24
+    },
+    "Macon": {
+      "trail_count": 14,
+      "total_miles": 8.36,
+      "avg_miles_per_trail": 0.6
+    },
+    "Madison": {
+      "trail_count": 30,
+      "total_miles": 22.26,
+      "avg_miles_per_trail": 0.74
+    },
+    "McDowell": {
+      "trail_count": 23,
+      "total_miles": 19.94,
+      "avg_miles_per_trail": 0.87
+    },
+    "Rutherford": {
+      "trail_count": 1,
+      "total_miles": 1.37,
+      "avg_miles_per_trail": 1.37
+    },
+    "Sevier": {
+      "trail_count": 11,
+      "total_miles": 2.95,
+      "avg_miles_per_trail": 0.27
+    },
+    "Swain": {
+      "trail_count": 10,
+      "total_miles": 5.64,
+      "avg_miles_per_trail": 0.56
+    },
+    "Transylvania": {
+      "trail_count": 144,
+      "total_miles": 73.03,
+      "avg_miles_per_trail": 0.51
+    },
+    "Unicoi": {
+      "trail_count": 7,
+      "total_miles": 10.87,
+      "avg_miles_per_trail": 1.55
+    },
+    "Unknown": {
+      "trail_count": 11106,
+      "total_miles": 2678.74,
+      "avg_miles_per_trail": 0.24
+    },
+    "Washington": {
+      "trail_count": 1,
+      "total_miles": 0.32,
+      "avg_miles_per_trail": 0.32
+    },
+    "Yancey": {
+      "trail_count": 43,
+      "total_miles": 30.64,
+      "avg_miles_per_trail": 0.71
+    }
+  },
+  "by_highway_type": {
+    "footway": 6818,
+    "track": 2523,
+    "path": 2390,
+    "cycleway": 223
+  },
+  "by_surface": {
+    "concrete": 2138,
+    "ground": 1021,
+    "asphalt": 971,
+    "gravel": 327,
+    "unpaved": 204,
+    "dirt": 203,
+    "paved": 146,
+    "wood": 135,
+    "paving_stones": 100,
+    "brick": 100,
+    "grass": 20,
+    "fine_gravel": 14,
+    "bricks": 10,
+    "concrete:plates": 10,
+    "compacted": 5,
+    "earth": 3,
+    "pebblestone": 2,
+    "woodchips": 2,
+    "rock": 1,
+    "mulch": 1,
+    "metal": 1,
+    "stepping_stones": 1,
+    "cobblestone": 1
+  },
+  "by_difficulty": {
+    "grade4": 364,
+    "grade2": 350,
+    "grade3": 295,
+    "mountain_hiking": 221,
+    "grade1": 140,
+    "hiking": 97,
+    "grade5": 85,
+    "demanding_mountain_hiking": 24,
+    "alpine_hiking": 1
+  },
+  "top_10_longest_trails": [
+    {
+      "name": "Old Settlers Trail",
+      "county": "Unknown",
+      "distance_miles": 15.476,
+      "highway_type": "path"
+    },
+    {
+      "name": "Shut-In Trail",
+      "county": "Unknown",
+      "distance_miles": 13.329,
+      "highway_type": "footway"
+    },
+    {
+      "name": "Sugarland Mountain Trail",
+      "county": "Unknown",
+      "distance_miles": 11.732,
+      "highway_type": "path"
+    },
+    {
+      "name": "Mountains-to-Sea Trail",
+      "county": "Unknown",
+      "distance_miles": 9.436,
+      "highway_type": "path"
+    },
+    {
+      "name": "South Mills River Road",
+      "county": "Unknown",
+      "distance_miles": 8.731,
+      "highway_type": "path"
+    },
+    {
+      "name": "Cove Mountain Trail",
+      "county": "Unknown",
+      "distance_miles": 8.567,
+      "highway_type": "path"
+    },
+    {
+      "name": "Jarrett Creek Road",
+      "county": "Unknown",
+      "distance_miles": 8.297,
+      "highway_type": "track"
+    },
+    {
+      "name": "Trail 757743646",
+      "county": "Unknown",
+      "distance_miles": 8.293,
+      "highway_type": "track"
+    },
+    {
+      "name": "Wayehutta Loop",
+      "county": "Unknown",
+      "distance_miles": 8.162,
+      "highway_type": "track"
+    },
+    {
+      "name": "Blaze Creek Road",
+      "county": "Unknown",
+      "distance_miles": 7.844,
+      "highway_type": "track"
+    }
+  ],
+  "buncombe_county_summary": {
+    "trail_count": 129,
+    "total_miles": 62.01,
+    "percentage_of_total": 1.08
+  }
+}

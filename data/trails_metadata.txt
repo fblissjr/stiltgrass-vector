@@ -1,0 +1,21 @@
+Trail Data Metadata
+===================
+
+Source: trails.kml (provided by treasure hunt creator)
+
+Key Facts:
+- Center: 35.635°N, 82.875°W
+- Radius: 37.5 miles
+- All trails verified as PUBLIC by creator
+- All trails are within 50 yards of actual trails
+- Data source: OpenStreetMap via Overpass API
+
+This is PRE-FILTERED data that already satisfies:
+✅ Public land constraint
+✅ Within 50 yards of trail constraint
+
+This eliminates 2 major filtering steps and gives us the exact search space!
+
+File size: 12.6MB
+Total lines: 95,645
+Format: KML with LineString coordinates

@@ -1,0 +1,77 @@
+{
+  "samples": [
+    {
+      "location": "Center",
+      "latitude": 35.705,
+      "longitude": -82.83,
+      "elevation_meters": 1111.0,
+      "elevation_feet": 3645.0132399999998
+    },
+    {
+      "location": "Southwest corner",
+      "latitude": 35.0745652173913,
+      "longitude": -83.4604347826087,
+      "elevation_meters": 991.0,
+      "elevation_feet": 3251.31244
+    },
+    {
+      "location": "Southeast corner",
+      "latitude": 35.0745652173913,
+      "longitude": -82.1995652173913,
+      "elevation_meters": 307.0,
+      "elevation_feet": 1007.21788
+    },
+    {
+      "location": "Northwest corner",
+      "latitude": 36.335434782608694,
+      "longitude": -83.4604347826087,
+      "elevation_meters": 490.0,
+      "elevation_feet": 1607.6116
+    },
+    {
+      "location": "Northeast corner",
+      "latitude": 36.335434782608694,
+      "longitude": -82.1995652173913,
+      "elevation_meters": 489.0,
+      "elevation_feet": 1604.33076
+    },
+    {
+      "location": "West edge",
+      "latitude": 35.705,
+      "longitude": -83.4604347826087,
+      "elevation_meters": 744.0,
+      "elevation_feet": 2440.94496
+    },
+    {
+      "location": "East edge",
+      "latitude": 35.705,
+      "longitude": -82.1995652173913,
+      "elevation_meters": 817.0,
+      "elevation_feet": 2680.44628
+    },
+    {
+      "location": "South edge",
+      "latitude": 35.0745652173913,
+      "longitude": -82.83,
+      "elevation_meters": 867.0,
+      "elevation_feet": 2844.48828
+    },
+    {
+      "location": "North edge",
+      "latitude": 36.335434782608694,
+      "longitude": -82.83,
+      "elevation_meters": 367.0,
+      "elevation_feet": 1204.06828
+    }
+  ],
+  "statistics": {
+    "min_meters": 307.0,
+    "max_meters": 1111.0,
+    "range_meters": 804.0,
+    "mean_meters": 687.0,
+    "min_feet": 1007.21788,
+    "max_feet": 3645.0132399999998,
+    "range_feet": 2637.79536,
+    "mean_feet": 2253.93708
+  }
+}
