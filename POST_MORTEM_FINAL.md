@@ -338,28 +338,28 @@ Red Trail's high variance across methods would have triggered investigation.
 
 ### The Team That Would Have Won
 
-**Data Engineer** (what we had):
+**Data Engineer**:
 - Parsed 11,954 trails efficiently
 - Built robust pipelines
 - Created beautiful dashboards
 
-**Domain Expert** (what we lacked):
+**Domain Expert**:
 - "Municipal trails near towns have great cell coverage"
 - "October weather in Blue Ridge creates predictable shadows"
 - "Madison County borders Buncombe to the north"
 
-**Data Scientist** (what we partially had):
+**Data Scientist**:
 - Built scoring models
 - But didn't audit data quality first
 - Should have said: "85% missing data means don't use this field"
 
-**Business Analyst** (desperately needed):
+**Business Analyst**:
 - "Why are all our results in one county?"
 - "Shouldn't we weight proximity highest?"
 - "Let's validate assumptions with field tests"
 
-**AI Prompt Engineer** (emerging role):
-- Could have used GPT-4 to research each sparse trail
+**AI Engineer**:
+- Could have use more geospatial data to research each sparse trail
 - Multimodal analysis of aerial vs satellite imagery
 - Adversarial testing of our assumptions
 
