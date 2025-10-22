@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Analysis - Performance Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .header .outcome {
+            display: inline-block;
+            background: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .stat-card .label {
+            color: #666;
+            font-size: 1em;
+        }
+
+        .stat-card.success .value { color: #4caf50; }
+        .stat-card.warning .value { color: #ff9800; }
+        .stat-card.error .value { color: #f44336; }
+        .stat-card.info .value { color: #2196f3; }
+
+        .section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .comparison-column {
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .comparison-column.success {
+            background: linear-gradient(135deg, #c8e6c9 0%, #81c784 100%);
+        }
+
+        .comparison-column.failure {
+            background: linear-gradient(135deg, #ffcdd2 0%, #e57373 100%);
+        }
+
+        .comparison-column h3 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .comparison-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+
+        .success .comparison-item { border-left-color: #4caf50; }
+        .failure .comparison-item { border-left-color: #f44336; }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .lessons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .lesson-card {
+            background: linear-gradient(135deg, #fff9c4 0%, #fff59d 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #fbc02d;
+        }
+
+        .lesson-card h4 {
+            color: #f57f17;
+            margin-bottom: 10px;
+        }
+
+        .fatal-error {
+            background: #f44336;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 1.1em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .metric-bar {
+            background: #e0e0e0;
+            height: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .metric-bar-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            transition: width 1s ease-out;
+        }
+
+        .metric-bar-fill.success { background: linear-gradient(90deg, #4caf50 0%, #81c784 100%); }
+        .metric-bar-fill.warning { background: linear-gradient(90deg, #ff9800 0%, #ffb74d 100%); }
+        .metric-bar-fill.error { background: linear-gradient(90deg, #f44336 0%, #e57373 100%); }
+
+        @media (max-width: 768px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Treasure Hunt Analysis Dashboard</h1>
+            <div class="subtitle">AI-Assisted Location Analysis Post-Mortem</div>
+            <div class="outcome">OUTCOME: Failed to Identify Correct Location</div>
+        </div>
+
+        <!-- Key Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card success">
+                <div class="label">Search Space Reduction</div>
+                <div class="value">99.96%</div>
+                <div class="label">5,940 sq mi → 18 trails</div>
+            </div>
+            <div class="stat-card error">
+                <div class="label">Distance from Center</div>
+                <div class="value">17.9 mi</div>
+                <div class="label">Actual (vs 19.1 mi for our #1)</div>
+            </div>
+            <div class="stat-card warning">
+                <div class="label">Red Trail Score</div>
+                <div class="value">25/130</div>
+                <div class="label">Ranked ~500-1000</div>
+            </div>
+            <div class="stat-card info">
+                <div class="label">Trails Analyzed</div>
+                <div class="value">11,954</div>
+                <div class="label">All included correct answer</div>
+            </div>
+        </div>
+
+        <!-- Fatal Error -->
+        <div class="section">
+            <h2>The Fatal Error</h2>
+            <div class="fatal-error">
+                WE OPTIMIZED FOR DATA COMPLETENESS RATHER THAN GEOGRAPHIC LIKELIHOOD
+            </div>
+            <p style="margin-top: 20px; font-size: 1.1em; line-height: 1.6;">
+                Our scoring system awarded maximum points to trails with rich metadata (Forest Service trails with tagged surface, difficulty, county, reference numbers).
+                The actual treasure location—a municipal town-owned trail preserve—had minimal OSM tagging and scored only ~15/130 points,
+                placing it far below our top 20 cutoff. <strong>The correct trail was geographically closer to the search center than our top pick.</strong>
+            </p>
+        </div>
+
+        <!-- What We Got Right vs Wrong -->
+        <div class="section">
+            <h2>What We Got Right vs What We Got Wrong</h2>
+            <div class="comparison-grid">
+                <div class="comparison-column success">
+                    <h3>✅ What We Got Right</h3>
+                    <div class="comparison-item">
+                        <strong>Comprehensive Data Acquisition</strong><br>
+                        Had all 11,954 trails including the correct answer in our dataset
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Cellular Coverage Constraint</strong><br>
+                        Correctly identified StealthCam requires AT&T/Verizon 4G LTE
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Temperature/Elevation Analysis</strong><br>
+                        55°F → 3,000-4,500 ft elevation range was accurate
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Public Land Verification</strong><br>
+                        Correctly removed 470 private trails
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Multi-Modal Integration</strong><br>
+                        Combined GPS, EXIF, photos, and contest rules
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Systematic Approach</strong><br>
+                        Documented, reproducible, auditable methodology
+                    </div>
+                </div>
+
+                <div class="comparison-column failure">
+                    <h3>❌ What We Got Wrong</h3>
+                    <div class="comparison-item">
+                        <strong>No Data Quality Audit</strong><br>
+                        Didn't check metadata completeness (85% missing surface tags!)
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Metadata Completeness Bias</strong><br>
+                        Scored unknown/missing as 0 points instead of neutral
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Federal Trail Bias</strong><br>
+                        Gave +10 bonus to Forest Service, penalized municipal trails
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Geographic Proximity Underweighted</strong><br>
+                        Should have been #1 factor (30-40 pts), not metadata (40 pts)
+                    </div>
+                    <div class="comparison-item">
+                        <strong>Ignored Primary Data Source</strong><br>
+                        Should have archived webcam stream (winner used cloud shadows)
+                    </div>
+                    <div class="comparison-item">
+                        <strong>No Ensemble Methods</strong><br>
+                        Single ranking approach with no cross-validation
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Completeness Analysis -->
+        <div class="section">
+            <h2>Data Completeness Crisis</h2>
+            <p style="margin-bottom: 20px; font-size: 1.1em;">
+                We built our scoring system on fields that were 85%+ missing. This created systematic bias toward well-documented trails.
+            </p>
+            <div>
+                <div style="margin: 15px 0;">
+                    <strong>Surface Tag Coverage</strong>
+                    <div class="metric-bar">
+                        <div class="metric-bar-fill error" style="width: 14.7%">14.7%</div>
+                    </div>
+                </div>
+                <div style="margin: 15px 0;">
+                    <strong>Difficulty Tag Coverage</strong>
+                    <div class="metric-bar">
+                        <div class="metric-bar-fill error" style="width: 7.5%">7.5%</div>
+                    </div>
+                </div>
+                <div style="margin: 15px 0;">
+                    <strong>County Tag Coverage</strong>
+                    <div class="metric-bar">
+                        <div class="metric-bar-fill error" style="width: 7%">7%</div>
+                    </div>
+                </div>
+                <div style="margin: 15px 0;">
+                    <strong>Trail Name Coverage</strong>
+                    <div class="metric-bar">
+                        <div class="metric-bar-fill success" style="width: 98.2%">98.2%</div>
+                    </div>
+                </div>
+                <div style="margin: 15px 0;">
+                    <strong>Highway Type Coverage</strong>
+                    <div class="metric-bar">
+                        <div class="metric-bar-fill success" style="width: 99.8%">99.8%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fatal-error" style="margin-top: 20px;">
+                We should have used fields with >80% coverage for scoring, not <15% coverage fields!
+            </div>
+        </div>
+
+        <!-- Scoring System Comparison -->
+        <div class="section">
+            <h2>Scoring System: What We Did vs What We Should Have Done</h2>
+            <div class="chart-container">
+                <canvas id="scoringChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Geographic Analysis -->
+        <div class="section">
+            <h2>Geographic Analysis: How Close Were We?</h2>
+            <div class="chart-container">
+                <canvas id="geographicChart"></canvas>
+            </div>
+            <div style="margin-top: 20px; background: #fff3e0; padding: 20px; border-radius: 10px;">
+                <h4 style="color: #e65100; margin-bottom: 10px;">Key Insight:</h4>
+                <p style="font-size: 1.1em;">
+                    The actual location (Red Trail, 17.9 mi from center) was <strong>geographically closer</strong> than our #1 pick
+                    (Bent Creek, 19.1 mi from center). We chose wrong because we prioritized metadata completeness over geographic proximity.
+                </p>
+            </div>
+        </div>
+
+        <!-- Phase-by-Phase Performance -->
+        <div class="section">
+            <h2>Phase-by-Phase Performance Analysis</h2>
+            <div class="chart-container">
+                <canvas id="phaseChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Key Lessons Learned -->
+        <div class="section">
+            <h2>Key Lessons Learned</h2>
+            <div class="lessons-grid">
+                <div class="lesson-card">
+                    <h4>1. Always Audit Data Quality First</h4>
+                    <p>Run completeness analysis BEFORE designing filters. Don't optimize for fields that are 85%+ missing.</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>2. Treat Missing Data as Neutral</h4>
+                    <p>Unknown ≠ bad. Score missing data neutrally, not as 0 points. Only penalize known-bad values.</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>3. Geographic Proximity First</h4>
+                    <p>In spatially-constrained searches, distance from target should be the PRIMARY ranking factor (30-40 points).</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>4. Avoid Documentation Bias</h4>
+                    <p>Well-documented ≠ better quality. Municipal trails are just as valid as Forest Service trails.</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>5. Use Ensemble Methods</h4>
+                    <p>Rank by 3-5 independent methods. Investigate trails with high variance across methods.</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>6. Identify Primary Data Source</h4>
+                    <p>Webcam stream was primary (temporal), not trail database (static). We optimized on the wrong source.</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>7. Derive Missing Data</h4>
+                    <p>Use spatial joins to derive county from coordinates when 93% of tags are missing.</p>
+                </div>
+                <div class="lesson-card">
+                    <h4>8. Validate Each Filter Step</h4>
+                    <p>If a filter eliminates 98.7% of trails, STOP and investigate. That's too aggressive.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- What Should Have Been Done Differently -->
+        <div class="section">
+            <h2>What We Should Have Done Differently</h2>
+            <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+                <h3 style="color: #2e7d32; margin-bottom: 10px;">Phase 0: Data Quality Audit (2 hours - WE SKIPPED THIS!)</h3>
+                <p>Profile all fields for completeness. Identify fields with >80% coverage (safe to use) vs <50% coverage (don't use).</p>
+            </div>
+            <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+                <h3 style="color: #2e7d32; margin-bottom: 10px;">Phase 1: Geographic Prioritization (1 hour)</h3>
+                <p>Calculate distance from Day 8 center for ALL trails. Create priority tiers: VERY_HIGH (0-15mi), HIGH (15-25mi), MEDIUM (25-35mi). Red Trail would be VERY_HIGH tier.</p>
+            </div>
+            <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+                <h3 style="color: #2e7d32; margin-bottom: 10px;">Phase 2: Defensive Scoring (2 hours)</h3>
+                <p>Design scoring that's robust to missing data. Geographic proximity: 40pts, Access verified: 25pts, Trail type: 20pts, Surface (if known): 15pts. Unknown surface gets 8pts (neutral).</p>
+            </div>
+            <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+                <h3 style="color: #2e7d32; margin-bottom: 10px;">Phase 3: Ensemble Ranking (3 hours)</h3>
+                <p>Rank by: (1) Geographic proximity, (2) Metadata completeness, (3) Cellular likelihood, (4) Visual similarity. Flag high-variance trails for investigation.</p>
+            </div>
+            <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 15px;">
+                <h3 style="color: #2e7d32; margin-bottom: 10px;">Phase 4: Webcam Archive (8 hours - WE SKIPPED THIS!)</h3>
+                <p>Archive webcam updates every 10 minutes for 7+ days. Analyze cloud shadows, sun angles, temporal patterns. This is what the WINNER did!</p>
+            </div>
+        </div>
+
+        <!-- Time Investment Analysis -->
+        <div class="section">
+            <h2>Time Investment: What We Did vs What We Should Have Done</h2>
+            <div class="chart-container">
+                <canvas id="timeChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Final Verdict -->
+        <div class="section">
+            <h2>Final Verdict</h2>
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px;">
+                <h3 style="margin-bottom: 20px; font-size: 1.8em;">We Had the Answer from the Start</h3>
+                <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 20px;">
+                    Red Trail (the correct answer) was in our dataset from Day 1. We eliminated it in Stage 3 when we scored trails
+                    by metadata completeness. This single decision was irreversible and catastrophic.
+                </p>
+                <div style="background: rgba(255,255,255,0.2); padding: 20px; border-radius: 10px; margin: 20px 0;">
+                    <h4 style="margin-bottom: 10px;">The Core Lesson:</h4>
+                    <p style="font-size: 1.1em; font-style: italic;">
+                        "When designing filters and scoring systems for incomplete data, bias toward inclusion with uncertainty
+                        rather than exclusion with confidence."
+                    </p>
+                </div>
+                <p style="font-size: 1.1em;">
+                    We demonstrated that AI can reduce an impossible search space (99.96% reduction). We also demonstrated that
+                    AI can make systematic errors when optimizing for the wrong variables.
+                    <strong>Data quality > data quantity. Geography > metadata. Ensemble > single model. Humility > confidence.</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Scoring System Comparison Chart
+        const scoringCtx = document.getElementById('scoringChart').getContext('2d');
+        new Chart(scoringCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Geographic Proximity', 'Surface Type', 'Difficulty', 'Access Verified', 'Trail Type', 'Forest Service Bonus', 'County Bonus'],
+                datasets: [{
+                    label: 'What We Did (Wrong)',
+                    data: [0, 40, 25, 0, 20, 10, 20],
+                    backgroundColor: 'rgba(244, 67, 54, 0.7)',
+                }, {
+                    label: 'What We Should Have Done (Right)',
+                    data: [40, 15, 0, 25, 20, 0, 0],
+                    backgroundColor: 'rgba(76, 175, 80, 0.7)',
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Scoring System Comparison (Points Allocated)',
+                        font: { size: 16 }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Points'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Geographic Distance Chart
+        const geographicCtx = document.getElementById('geographicChart').getContext('2d');
+        new Chart(geographicCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Red Trail\n(ACTUAL)', 'Bent Creek\n(Our #1)', 'Old Trestle Rd\n(Our #2)', 'Day 8 Radius\n(Max)'],
+                datasets: [{
+                    label: 'Distance from Center (miles)',
+                    data: [17.9, 19.1, 28.4, 43.5],
+                    backgroundColor: [
+                        'rgba(244, 67, 54, 0.7)',  // Red for actual
+                        'rgba(33, 150, 243, 0.7)',  // Blue for our picks
+                        'rgba(33, 150, 243, 0.7)',
+                        'rgba(158, 158, 158, 0.7)'  // Gray for radius
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Distance from Day 8 Center (35.705°N, 82.83°W)',
+                        font: { size: 16 }
+                    },
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Miles from Center'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Phase Performance Chart
+        const phaseCtx = document.getElementById('phaseChart').getContext('2d');
+        new Chart(phaseCtx, {
+            type: 'line',
+            data: {
+                labels: ['Stage 1:\nParse KML', 'Stage 2:\nRemove Private', 'Stage 3:\nScore by Metadata', 'Stage 4:\nVerify Top 235', 'Stage 5:\nField Search'],
+                datasets: [{
+                    label: 'Red Trail Status',
+                    data: [100, 100, 0, 0, 0],
+                    borderColor: 'rgb(244, 67, 54)',
+                    backgroundColor: 'rgba(244, 67, 54, 0.2)',
+                    tension: 0.1,
+                    fill: true
+                }, {
+                    label: 'Total Trails Remaining',
+                    data: [11954, 11484, 235, 18, 18],
+                    borderColor: 'rgb(33, 150, 243)',
+                    backgroundColor: 'rgba(33, 150, 243, 0.2)',
+                    tension: 0.1,
+                    fill: true,
+                    yAxisID: 'y1'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Red Trail Eliminated in Stage 3 (The Fatal Decision)',
+                        font: { size: 16 }
+                    }
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
+                        title: {
+                            display: true,
+                            text: 'Red Trail Status (0=Eliminated, 100=Included)'
+                        },
+                        min: 0,
+                        max: 100
+                    },
+                    y1: {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        title: {
+                            display: true,
+                            text: 'Total Trails'
+                        },
+                        grid: {
+                            drawOnChartArea: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Time Investment Chart
+        const timeCtx = document.getElementById('timeChart').getContext('2d');
+        new Chart(timeCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Data Quality\nAudit', 'Webcam\nArchive', 'Trail Database\nAnalysis', 'Visual\nAnalysis', 'Multi-Method\nRanking', 'Validation', 'Field\nSearch'],
+                datasets: [{
+                    label: 'What We Did (hours)',
+                    data: [0, 0, 12, 4, 2, 2, 0],
+                    backgroundColor: 'rgba(244, 67, 54, 0.7)',
+                }, {
+                    label: 'What We Should Have Done (hours)',
+                    data: [4, 8, 6, 8, 6, 4, 10],
+                    backgroundColor: 'rgba(76, 175, 80, 0.7)',
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Time Investment Comparison',
+                        font: { size: 16 }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Hours'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Animate metric bars on page load
+        window.addEventListener('load', () => {
+            const bars = document.querySelectorAll('.metric-bar-fill');
+            bars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
