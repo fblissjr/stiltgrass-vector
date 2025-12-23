@@ -50,7 +50,7 @@ Notes from when the repository was reorganized during the analysis phase.
 | Day 21 diameter | 1 foot |
 | Placement | Within 50 yards of public hiking trail |
 | Monitoring | Live webcam, 10-minute updates |
-| Winner | Corey (@Fuzzy) on Day 11 |
+| Winner | Day 11 |
 
 ---
 

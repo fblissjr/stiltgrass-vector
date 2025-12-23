@@ -49,7 +49,7 @@ Based on comprehensive analysis, **Old Trestle Road** (Ranks 2, 3, 5) is the str
 
 ### Step 4: If Found
 - Take screenshot
-- Save to: `/Users/fredbliss/workspace/treasure/data/satellite_imagery/`
+- Save to: `data/satellite_imagery/`
 - Note GPS coordinates of promising segments
 - Measure trail width using ruler tool
 
@@ -95,11 +95,11 @@ Trail not visible, or characteristics clearly don't match (wrong color, too wide
 ## Supporting Materials
 
 ### Quick Reference (5-minute guide)
-**File:** `/Users/fredbliss/workspace/treasure/data/satellite_imagery/QUICK_START_GUIDE.md`
+**File:** `data/satellite_imagery/QUICK_START_GUIDE.md`
 **Contents:** Rapid inspection protocol with visual checklist
 
 ### Comprehensive Analysis (943 lines)
-**File:** `/Users/fredbliss/workspace/treasure/reports/google_earth_reconnaissance.md`
+**File:** `reports/google_earth_reconnaissance.md`
 **Contents:**
 - Detailed trail-by-trail assessments
 - Visual matching methodology
@@ -107,11 +107,11 @@ Trail not visible, or characteristics clearly don't match (wrong color, too wide
 - Technical analysis and detection strategies
 
 ### Coordinates Reference
-**File:** `/Users/fredbliss/workspace/treasure/data/satellite_imagery/coordinates.txt`
+**File:** `data/satellite_imagery/coordinates.txt`
 **Contents:** Copy-paste ready GPS coordinates
 
 ### Aerial Photo Reference
-**Files:** `/Users/fredbliss/workspace/treasure/photos/04_aerial.jpg` through `08_aerial.jpg`
+**Files:** `photos/04_aerial.jpg` through `08_aerial.jpg`
 **Purpose:** Compare satellite imagery with ground truth
 
 ---
@@ -213,9 +213,9 @@ If we can identify 3-5 trail segments that match the aerial photo signature:
 ## Resources & Support
 
 ### Documentation
-- Full report: `/Users/fredbliss/workspace/treasure/reports/google_earth_reconnaissance.md`
-- Trail verification: `/Users/fredbliss/workspace/treasure/reports/trail_verification.md`
-- Photo analysis: `/Users/fredbliss/workspace/treasure/data/photo_features/SATELLITE_QUICK_REFERENCE.md`
+- Full report: `reports/google_earth_reconnaissance.md`
+- Trail verification: `reports/trail_verification.md`
+- Photo analysis: `data/photo_features/SATELLITE_QUICK_REFERENCE.md`
 
 ### Trail Information
 - **Pisgah Ranger District:** (828) 877-3265

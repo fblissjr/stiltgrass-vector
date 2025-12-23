@@ -636,9 +636,7 @@ Bonus: Buncombe County (20 points):
 - Located in Buncombe County: +20 (cellular coverage)
 ```
 
-### Appendix B: File Locations
-
-All analysis files are located in: `/Users/fredbliss/workspace/treasure/`
+e/`
 
 **Reports:**
 - `FINAL_REPORT.md` (this document)

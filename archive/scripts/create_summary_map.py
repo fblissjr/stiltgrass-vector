@@ -3,11 +3,11 @@
 Create a text-based summary map of top candidate locations
 """
 
-import json
 import csv
+import json
 
 # Load top candidates
-with open('/Users/fredbliss/workspace/treasure/data/top_50_candidates.csv', 'r') as f:
+with open("data/top_50_candidates.csv", "r") as f:
     reader = csv.DictReader(f)
     candidates = list(reader)
 
@@ -118,11 +118,11 @@ print()
 
 print("FILES CREATED:")
 print("-" * 80)
-print(f"  📄 /Users/fredbliss/workspace/treasure/data/filtered_trails.geojson (235 trails)")
-print(f"  📄 /Users/fredbliss/workspace/treasure/data/top_50_candidates.csv (50 trails)")
-print(f"  📄 /Users/fredbliss/workspace/treasure/data/top_50_candidates.geojson (50 trails)")
-print(f"  📄 /Users/fredbliss/workspace/treasure/data/filter_statistics.json")
-print(f"  📄 /Users/fredbliss/workspace/treasure/reports/agent_c1_findings.md")
+print(f"  📄 data/filtered_trails.geojson (235 trails)")
+print(f"  📄 data/top_50_candidates.csv (50 trails)")
+print(f"  📄 data/top_50_candidates.geojson (50 trails)")
+print(f"  📄 data/filter_statistics.json")
+print(f"  📄 reports/agent_c1_findings.md")
 print()
 
 print("=" * 80)

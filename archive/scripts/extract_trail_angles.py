@@ -4,14 +4,16 @@ Extract dominant trail angles and orientations from photos 4-6
 This helps identify trail direction for satellite matching
 """
 
+import json
+from collections import Counter
+from pathlib import Path
+
 import cv2
 import numpy as np
-import json
-from pathlib import Path
-from collections import Counter
 
-PHOTO_DIR = Path("/Users/fredbliss/workspace/treasure/photos")
-OUTPUT_DIR = Path("/Users/fredbliss/workspace/treasure/data/photo_features")
+PHOTO_DIR = Path("photos")
+OUTPUT_DIR = Path("data/photo_features")
+
 
 def analyze_trail_orientation(photo_num):
     """Analyze dominant linear feature orientations"""
@@ -26,8 +28,9 @@ def analyze_trail_orientation(photo_num):
     edges = cv2.Canny(gray, 30, 100)
 
     # Hough transform for line detection
-    lines = cv2.HoughLinesP(edges, 1, np.pi/180, threshold=50,
-                           minLineLength=50, maxLineGap=15)
+    lines = cv2.HoughLinesP(
+        edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=15
+    )
 
     if lines is None:
         return None
@@ -35,18 +38,19 @@ def analyze_trail_orientation(photo_num):
     angles = []
     for line in lines:
         x1, y1, x2, y2 = line[0]
-        angle = np.degrees(np.arctan2(y2-y1, x2-x1))
+        angle = np.degrees(np.arctan2(y2 - y1, x2 - x1))
 
         # Normalize to 0-180 (direction, not orientation)
         if angle < 0:
             angle += 180
 
-        length = np.sqrt((x2-x1)**2 + (y2-y1)**2)
+        length = np.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
         # Weight by line length
         angles.extend([angle] * int(length / 10))
 
     return angles
+
 
 # Analyze all three mid-altitude photos
 results = {}
@@ -62,7 +66,9 @@ for photo_num in [4, 5, 6]:
 
         # Find dominant directions
         dominant_bins = np.argsort(hist)[-3:][::-1]  # Top 3
-        dominant_angles = [(bins[i], bins[i+1], hist[i]) for i in dominant_bins if hist[i] > 0]
+        dominant_angles = [
+            (bins[i], bins[i + 1], hist[i]) for i in dominant_bins if hist[i] > 0
+        ]
 
         # Calculate mean and std
         mean_angle = np.mean(angles)
@@ -74,18 +80,15 @@ for photo_num in [4, 5, 6]:
         compass_mean = (90 - mean_angle) % 360
 
         results[photo_num] = {
-            'mean_angle_degrees': round(float(mean_angle), 1),
-            'median_angle_degrees': round(float(median_angle), 1),
-            'std_angle_degrees': round(float(std_angle), 1),
-            'compass_bearing_approx': round(float(compass_mean), 1),
-            'total_lines_detected': len(angles),
-            'dominant_angle_bins': [
-                {
-                    'range': f"{int(start)}-{int(end)} degrees",
-                    'count': int(count)
-                }
+            "mean_angle_degrees": round(float(mean_angle), 1),
+            "median_angle_degrees": round(float(median_angle), 1),
+            "std_angle_degrees": round(float(std_angle), 1),
+            "compass_bearing_approx": round(float(compass_mean), 1),
+            "total_lines_detected": len(angles),
+            "dominant_angle_bins": [
+                {"range": f"{int(start)}-{int(end)} degrees", "count": int(count)}
                 for start, end, count in dominant_angles
-            ]
+            ],
         }
 
         print(f"  Mean angle: {mean_angle:.1f}°")
@@ -93,15 +96,15 @@ for photo_num in [4, 5, 6]:
         print(f"  Total weighted lines: {len(angles)}")
 
 # Save results
-with open(OUTPUT_DIR / 'trail_orientations.json', 'w') as f:
+with open(OUTPUT_DIR / "trail_orientations.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print(f"\nSaved trail orientation analysis to trail_orientations.json")
 
 # Create summary
-print("\n" + "="*60)
+print("\n" + "=" * 60)
 print("TRAIL ORIENTATION SUMMARY")
-print("="*60)
+print("=" * 60)
 
 for photo_num, data in results.items():
     print(f"\nPhoto {photo_num}:")
@@ -110,7 +113,9 @@ for photo_num, data in results.items():
     print(f"  Dominant directions: {data['dominant_angle_bins'][0]['range']}")
 
 # Overall trail direction
-all_means = [d['mean_angle_degrees'] for d in results.values()]
+all_means = [d["mean_angle_degrees"] for d in results.values()]
 overall_mean = np.mean(all_means)
 print(f"\nOverall average trail angle: {overall_mean:.1f}°")
-print(f"This suggests the trail runs approximately {'NE-SW' if 30 < overall_mean < 60 else 'NW-SE' if 120 < overall_mean < 150 else 'E-W' if 85 < overall_mean < 95 else 'variable'}")
+print(
+    f"This suggests the trail runs approximately {'NE-SW' if 30 < overall_mean < 60 else 'NW-SE' if 120 < overall_mean < 150 else 'E-W' if 85 < overall_mean < 95 else 'variable'}"
+)

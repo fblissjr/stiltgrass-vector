@@ -167,7 +167,7 @@ For each promising location:
 ```
 
 **Save as:** `trailname_lat_lon.png`
-**Location:** `/Users/fredbliss/workspace/treasure/data/satellite_imagery/`
+**Location:** `data/satellite_imagery/`
 
 ---
 

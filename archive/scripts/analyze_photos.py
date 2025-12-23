@@ -4,35 +4,38 @@ Agent C2: Computer Vision Pattern Matcher
 Comprehensive analysis of 8 aerial photos for treasure location identification
 """
 
-import cv2
-import numpy as np
 import json
-from pathlib import Path
-import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-from scipy import stats
 import warnings
-warnings.filterwarnings('ignore')
+from pathlib import Path
+
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
+from sklearn.cluster import KMeans
+
+warnings.filterwarnings("ignore")
 
 # Configuration
-PHOTO_DIR = Path("/Users/fredbliss/workspace/treasure/photos")
-OUTPUT_DIR = Path("/Users/fredbliss/workspace/treasure/data/photo_features")
-REPORT_DIR = Path("/Users/fredbliss/workspace/treasure/reports")
+PHOTO_DIR = Path("photos")
+OUTPUT_DIR = Path("data/photo_features")
+REPORT_DIR = Path("reports")
 
 # Ensure directories exist
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
+
 class PhotoAnalyzer:
     def __init__(self):
         self.photos = {}
         self.results = {
-            'scales': {},
-            'color_profiles': {},
-            'vegetation_data': {},
-            'trail_features': {},
-            'canopy_analysis': {},
-            'visual_signatures': {}
+            "scales": {},
+            "color_profiles": {},
+            "vegetation_data": {},
+            "trail_features": {},
+            "canopy_analysis": {},
+            "visual_signatures": {},
         }
 
     def load_photos(self):
@@ -45,11 +48,11 @@ class PhotoAnalyzer:
                 img = cv2.imread(str(path))
                 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
                 self.photos[i] = {
-                    'bgr': img,
-                    'rgb': img_rgb,
-                    'path': str(path),
-                    'size': img.shape,
-                    'file_size': path.stat().st_size
+                    "bgr": img,
+                    "rgb": img_rgb,
+                    "path": str(path),
+                    "size": img.shape,
+                    "file_size": path.stat().st_size,
                 }
                 print(f"  Loaded {filename}: {img.shape[1]}x{img.shape[0]} pixels")
             else:
@@ -63,7 +66,7 @@ class PhotoAnalyzer:
         # We can use this to estimate the field of view
 
         for photo_num, data in self.photos.items():
-            img = data['rgb']
+            img = data["rgb"]
             height, width = img.shape[:2]
 
             # Estimate scale based on visual analysis
@@ -87,27 +90,29 @@ class PhotoAnalyzer:
             # Calculate pixels per foot
             pixels_per_foot = width / est_fov_ft
 
-            self.results['scales'][photo_num] = {
-                'estimated_altitude_feet': round(est_altitude_ft, 1),
-                'estimated_fov_feet': round(est_fov_ft, 1),
-                'pixels_per_foot': round(pixels_per_foot, 2),
-                'resolution_inches_per_pixel': round(12 / pixels_per_foot, 3),
-                'category': category,
-                'dimensions': f"{width}x{height}"
+            self.results["scales"][photo_num] = {
+                "estimated_altitude_feet": round(est_altitude_ft, 1),
+                "estimated_fov_feet": round(est_fov_ft, 1),
+                "pixels_per_foot": round(pixels_per_foot, 2),
+                "resolution_inches_per_pixel": round(12 / pixels_per_foot, 3),
+                "category": category,
+                "dimensions": f"{width}x{height}",
             }
 
-            print(f"  Photo {photo_num}: ~{est_altitude_ft:.1f}ft alt, {est_fov_ft:.1f}ft FOV, {category}")
+            print(
+                f"  Photo {photo_num}: ~{est_altitude_ft:.1f}ft alt, {est_fov_ft:.1f}ft FOV, {category}"
+            )
 
     def analyze_colors(self):
         """Extract color histograms and dominant colors"""
         print("\nAnalyzing color profiles...")
 
         for photo_num, data in self.photos.items():
-            img = data['rgb']
+            img = data["rgb"]
 
             # Convert to different color spaces
-            hsv = cv2.cvtColor(data['bgr'], cv2.COLOR_BGR2HSV)
-            lab = cv2.cvtColor(data['bgr'], cv2.COLOR_BGR2LAB)
+            hsv = cv2.cvtColor(data["bgr"], cv2.COLOR_BGR2HSV)
+            lab = cv2.cvtColor(data["bgr"], cv2.COLOR_BGR2LAB)
 
             # Calculate histograms
             hist_r = cv2.calcHist([img], [0], None, [32], [0, 256])
@@ -127,7 +132,7 @@ class PhotoAnalyzer:
 
             # Calculate color percentages
             labels, counts = np.unique(kmeans.labels_, return_counts=True)
-            percentages = (counts / counts.sum() * 100)
+            percentages = counts / counts.sum() * 100
 
             # Analyze vegetation (green pixels)
             lower_green = np.array([25, 40, 40])  # HSV
@@ -144,20 +149,25 @@ class PhotoAnalyzer:
             # Mean color values
             mean_color = img.mean(axis=(0, 1))
 
-            self.results['color_profiles'][photo_num] = {
-                'dominant_colors': [
-                    {'rgb': colors[i].tolist(), 'percentage': round(float(percentages[i]), 2)}
+            self.results["color_profiles"][photo_num] = {
+                "dominant_colors": [
+                    {
+                        "rgb": colors[i].tolist(),
+                        "percentage": round(float(percentages[i]), 2),
+                    }
                     for i in range(len(colors))
                 ],
-                'mean_rgb': mean_color.tolist(),
-                'green_percentage': round(green_percentage, 2),
-                'brown_bare_percentage': round(brown_percentage, 2),
-                'histogram_r': hist_r.tolist(),
-                'histogram_g': hist_g.tolist(),
-                'histogram_b': hist_b.tolist()
+                "mean_rgb": mean_color.tolist(),
+                "green_percentage": round(green_percentage, 2),
+                "brown_bare_percentage": round(brown_percentage, 2),
+                "histogram_r": hist_r.tolist(),
+                "histogram_g": hist_g.tolist(),
+                "histogram_b": hist_b.tolist(),
             }
 
-            print(f"  Photo {photo_num}: {green_percentage:.1f}% green, {brown_percentage:.1f}% brown/bare")
+            print(
+                f"  Photo {photo_num}: {green_percentage:.1f}% green, {brown_percentage:.1f}% brown/bare"
+            )
 
     def analyze_ground_level(self):
         """Detailed analysis of photos 1-3"""
@@ -169,16 +179,19 @@ class PhotoAnalyzer:
             if photo_num not in self.photos:
                 continue
 
-            img = self.photos[photo_num]['rgb']
-            bgr = self.photos[photo_num]['bgr']
+            img = self.photos[photo_num]["rgb"]
+            bgr = self.photos[photo_num]["bgr"]
             gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
 
             # Texture analysis using Local Binary Patterns
             def calculate_lbp(image, radius=3):
                 """Calculate Local Binary Pattern histogram"""
                 from skimage.feature import local_binary_pattern
-                lbp = local_binary_pattern(image, 8 * radius, radius, method='uniform')
-                hist, _ = np.histogram(lbp.ravel(), bins=np.arange(0, 60), range=(0, 59))
+
+                lbp = local_binary_pattern(image, 8 * radius, radius, method="uniform")
+                hist, _ = np.histogram(
+                    lbp.ravel(), bins=np.arange(0, 60), range=(0, 59)
+                )
                 return hist / hist.sum()
 
             # Calculate texture for different regions
@@ -213,16 +226,18 @@ class PhotoAnalyzer:
                 container_detected = True
 
             vegetation_notes[photo_num] = {
-                'grass_coverage_pct': round(grass_pct, 2),
-                'leaf_litter_pct': round(litter_pct, 2),
-                'edge_density': round(float(edge_density), 4),
-                'texture_complexity': round(float(lbp_hist.std()), 4),
-                'treasure_container_visible': container_detected
+                "grass_coverage_pct": round(grass_pct, 2),
+                "leaf_litter_pct": round(litter_pct, 2),
+                "edge_density": round(float(edge_density), 4),
+                "texture_complexity": round(float(lbp_hist.std()), 4),
+                "treasure_container_visible": container_detected,
             }
 
-            print(f"  Photo {photo_num}: Grass={grass_pct:.1f}%, Litter={litter_pct:.1f}%")
+            print(
+                f"  Photo {photo_num}: Grass={grass_pct:.1f}%, Litter={litter_pct:.1f}%"
+            )
 
-        self.results['vegetation_data'] = vegetation_notes
+        self.results["vegetation_data"] = vegetation_notes
 
     def analyze_mid_altitude(self):
         """CRITICAL: Analyze photos 4-6 for trail edges and linear features"""
@@ -232,14 +247,16 @@ class PhotoAnalyzer:
 
         # Create figure for trail visualization
         fig, axes = plt.subplots(3, 4, figsize=(20, 15))
-        fig.suptitle('Trail Feature Detection (Photos 4-6)', fontsize=16, fontweight='bold')
+        fig.suptitle(
+            "Trail Feature Detection (Photos 4-6)", fontsize=16, fontweight="bold"
+        )
 
         for idx, photo_num in enumerate([4, 5, 6]):
             if photo_num not in self.photos:
                 continue
 
-            img = self.photos[photo_num]['rgb']
-            bgr = self.photos[photo_num]['bgr']
+            img = self.photos[photo_num]["rgb"]
+            bgr = self.photos[photo_num]["bgr"]
             gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
 
             # 1. Edge Detection (Canny)
@@ -252,8 +269,14 @@ class PhotoAnalyzer:
             sobel_magnitude = np.uint8(255 * sobel_magnitude / sobel_magnitude.max())
 
             # 3. Detect linear features using Hough Transform
-            lines = cv2.HoughLinesP(edges_canny, 1, np.pi/180, threshold=50,
-                                   minLineLength=50, maxLineGap=20)
+            lines = cv2.HoughLinesP(
+                edges_canny,
+                1,
+                np.pi / 180,
+                threshold=50,
+                minLineLength=50,
+                maxLineGap=20,
+            )
 
             # Draw detected lines
             line_img = img.copy()
@@ -264,12 +287,14 @@ class PhotoAnalyzer:
                     cv2.line(line_img, (x1, y1), (x2, y2), (255, 0, 0), 2)
 
                     # Calculate line angle and length
-                    angle = np.degrees(np.arctan2(y2-y1, x2-x1))
-                    length = np.sqrt((x2-x1)**2 + (y2-y1)**2)
-                    linear_features.append({
-                        'angle': round(float(angle), 2),
-                        'length_pixels': round(float(length), 2)
-                    })
+                    angle = np.degrees(np.arctan2(y2 - y1, x2 - x1))
+                    length = np.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+                    linear_features.append(
+                        {
+                            "angle": round(float(angle), 2),
+                            "length_pixels": round(float(length), 2),
+                        }
+                    )
 
             # 4. Texture analysis to find bare ground vs vegetation
             hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
@@ -286,7 +311,7 @@ class PhotoAnalyzer:
 
             # 5. Find potential trail paths (areas with less vegetation)
             # Erode vegetation mask to find gaps
-            kernel = np.ones((5,5), np.uint8)
+            kernel = np.ones((5, 5), np.uint8)
             veg_eroded = cv2.erode(veg_mask, kernel, iterations=2)
             veg_gaps = cv2.bitwise_not(veg_eroded)
 
@@ -298,8 +323,9 @@ class PhotoAnalyzer:
             trail_candidate = cv2.morphologyEx(trail_candidate, cv2.MORPH_OPEN, kernel)
 
             # Find contours of potential trails
-            contours, _ = cv2.findContours(trail_candidate, cv2.RETR_EXTERNAL,
-                                          cv2.CHAIN_APPROX_SIMPLE)
+            contours, _ = cv2.findContours(
+                trail_candidate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE
+            )
 
             trail_contours = []
             trail_overlay = img.copy()
@@ -309,34 +335,36 @@ class PhotoAnalyzer:
                     # Calculate elongation (trails are elongated)
                     perimeter = cv2.arcLength(cnt, True)
                     if perimeter > 0:
-                        circularity = 4 * np.pi * area / (perimeter ** 2)
+                        circularity = 4 * np.pi * area / (perimeter**2)
 
                         # Draw on overlay
                         cv2.drawContours(trail_overlay, [cnt], -1, (255, 255, 0), 2)
 
-                        trail_contours.append({
-                            'area_pixels': float(area),
-                            'perimeter_pixels': float(perimeter),
-                            'circularity': round(float(circularity), 3),
-                            'elongated': circularity < 0.3  # Trails are elongated
-                        })
+                        trail_contours.append(
+                            {
+                                "area_pixels": float(area),
+                                "perimeter_pixels": float(perimeter),
+                                "circularity": round(float(circularity), 3),
+                                "elongated": circularity < 0.3,  # Trails are elongated
+                            }
+                        )
 
             # Plot results
             axes[idx, 0].imshow(img)
-            axes[idx, 0].set_title(f'Photo {photo_num}: Original')
-            axes[idx, 0].axis('off')
+            axes[idx, 0].set_title(f"Photo {photo_num}: Original")
+            axes[idx, 0].axis("off")
 
-            axes[idx, 1].imshow(edges_canny, cmap='gray')
-            axes[idx, 1].set_title('Edge Detection (Canny)')
-            axes[idx, 1].axis('off')
+            axes[idx, 1].imshow(edges_canny, cmap="gray")
+            axes[idx, 1].set_title("Edge Detection (Canny)")
+            axes[idx, 1].axis("off")
 
             axes[idx, 2].imshow(line_img)
-            axes[idx, 2].set_title(f'Linear Features ({len(linear_features)} lines)')
-            axes[idx, 2].axis('off')
+            axes[idx, 2].set_title(f"Linear Features ({len(linear_features)} lines)")
+            axes[idx, 2].axis("off")
 
             axes[idx, 3].imshow(trail_overlay)
-            axes[idx, 3].set_title(f'Trail Candidates ({len(trail_contours)} regions)')
-            axes[idx, 3].axis('off')
+            axes[idx, 3].set_title(f"Trail Candidates ({len(trail_contours)} regions)")
+            axes[idx, 3].axis("off")
 
             # Calculate statistics
             bare_pct = (bare_mask > 0).sum() / bare_mask.size * 100
@@ -344,23 +372,31 @@ class PhotoAnalyzer:
             trail_pct = (trail_candidate > 0).sum() / trail_candidate.size * 100
 
             trail_features[photo_num] = {
-                'linear_features_detected': len(linear_features) if lines is not None else 0,
-                'linear_features': linear_features[:10] if linear_features else [],  # Top 10
-                'bare_ground_percentage': round(bare_pct, 2),
-                'vegetation_percentage': round(veg_pct, 2),
-                'trail_candidate_percentage': round(trail_pct, 2),
-                'trail_regions': len(trail_contours),
-                'trail_contour_data': trail_contours[:5]  # Top 5
+                "linear_features_detected": len(linear_features)
+                if lines is not None
+                else 0,
+                "linear_features": linear_features[:10]
+                if linear_features
+                else [],  # Top 10
+                "bare_ground_percentage": round(bare_pct, 2),
+                "vegetation_percentage": round(veg_pct, 2),
+                "trail_candidate_percentage": round(trail_pct, 2),
+                "trail_regions": len(trail_contours),
+                "trail_contour_data": trail_contours[:5],  # Top 5
             }
 
-            print(f"  Photo {photo_num}: {len(linear_features) if lines is not None else 0} lines, "
-                  f"{len(trail_contours)} trail regions, {trail_pct:.1f}% trail candidate")
+            print(
+                f"  Photo {photo_num}: {len(linear_features) if lines is not None else 0} lines, "
+                f"{len(trail_contours)} trail regions, {trail_pct:.1f}% trail candidate"
+            )
 
         plt.tight_layout()
-        plt.savefig(OUTPUT_DIR / 'trail_features_detected.png', dpi=150, bbox_inches='tight')
+        plt.savefig(
+            OUTPUT_DIR / "trail_features_detected.png", dpi=150, bbox_inches="tight"
+        )
         print(f"  Saved trail visualization to trail_features_detected.png")
 
-        self.results['trail_features'] = trail_features
+        self.results["trail_features"] = trail_features
 
     def analyze_canopy(self):
         """Analyze photos 7-8 for canopy structure"""
@@ -372,8 +408,8 @@ class PhotoAnalyzer:
             if photo_num not in self.photos:
                 continue
 
-            img = self.photos[photo_num]['rgb']
-            bgr = self.photos[photo_num]['bgr']
+            img = self.photos[photo_num]["rgb"]
+            bgr = self.photos[photo_num]["bgr"]
             gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY)
             hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
 
@@ -402,90 +438,101 @@ class PhotoAnalyzer:
             std_dev = gray.std()
 
             canopy_data[photo_num] = {
-                'dark_canopy_percentage': round(dark_pct, 2),
-                'light_gaps_percentage': round(light_pct, 2),
-                'deciduous_indicators_pct': round(deciduous_pct, 2),
-                'edge_density': round(float(edge_density), 4),
-                'texture_variation': round(float(std_dev), 2),
-                'canopy_type': 'deciduous_dominant' if deciduous_pct > 50 else 'mixed'
+                "dark_canopy_percentage": round(dark_pct, 2),
+                "light_gaps_percentage": round(light_pct, 2),
+                "deciduous_indicators_pct": round(deciduous_pct, 2),
+                "edge_density": round(float(edge_density), 4),
+                "texture_variation": round(float(std_dev), 2),
+                "canopy_type": "deciduous_dominant" if deciduous_pct > 50 else "mixed",
             }
 
-            print(f"  Photo {photo_num}: {deciduous_pct:.1f}% deciduous, {light_pct:.1f}% gaps")
+            print(
+                f"  Photo {photo_num}: {deciduous_pct:.1f}% deciduous, {light_pct:.1f}% gaps"
+            )
 
-        self.results['canopy_analysis'] = canopy_data
+        self.results["canopy_analysis"] = canopy_data
 
     def create_visual_signature(self):
         """Create comprehensive visual signature for satellite matching"""
         print("\nCreating visual signature for satellite matching...")
 
         signature = {
-            'critical_features_for_matching': {
-                'altitude_range': 'Photos 4-6 (10-30 feet altitude)',
-                'primary_identifiers': [],
-                'secondary_identifiers': [],
-                'color_signatures': [],
-                'texture_signatures': []
+            "critical_features_for_matching": {
+                "altitude_range": "Photos 4-6 (10-30 feet altitude)",
+                "primary_identifiers": [],
+                "secondary_identifiers": [],
+                "color_signatures": [],
+                "texture_signatures": [],
             }
         }
 
         # Extract key features from mid-altitude photos
-        if 4 in self.results['trail_features']:
-            trail_data = self.results['trail_features']
+        if 4 in self.results["trail_features"]:
+            trail_data = self.results["trail_features"]
 
             # Linear features (trails)
-            total_lines = sum(t.get('linear_features_detected', 0) for t in trail_data.values())
-            avg_trail_pct = np.mean([t.get('trail_candidate_percentage', 0)
-                                    for t in trail_data.values()])
+            total_lines = sum(
+                t.get("linear_features_detected", 0) for t in trail_data.values()
+            )
+            avg_trail_pct = np.mean(
+                [t.get("trail_candidate_percentage", 0) for t in trail_data.values()]
+            )
 
-            signature['critical_features_for_matching']['primary_identifiers'].extend([
-                f"Linear trail features detected: {total_lines} total across photos 4-6",
-                f"Average bare ground/trail coverage: {avg_trail_pct:.1f}%",
-                "Trail appears as lighter brown/tan linear path through vegetation"
-            ])
+            signature["critical_features_for_matching"]["primary_identifiers"].extend(
+                [
+                    f"Linear trail features detected: {total_lines} total across photos 4-6",
+                    f"Average bare ground/trail coverage: {avg_trail_pct:.1f}%",
+                    "Trail appears as lighter brown/tan linear path through vegetation",
+                ]
+            )
 
         # Color signatures from all photos
         for photo_num in [4, 5, 6]:
-            if photo_num in self.results['color_profiles']:
-                colors = self.results['color_profiles'][photo_num]
-                signature['critical_features_for_matching']['color_signatures'].append({
-                    f'photo_{photo_num}': {
-                        'dominant_colors': colors['dominant_colors'][:3],
-                        'green_coverage': colors['green_percentage'],
-                        'bare_ground': colors['brown_bare_percentage']
+            if photo_num in self.results["color_profiles"]:
+                colors = self.results["color_profiles"][photo_num]
+                signature["critical_features_for_matching"]["color_signatures"].append(
+                    {
+                        f"photo_{photo_num}": {
+                            "dominant_colors": colors["dominant_colors"][:3],
+                            "green_coverage": colors["green_percentage"],
+                            "bare_ground": colors["brown_bare_percentage"],
+                        }
                     }
-                })
+                )
 
         # Vegetation patterns
-        signature['critical_features_for_matching']['secondary_identifiers'].extend([
-            "Dense understory vegetation with Japanese stilt grass",
-            "Deciduous forest canopy (yellow-green tones)",
-            "Mixed vegetation density with clear trail path",
-            "South-facing slope indicators (sunlight patterns)"
-        ])
+        signature["critical_features_for_matching"]["secondary_identifiers"].extend(
+            [
+                "Dense understory vegetation with Japanese stilt grass",
+                "Deciduous forest canopy (yellow-green tones)",
+                "Mixed vegetation density with clear trail path",
+                "South-facing slope indicators (sunlight patterns)",
+            ]
+        )
 
         # Add specific matching criteria
-        signature['satellite_matching_criteria'] = {
-            'look_for': [
+        signature["satellite_matching_criteria"] = {
+            "look_for": [
                 "Linear cleared paths (trails) visible as lighter brown corridors",
                 "Dense green vegetation on either side of trail",
                 "Deciduous forest canopy (lighter green, not dark evergreen)",
                 "Trail width approximately 3-6 feet",
                 "South-facing slope (may show lighter in satellite imagery)",
-                "Forest edge or clearing nearby (indicated by photo 5-6 features)"
+                "Forest edge or clearing nearby (indicated by photo 5-6 features)",
             ],
-            'spectral_signatures': {
-                'trail': "RGB ~(140, 120, 90) - brown/tan bare ground",
-                'vegetation': "RGB ~(80, 120, 60) - medium green",
-                'canopy': "RGB ~(110, 140, 80) - light yellow-green"
+            "spectral_signatures": {
+                "trail": "RGB ~(140, 120, 90) - brown/tan bare ground",
+                "vegetation": "RGB ~(80, 120, 60) - medium green",
+                "canopy": "RGB ~(110, 140, 80) - light yellow-green",
             },
-            'spatial_patterns': [
+            "spatial_patterns": [
                 "Trail running roughly linear through forest",
                 "Vegetation encroachment on trail edges",
-                "Canopy gaps visible in higher altitude views"
-            ]
+                "Canopy gaps visible in higher altitude views",
+            ],
         }
 
-        self.results['visual_signatures'] = signature
+        self.results["visual_signatures"] = signature
         print("  Visual signature created with satellite matching criteria")
 
     def save_results(self):
@@ -493,29 +540,29 @@ class PhotoAnalyzer:
         print("\nSaving results...")
 
         # Save JSON files
-        with open(OUTPUT_DIR / 'photo_scales.json', 'w') as f:
-            json.dump(self.results['scales'], f, indent=2)
+        with open(OUTPUT_DIR / "photo_scales.json", "w") as f:
+            json.dump(self.results["scales"], f, indent=2)
         print(f"  Saved: photo_scales.json")
 
-        with open(OUTPUT_DIR / 'color_profiles.json', 'w') as f:
-            json.dump(self.results['color_profiles'], f, indent=2)
+        with open(OUTPUT_DIR / "color_profiles.json", "w") as f:
+            json.dump(self.results["color_profiles"], f, indent=2)
         print(f"  Saved: color_profiles.json")
 
         # Save vegetation analysis markdown
         veg_md = self.create_vegetation_markdown()
-        with open(OUTPUT_DIR / 'vegetation_analysis.md', 'w') as f:
+        with open(OUTPUT_DIR / "vegetation_analysis.md", "w") as f:
             f.write(veg_md)
         print(f"  Saved: vegetation_analysis.md")
 
         # Save visual signature markdown
         sig_md = self.create_signature_markdown()
-        with open(OUTPUT_DIR / 'visual_signature.md', 'w') as f:
+        with open(OUTPUT_DIR / "visual_signature.md", "w") as f:
             f.write(sig_md)
         print(f"  Saved: visual_signature.md")
 
         # Save comprehensive report
         report = self.create_comprehensive_report()
-        with open(REPORT_DIR / 'agent_c2_findings.md', 'w') as f:
+        with open(REPORT_DIR / "agent_c2_findings.md", "w") as f:
             f.write(report)
         print(f"  Saved: agent_c2_findings.md")
 
@@ -524,14 +571,14 @@ class PhotoAnalyzer:
         md = "# Vegetation Analysis\n\n"
         md += "## Ground Level Analysis (Photos 1-3)\n\n"
 
-        for photo_num in sorted(self.results['vegetation_data'].keys()):
-            data = self.results['vegetation_data'][photo_num]
+        for photo_num in sorted(self.results["vegetation_data"].keys()):
+            data = self.results["vegetation_data"][photo_num]
             md += f"### Photo {photo_num}\n\n"
             md += f"- **Grass Coverage**: {data['grass_coverage_pct']:.1f}%\n"
             md += f"- **Leaf Litter**: {data['leaf_litter_pct']:.1f}%\n"
             md += f"- **Edge Density**: {data['edge_density']:.4f}\n"
             md += f"- **Texture Complexity**: {data['texture_complexity']:.4f}\n"
-            if data.get('treasure_container_visible'):
+            if data.get("treasure_container_visible"):
                 md += "- **Treasure Container**: VISIBLE (scale reference)\n"
             md += "\n"
 
@@ -557,31 +604,33 @@ class PhotoAnalyzer:
 
     def create_signature_markdown(self):
         """Create visual signature markdown"""
-        sig = self.results['visual_signatures']
+        sig = self.results["visual_signatures"]
 
         md = "# Visual Signature for Satellite Matching\n\n"
         md += "## Critical Search Features\n\n"
         md += "### Primary Identifiers (Photos 4-6)\n\n"
 
-        for item in sig['critical_features_for_matching']['primary_identifiers']:
+        for item in sig["critical_features_for_matching"]["primary_identifiers"]:
             md += f"- {item}\n"
 
         md += "\n### Secondary Identifiers\n\n"
-        for item in sig['critical_features_for_matching']['secondary_identifiers']:
+        for item in sig["critical_features_for_matching"]["secondary_identifiers"]:
             md += f"- {item}\n"
 
         md += "\n## Satellite Matching Criteria\n\n"
         md += "### What to Look For\n\n"
 
-        for item in sig['satellite_matching_criteria']['look_for']:
+        for item in sig["satellite_matching_criteria"]["look_for"]:
             md += f"- {item}\n"
 
         md += "\n### Spectral Signatures\n\n"
-        for key, value in sig['satellite_matching_criteria']['spectral_signatures'].items():
+        for key, value in sig["satellite_matching_criteria"][
+            "spectral_signatures"
+        ].items():
             md += f"- **{key.title()}**: {value}\n"
 
         md += "\n### Spatial Patterns\n\n"
-        for item in sig['satellite_matching_criteria']['spatial_patterns']:
+        for item in sig["satellite_matching_criteria"]["spatial_patterns"]:
             md += f"- {item}\n"
 
         md += "\n## Matching Strategy for Satellite Imagery\n\n"
@@ -614,8 +663,8 @@ class PhotoAnalyzer:
         md += "| Photo | Altitude | Field of View | Category | Resolution |\n"
         md += "|-------|----------|---------------|----------|------------|\n"
 
-        for photo_num in sorted(self.results['scales'].keys()):
-            data = self.results['scales'][photo_num]
+        for photo_num in sorted(self.results["scales"].keys()):
+            data = self.results["scales"][photo_num]
             md += f"| {photo_num} | {data['estimated_altitude_feet']}ft | "
             md += f"{data['estimated_fov_feet']}ft | {data['category']} | "
             md += f"{data['resolution_inches_per_pixel']:.3f} in/px |\n"
@@ -624,12 +673,12 @@ class PhotoAnalyzer:
         md += "### Key Observations\n\n"
 
         for photo_num in [1, 2, 3]:
-            if photo_num in self.results['vegetation_data']:
-                data = self.results['vegetation_data'][photo_num]
+            if photo_num in self.results["vegetation_data"]:
+                data = self.results["vegetation_data"][photo_num]
                 md += f"**Photo {photo_num}**:\n"
                 md += f"- Grass coverage: {data['grass_coverage_pct']:.1f}%\n"
                 md += f"- Leaf litter: {data['leaf_litter_pct']:.1f}%\n"
-                if photo_num == 1 and data.get('treasure_container_visible'):
+                if photo_num == 1 and data.get("treasure_container_visible"):
                     md += "- Treasure container visible (provides scale reference)\n"
                 md += "\n"
 
@@ -643,10 +692,12 @@ class PhotoAnalyzer:
         md += "### Linear Feature Detection\n\n"
 
         for photo_num in [4, 5, 6]:
-            if photo_num in self.results['trail_features']:
-                data = self.results['trail_features'][photo_num]
+            if photo_num in self.results["trail_features"]:
+                data = self.results["trail_features"][photo_num]
                 md += f"**Photo {photo_num}**:\n"
-                md += f"- Linear features detected: {data['linear_features_detected']}\n"
+                md += (
+                    f"- Linear features detected: {data['linear_features_detected']}\n"
+                )
                 md += f"- Trail candidate coverage: {data['trail_candidate_percentage']:.1f}%\n"
                 md += f"- Trail regions identified: {data['trail_regions']}\n"
                 md += f"- Bare ground: {data['bare_ground_percentage']:.1f}%\n"
@@ -667,11 +718,13 @@ class PhotoAnalyzer:
         md += "## Canopy Analysis (Photos 7-8)\n\n"
 
         for photo_num in [7, 8]:
-            if photo_num in self.results['canopy_analysis']:
-                data = self.results['canopy_analysis'][photo_num]
+            if photo_num in self.results["canopy_analysis"]:
+                data = self.results["canopy_analysis"][photo_num]
                 md += f"**Photo {photo_num}**:\n"
                 md += f"- Canopy type: {data['canopy_type']}\n"
-                md += f"- Deciduous indicators: {data['deciduous_indicators_pct']:.1f}%\n"
+                md += (
+                    f"- Deciduous indicators: {data['deciduous_indicators_pct']:.1f}%\n"
+                )
                 md += f"- Canopy gaps: {data['light_gaps_percentage']:.1f}%\n"
                 md += f"- Texture variation: {data['texture_variation']:.1f}\n\n"
 
@@ -684,16 +737,30 @@ class PhotoAnalyzer:
         md += "## Color Profile Analysis\n\n"
         md += "### Average Color Signatures by Altitude\n\n"
 
-        for category in ['ground_level', 'mid_altitude', 'canopy']:
-            photos = [p for p, d in self.results['scales'].items() if d['category'] == category]
-            if photos and photos[0] in self.results['color_profiles']:
+        for category in ["ground_level", "mid_altitude", "canopy"]:
+            photos = [
+                p
+                for p, d in self.results["scales"].items()
+                if d["category"] == category
+            ]
+            if photos and photos[0] in self.results["color_profiles"]:
                 md += f"\n**{category.replace('_', ' ').title()}** (Photos {', '.join(map(str, photos))}):\n"
 
                 # Average across photos in category
-                avg_green = np.mean([self.results['color_profiles'][p]['green_percentage']
-                                    for p in photos if p in self.results['color_profiles']])
-                avg_brown = np.mean([self.results['color_profiles'][p]['brown_bare_percentage']
-                                    for p in photos if p in self.results['color_profiles']])
+                avg_green = np.mean(
+                    [
+                        self.results["color_profiles"][p]["green_percentage"]
+                        for p in photos
+                        if p in self.results["color_profiles"]
+                    ]
+                )
+                avg_brown = np.mean(
+                    [
+                        self.results["color_profiles"][p]["brown_bare_percentage"]
+                        for p in photos
+                        if p in self.results["color_profiles"]
+                    ]
+                )
 
                 md += f"- Green vegetation: {avg_green:.1f}%\n"
                 md += f"- Brown/bare ground: {avg_brown:.1f}%\n"
@@ -701,8 +768,8 @@ class PhotoAnalyzer:
         md += "\n## Visual Signature for Satellite Matching\n\n"
         md += "### Most Distinctive Features (for satellite matching)\n\n"
 
-        sig = self.results['visual_signatures']
-        for item in sig['satellite_matching_criteria']['look_for']:
+        sig = self.results["visual_signatures"]
+        for item in sig["satellite_matching_criteria"]["look_for"]:
             md += f"- {item}\n"
 
         md += "\n### Recommended Search Strategy\n\n"
@@ -751,6 +818,7 @@ class PhotoAnalyzer:
 
         return md
 
+
 def main():
     print("=" * 70)
     print("Agent C2: Computer Vision Pattern Matcher")
@@ -784,6 +852,7 @@ def main():
     print("  - Deciduous forest canopy identified")
     print()
     print("See agent_c2_findings.md for comprehensive report")
+
 
 if __name__ == "__main__":
     main()

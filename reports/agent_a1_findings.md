@@ -1,7 +1,7 @@
 # Agent A1: Trail Data Analysis - Findings Report
 
 **Analysis Date:** 2025-10-17
-**Data Source:** `/Users/fredbliss/workspace/treasure/trails.kml`
+**Data Source:** `trails.kml`
 **Geographic Center:** 35.635°N, 82.875°W (Asheville, NC area)
 **Search Radius:** 37.5 miles
 
@@ -245,19 +245,19 @@ The following agents should use this trail data to apply specific constraints:
 
 ### Files Created
 
-1. **`/Users/fredbliss/workspace/treasure/data/trails.geojson`**
+1. **`data/trails.geojson`**
    - GeoJSON FeatureCollection with 11,954 trail features
    - Full OSM metadata preserved in properties
    - LineString geometries with coordinate arrays
    - Format: GeoJSON (standard for GIS applications)
 
-2. **`/Users/fredbliss/workspace/treasure/data/trails_summary.csv`**
+2. **`data/trails_summary.csv`**
    - Tabular data with 11,954 rows
    - Columns: name, osm_id, county, distance_miles, highway_type, surface, difficulty, ref, num_coordinates
    - Sorted by distance (longest first)
    - Format: CSV (easily imported into spreadsheets/databases)
 
-3. **`/Users/fredbliss/workspace/treasure/data/trails_statistics.json`**
+3. **`data/trails_statistics.json`**
    - Summary statistics and aggregations
    - County-by-county breakdowns
    - Highway type distributions
@@ -265,15 +265,15 @@ The following agents should use this trail data to apply specific constraints:
    - Top 10 longest trails
    - Format: JSON (easily parsed by code)
 
-4. **`/Users/fredbliss/workspace/treasure/reports/agent_a1_findings.md`** (this file)
+4. **`reports/agent_a1_findings.md`** (this file)
    - Comprehensive analysis and findings
    - Recommendations for next steps
    - Format: Markdown
 
 ### Analysis Scripts
 
-- **`/Users/fredbliss/workspace/treasure/analyze_trails.py`** - Main KML parser and converter
-- **`/Users/fredbliss/workspace/treasure/analyze_buncombe.py`** - Buncombe County deep dive
+- **`analyze_trails.py`** - Main KML parser and converter
+- **`analyze_buncombe.py`** - Buncombe County deep dive
 
 ---
 

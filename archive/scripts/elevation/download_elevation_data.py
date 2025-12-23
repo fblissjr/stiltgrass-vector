@@ -4,12 +4,13 @@ Download elevation data and satellite imagery for the treasure hunt search area.
 Search area: 35.705°N, 82.83°W (Asheville, NC) with 43.5 mile radius
 """
 
-import os
-import requests
 import json
+import os
 from pathlib import Path
+from typing import Any, Dict, Tuple
+
 import numpy as np
-from typing import Tuple, Dict, Any
+import requests
 
 # Search area parameters
 CENTER_LAT = 35.705
@@ -24,9 +25,10 @@ LON_MIN = CENTER_LON - RADIUS_DEGREES
 LON_MAX = CENTER_LON + RADIUS_DEGREES
 
 # Directory setup
-BASE_DIR = Path("/Users/fredbliss/workspace/treasure")
+BASE_DIR = Path(".")
 ELEVATION_DIR = BASE_DIR / "data" / "elevation"
 SATELLITE_DIR = BASE_DIR / "data" / "satellite_imagery"
+
 
 def get_bounding_box() -> Dict[str, float]:
     """Return the bounding box for the search area."""
@@ -34,8 +36,9 @@ def get_bounding_box() -> Dict[str, float]:
         "lat_min": LAT_MIN,
         "lat_max": LAT_MAX,
         "lon_min": LON_MIN,
-        "lon_max": LON_MAX
+        "lon_max": LON_MAX,
     }
+
 
 def download_srtm_elevation() -> bool:
     """
@@ -54,14 +57,19 @@ def download_srtm_elevation() -> bool:
         "north": LAT_MAX,
         "west": LON_MIN,
         "east": LON_MAX,
-        "outputFormat": "GTiff"
+        "outputFormat": "GTiff",
     }
 
-    print(f"Bounding box: {LAT_MIN:.3f}°N to {LAT_MAX:.3f}°N, {LON_MIN:.3f}°W to {LON_MAX:.3f}°W")
+    print(
+        f"Bounding box: {LAT_MIN:.3f}°N to {LAT_MAX:.3f}°N, {LON_MIN:.3f}°W to {LON_MAX:.3f}°W"
+    )
     print("Note: OpenTopography API requires an API key for downloads.")
-    print("Visit: https://opentopography.org/blog/introducing-api-keys-access-opentopography-global-datasets")
+    print(
+        "Visit: https://opentopography.org/blog/introducing-api-keys-access-opentopography-global-datasets"
+    )
 
     return False
+
 
 def download_usgs_3dep_metadata() -> Dict[str, Any]:
     """
@@ -76,7 +84,7 @@ def download_usgs_3dep_metadata() -> Dict[str, Any]:
         "datasets": "Digital Elevation Model (DEM) 1 meter",
         "bbox": f"{LON_MIN},{LAT_MIN},{LON_MAX},{LAT_MAX}",
         "outputFormat": "JSON",
-        "max": 50
+        "max": 50,
     }
 
     try:
@@ -87,7 +95,7 @@ def download_usgs_3dep_metadata() -> Dict[str, Any]:
 
             # Save metadata
             metadata_file = ELEVATION_DIR / "usgs_3dep_metadata.json"
-            with open(metadata_file, 'w') as f:
+            with open(metadata_file, "w") as f:
                 json.dump(data, f, indent=2)
             print(f"Metadata saved to: {metadata_file}")
 
@@ -98,6 +106,7 @@ def download_usgs_3dep_metadata() -> Dict[str, Any]:
     except Exception as e:
         print(f"Error querying USGS API: {e}")
         return {}
+
 
 def get_elevation_profile() -> None:
     """
@@ -131,19 +140,29 @@ def get_elevation_profile() -> None:
             elevations = []
 
             print("\nElevation samples:")
-            for point, result in zip(sample_points, data['results']):
+            for point, result in zip(sample_points, data["results"]):
                 lat, lon, name = point
-                elevation = result['elevation']
+                elevation = result["elevation"]
                 elevations.append(elevation)
-                print(f"  {name:20s}: {elevation:6.1f}m ({elevation * 3.28084:.1f}ft) at {lat:.3f}°N, {lon:.3f}°W")
+                print(
+                    f"  {name:20s}: {elevation:6.1f}m ({elevation * 3.28084:.1f}ft) at {lat:.3f}°N, {lon:.3f}°W"
+                )
 
             # Calculate statistics
             elevations = np.array(elevations)
             print(f"\nElevation statistics:")
-            print(f"  Minimum: {elevations.min():.1f}m ({elevations.min() * 3.28084:.1f}ft)")
-            print(f"  Maximum: {elevations.max():.1f}m ({elevations.max() * 3.28084:.1f}ft)")
-            print(f"  Range: {elevations.max() - elevations.min():.1f}m ({(elevations.max() - elevations.min()) * 3.28084:.1f}ft)")
-            print(f"  Mean: {elevations.mean():.1f}m ({elevations.mean() * 3.28084:.1f}ft)")
+            print(
+                f"  Minimum: {elevations.min():.1f}m ({elevations.min() * 3.28084:.1f}ft)"
+            )
+            print(
+                f"  Maximum: {elevations.max():.1f}m ({elevations.max() * 3.28084:.1f}ft)"
+            )
+            print(
+                f"  Range: {elevations.max() - elevations.min():.1f}m ({(elevations.max() - elevations.min()) * 3.28084:.1f}ft)"
+            )
+            print(
+                f"  Mean: {elevations.mean():.1f}m ({elevations.mean() * 3.28084:.1f}ft)"
+            )
 
             # Save elevation data
             elevation_file = ELEVATION_DIR / "elevation_samples.json"
@@ -153,10 +172,10 @@ def get_elevation_profile() -> None:
                         "location": name,
                         "latitude": lat,
                         "longitude": lon,
-                        "elevation_meters": result['elevation'],
-                        "elevation_feet": result['elevation'] * 3.28084
+                        "elevation_meters": result["elevation"],
+                        "elevation_feet": result["elevation"] * 3.28084,
                     }
-                    for (lat, lon, name), result in zip(sample_points, data['results'])
+                    for (lat, lon, name), result in zip(sample_points, data["results"])
                 ],
                 "statistics": {
                     "min_meters": float(elevations.min()),
@@ -165,30 +184,37 @@ def get_elevation_profile() -> None:
                     "mean_meters": float(elevations.mean()),
                     "min_feet": float(elevations.min() * 3.28084),
                     "max_feet": float(elevations.max() * 3.28084),
-                    "range_feet": float((elevations.max() - elevations.min()) * 3.28084),
-                    "mean_feet": float(elevations.mean() * 3.28084)
-                }
+                    "range_feet": float(
+                        (elevations.max() - elevations.min()) * 3.28084
+                    ),
+                    "mean_feet": float(elevations.mean() * 3.28084),
+                },
             }
 
-            with open(elevation_file, 'w') as f:
+            with open(elevation_file, "w") as f:
                 json.dump(elevation_data, f, indent=2)
             print(f"\nElevation data saved to: {elevation_file}")
 
         else:
-            print(f"Elevation API request failed with status code: {response.status_code}")
+            print(
+                f"Elevation API request failed with status code: {response.status_code}"
+            )
     except Exception as e:
         print(f"Error querying elevation API: {e}")
+
 
 def get_sentinel2_info() -> None:
     """
     Get information about Sentinel-2 satellite coverage for the area.
     """
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("SENTINEL-2 SATELLITE IMAGERY INFORMATION")
-    print("="*80)
+    print("=" * 80)
 
     print(f"\nSearch area coordinates: {CENTER_LAT:.3f}°N, {CENTER_LON:.3f}°W")
-    print(f"Bounding box: {LAT_MIN:.3f}° to {LAT_MAX:.3f}°N, {LON_MIN:.3f}° to {LON_MAX:.3f}°W")
+    print(
+        f"Bounding box: {LAT_MIN:.3f}° to {LAT_MAX:.3f}°N, {LON_MIN:.3f}° to {LON_MAX:.3f}°W"
+    )
 
     print("\nSentinel-2 Coverage:")
     print("  - Resolution: 10m (multispectral)")
@@ -198,17 +224,20 @@ def get_sentinel2_info() -> None:
 
     print("\nDownload Sources:")
     print("  1. Copernicus Data Space Ecosystem: https://dataspace.copernicus.eu/")
-    print("  2. USGS Sentinel2Look Viewer: https://landsatlook.usgs.gov/sentinel2/viewer.html")
+    print(
+        "  2. USGS Sentinel2Look Viewer: https://landsatlook.usgs.gov/sentinel2/viewer.html"
+    )
     print("  3. Google Earth Engine (requires account)")
 
     print("\nNote: Direct download requires authentication and manual tile selection.")
     print("Consider using Google Earth Engine Python API for programmatic access.")
 
+
 def main():
     """Main execution function."""
-    print("="*80)
+    print("=" * 80)
     print("TREASURE HUNT - ELEVATION & SATELLITE DATA COLLECTOR")
-    print("="*80)
+    print("=" * 80)
     print(f"\nSearch Area:")
     print(f"  Center: {CENTER_LAT}°N, {CENTER_LON}°W (Asheville, NC)")
     print(f"  Radius: {RADIUS_MILES} miles")
@@ -231,14 +260,14 @@ def main():
     get_sentinel2_info()
 
     # SRTM info
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("SRTM ELEVATION DATA")
-    print("="*80)
+    print("=" * 80)
     download_srtm_elevation()
 
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("DATA COLLECTION SUMMARY")
-    print("="*80)
+    print("=" * 80)
     print("\nFiles created:")
     print(f"  - {ELEVATION_DIR / 'elevation_samples.json'}")
     print(f"  - {ELEVATION_DIR / 'usgs_3dep_metadata.json'}")
@@ -247,6 +276,7 @@ def main():
     print("  2. Select 'Elevation Products (3DEP)'")
     print("  3. Draw your search area or enter coordinates")
     print("  4. Download 1m or 1/3 arc-second DEM tiles")
+
 
 if __name__ == "__main__":
     main()

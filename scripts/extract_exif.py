@@ -4,20 +4,21 @@ Extract EXIF data from aerial photos and webcam images.
 Focused on trail camera metadata analysis.
 """
 
-import os
 import json
+import os
+from datetime import datetime
+from pathlib import Path
+
 import exifread
 from PIL import Image
-from PIL.ExifTags import TAGS, GPSTAGS
-from pathlib import Path
-from datetime import datetime
+from PIL.ExifTags import GPSTAGS, TAGS
 
 
 def extract_exif_exifread(image_path):
     """Extract EXIF data using exifread library (more comprehensive)"""
     exif_data = {}
 
-    with open(image_path, 'rb') as f:
+    with open(image_path, "rb") as f:
         tags = exifread.process_file(f, details=True)
 
         for tag, value in tags.items():
@@ -50,7 +51,7 @@ def extract_exif_pil(image_path):
                     # Convert to string for JSON
                     exif_data[tag] = str(value)
     except Exception as e:
-        exif_data['error'] = str(e)
+        exif_data["error"] = str(e)
 
     return exif_data
 
@@ -58,60 +59,61 @@ def extract_exif_pil(image_path):
 def analyze_trail_camera_metadata(exif_data):
     """Analyze trail camera specific metadata"""
     analysis = {
-        'camera_make': None,
-        'camera_model': None,
-        'image_description': None,
-        'datetime': None,
-        'gps_coordinates': None,
-        'special_codes': [],
-        'camera_type': 'unknown'
+        "camera_make": None,
+        "camera_model": None,
+        "image_description": None,
+        "datetime": None,
+        "gps_coordinates": None,
+        "special_codes": [],
+        "camera_type": "unknown",
     }
 
     # Check for camera make/model
     for key in exif_data:
         key_lower = key.lower()
 
-        if 'make' in key_lower:
-            analysis['camera_make'] = exif_data[key]
+        if "make" in key_lower:
+            analysis["camera_make"] = exif_data[key]
 
-        if 'model' in key_lower or 'camera model' in key_lower:
-            analysis['camera_model'] = exif_data[key]
+        if "model" in key_lower or "camera model" in key_lower:
+            analysis["camera_model"] = exif_data[key]
 
-        if 'description' in key_lower:
-            analysis['image_description'] = exif_data[key]
+        if "description" in key_lower:
+            analysis["image_description"] = exif_data[key]
 
             # Look for special codes like [MP:05][TP:055F]
             desc = exif_data[key]
-            if '[' in desc and ']' in desc:
+            if "[" in desc and "]" in desc:
                 import re
-                codes = re.findall(r'\[([^\]]+)\]', desc)
-                analysis['special_codes'] = codes
 
-        if 'datetime' in key_lower or 'date' in key_lower:
-            if analysis['datetime'] is None:  # Take first datetime found
-                analysis['datetime'] = exif_data[key]
+                codes = re.findall(r"\[([^\]]+)\]", desc)
+                analysis["special_codes"] = codes
 
-        if 'gps' in key_lower:
-            analysis['gps_coordinates'] = exif_data[key]
+        if "datetime" in key_lower or "date" in key_lower:
+            if analysis["datetime"] is None:  # Take first datetime found
+                analysis["datetime"] = exif_data[key]
+
+        if "gps" in key_lower:
+            analysis["gps_coordinates"] = exif_data[key]
 
     # Determine camera type
-    if analysis['camera_make']:
-        make_lower = analysis['camera_make'].lower()
-        if 'stealth' in make_lower:
-            analysis['camera_type'] = 'trail_camera'
-        elif 'canon' in make_lower or 'nikon' in make_lower or 'sony' in make_lower:
-            analysis['camera_type'] = 'professional_camera'
-        elif 'dji' in make_lower or 'drone' in make_lower:
-            analysis['camera_type'] = 'drone'
+    if analysis["camera_make"]:
+        make_lower = analysis["camera_make"].lower()
+        if "stealth" in make_lower:
+            analysis["camera_type"] = "trail_camera"
+        elif "canon" in make_lower or "nikon" in make_lower or "sony" in make_lower:
+            analysis["camera_type"] = "professional_camera"
+        elif "dji" in make_lower or "drone" in make_lower:
+            analysis["camera_type"] = "drone"
 
     return analysis
 
 
 def main():
     # Setup paths
-    photos_dir = Path('/Users/fredbliss/workspace/treasure/photos')
-    data_dir = Path('/Users/fredbliss/workspace/treasure/data')
-    webcam_dir = data_dir / 'webcam_images'
+    photos_dir = Path("photos")
+    data_dir = Path("data")
+    webcam_dir = data_dir / "webcam_images"
 
     # Create output directories
     data_dir.mkdir(exist_ok=True)
@@ -121,7 +123,7 @@ def main():
 
     # Process all aerial photos
     print("Extracting EXIF data from aerial photos...")
-    for photo_file in sorted(photos_dir.glob('*.jpg')):
+    for photo_file in sorted(photos_dir.glob("*.jpg")):
         print(f"\nProcessing: {photo_file.name}")
 
         # Extract using both methods
@@ -132,10 +134,10 @@ def main():
         analysis = analyze_trail_camera_metadata(exif_exifread)
 
         all_results[photo_file.name] = {
-            'path': str(photo_file),
-            'exif_exifread': exif_exifread,
-            'exif_pil': exif_pil,
-            'trail_camera_analysis': analysis
+            "path": str(photo_file),
+            "exif_exifread": exif_exifread,
+            "exif_pil": exif_pil,
+            "trail_camera_analysis": analysis,
         }
 
         # Print key findings
@@ -148,28 +150,30 @@ def main():
         print(f"  GPS: {analysis['gps_coordinates']}")
 
     # Save comprehensive results
-    output_file = data_dir / 'exif_analysis.json'
-    with open(output_file, 'w') as f:
+    output_file = data_dir / "exif_analysis.json"
+    with open(output_file, "w") as f:
         json.dump(all_results, f, indent=2)
 
     print(f"\n\nComplete EXIF data saved to: {output_file}")
 
     # Create summary report
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("SUMMARY OF TRAIL CAMERA FINDINGS")
-    print("="*80)
+    print("=" * 80)
 
     trail_cam_photos = []
     for photo_name, data in all_results.items():
-        analysis = data['trail_camera_analysis']
-        if analysis['camera_type'] == 'trail_camera' or analysis['special_codes']:
-            trail_cam_photos.append({
-                'photo': photo_name,
-                'make': analysis['camera_make'],
-                'model': analysis['camera_model'],
-                'codes': analysis['special_codes'],
-                'description': analysis['image_description']
-            })
+        analysis = data["trail_camera_analysis"]
+        if analysis["camera_type"] == "trail_camera" or analysis["special_codes"]:
+            trail_cam_photos.append(
+                {
+                    "photo": photo_name,
+                    "make": analysis["camera_make"],
+                    "model": analysis["camera_model"],
+                    "codes": analysis["special_codes"],
+                    "description": analysis["image_description"],
+                }
+            )
 
     if trail_cam_photos:
         print("\nTRAIL CAMERA IMAGES DETECTED:")
@@ -181,11 +185,13 @@ def main():
             print(f"  Special Codes: {item['codes']}")
     else:
         print("\nNo trail camera metadata detected in aerial photos.")
-        print("This suggests the aerial photos are from a drone or professional camera.")
+        print(
+            "This suggests the aerial photos are from a drone or professional camera."
+        )
         print("The trail camera webcam is likely separate from these aerial photos.")
 
     return all_results
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     results = main()

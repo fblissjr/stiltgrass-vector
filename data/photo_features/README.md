@@ -110,7 +110,7 @@ Largest files:
 ## Output File Checksums
 
 Generated: October 17, 2025
-Location: /Users/fredbliss/workspace/treasure/data/photo_features/
+Location: data/photo_features/
 
 ## Next Steps
 
@@ -123,7 +123,7 @@ Use the visual signatures and trail characteristics identified in this analysis 
 
 ## Questions or Issues?
 
-See the main report at: `/Users/fredbliss/workspace/treasure/reports/agent_c2_findings.md`
+See the main report at: `reports/agent_c2_findings.md`
 
 ---
 

@@ -51,7 +51,6 @@ SCORE_SURFACE = {
 - Rank: #1 (wrong)
 
 ### The Winner's Method
-Corey (@Fuzzy) and his daughter Zoe used cloud shadow triangulation:
 1. Archived webcam images every 10 minutes for 10+ days
 2. Matched cloud shadows to satellite cloud positions
 3. Triangulated location using shadow angles + sun position
@@ -152,9 +151,6 @@ No local hiking expert who knew:
 ---
 
 ## Running the Code (Educational)
-
-```bash
-cd /Users/fredbliss/workspace/treasure
 
 # Setup
 uv venv

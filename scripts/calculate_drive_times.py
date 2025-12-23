@@ -4,8 +4,8 @@ Calculate drive times from Charlotte to major trailheads in Pisgah/Asheville are
 Uses simple distance calculations and typical mountain driving speeds
 """
 
-import math
 import csv
+import math
 
 # Charlotte coordinates
 CHARLOTTE = (35.227, -80.843)
@@ -18,7 +18,7 @@ TRAILHEADS = [
         "lon": -82.776671,
         "elevation_gain": "moderate",
         "access_road": "US 276 + FR 475",
-        "popularity": "high"
+        "popularity": "high",
     },
     {
         "name": "Graveyard Fields Trailhead",
@@ -26,7 +26,7 @@ TRAILHEADS = [
         "lon": -82.847057,
         "elevation_gain": "low",
         "access_road": "Blue Ridge Parkway MP 418.8",
-        "popularity": "very high"
+        "popularity": "very high",
     },
     {
         "name": "Mount Pisgah Trailhead",
@@ -34,7 +34,7 @@ TRAILHEADS = [
         "lon": -82.75667,
         "elevation_gain": "moderate",
         "access_road": "Blue Ridge Parkway MP 407.6",
-        "popularity": "very high"
+        "popularity": "very high",
     },
     {
         "name": "Bent Creek - Hard Times Trailhead",
@@ -42,7 +42,7 @@ TRAILHEADS = [
         "lon": -82.600,  # Approximate - south Asheville
         "elevation_gain": "low",
         "access_road": "I-26 to NC 191 to Bent Creek Ranch Rd",
-        "popularity": "high"
+        "popularity": "high",
     },
     {
         "name": "Craggy Gardens",
@@ -50,7 +50,7 @@ TRAILHEADS = [
         "lon": -82.380,  # Approximate - BRP MP 364-365
         "elevation_gain": "moderate",
         "access_road": "Blue Ridge Parkway MP 364-365",
-        "popularity": "very high"
+        "popularity": "very high",
     },
     {
         "name": "Craggy Pinnacle",
@@ -58,7 +58,7 @@ TRAILHEADS = [
         "lon": -82.380,  # Approximate - BRP MP 364.1
         "elevation_gain": "moderate",
         "access_road": "Blue Ridge Parkway MP 364.1",
-        "popularity": "high"
+        "popularity": "high",
     },
     {
         "name": "Downtown Asheville",
@@ -66,9 +66,10 @@ TRAILHEADS = [
         "lon": -82.551,
         "elevation_gain": "n/a",
         "access_road": "I-40",
-        "popularity": "reference point"
-    }
+        "popularity": "reference point",
+    },
 ]
+
 
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate great circle distance between two points in miles"""
@@ -79,10 +80,14 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     dlat = math.radians(lat2 - lat1)
     dlon = math.radians(lon2 - lon1)
 
-    a = math.sin(dlat/2)**2 + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(dlon/2)**2
+    a = (
+        math.sin(dlat / 2) ** 2
+        + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(dlon / 2) ** 2
+    )
     c = 2 * math.asin(math.sqrt(a))
 
     return R * c
+
 
 def estimate_drive_time(distance_miles, route_type="interstate"):
     """
@@ -94,12 +99,7 @@ def estimate_drive_time(distance_miles, route_type="interstate"):
     - mountain: Blue Ridge Parkway, average 40 mph
     - mixed: typical route mix, average 50 mph
     """
-    speeds = {
-        "interstate": 65,
-        "highway": 55,
-        "mountain": 40,
-        "mixed": 50
-    }
+    speeds = {"interstate": 65, "highway": 55, "mountain": 40, "mixed": 50}
 
     speed = speeds.get(route_type, 50)
     time_hours = distance_miles / speed
@@ -108,6 +108,7 @@ def estimate_drive_time(distance_miles, route_type="interstate"):
     time_hours *= 1.15
 
     return time_hours
+
 
 def categorize_route(trailhead):
     """Determine route type based on access road"""
@@ -122,6 +123,7 @@ def categorize_route(trailhead):
     else:
         return "mixed"
 
+
 def main():
     results = []
 
@@ -131,8 +133,7 @@ def main():
     for trailhead in TRAILHEADS:
         # Calculate straight-line distance
         straight_distance = haversine_distance(
-            CHARLOTTE[0], CHARLOTTE[1],
-            trailhead["lat"], trailhead["lon"]
+            CHARLOTTE[0], CHARLOTTE[1], trailhead["lat"], trailhead["lon"]
         )
 
         # Estimate actual driving distance (typically 1.3-1.5x straight line in mountains)
@@ -155,7 +156,7 @@ def main():
             "estimated_drive_time_minutes": round(drive_time_minutes, 0),
             "route_type": route_type,
             "access_road": trailhead["access_road"],
-            "popularity": trailhead["popularity"]
+            "popularity": trailhead["popularity"],
         }
 
         results.append(result)
@@ -163,14 +164,16 @@ def main():
         # Print result
         hours = int(drive_time_hours)
         minutes = int((drive_time_hours - hours) * 60)
-        print(f"{trailhead['name']:35s} | {driving_distance:5.1f} mi | {hours}h {minutes:02d}m | {route_type}")
+        print(
+            f"{trailhead['name']:35s} | {driving_distance:5.1f} mi | {hours}h {minutes:02d}m | {route_type}"
+        )
 
     # Sort by drive time
     results.sort(key=lambda x: x["estimated_drive_time_hours"])
 
     # Write to CSV
-    output_file = "/Users/fredbliss/workspace/treasure/data/drive_times.csv"
-    with open(output_file, 'w', newline='') as f:
+    output_file = "data/drive_times.csv"
+    with open(output_file, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=results[0].keys())
         writer.writeheader()
         writer.writerows(results)
@@ -181,10 +184,14 @@ def main():
     print("\n=== SUMMARY ===")
     print(f"Closest trailhead: {results[0]['trailhead']}")
     print(f"  Distance: {results[0]['estimated_driving_distance_miles']} miles")
-    print(f"  Time: {int(results[0]['estimated_drive_time_hours'])}h {int((results[0]['estimated_drive_time_hours'] % 1) * 60)}m")
+    print(
+        f"  Time: {int(results[0]['estimated_drive_time_hours'])}h {int((results[0]['estimated_drive_time_hours'] % 1) * 60)}m"
+    )
     print(f"\nFarthest trailhead: {results[-1]['trailhead']}")
     print(f"  Distance: {results[-1]['estimated_driving_distance_miles']} miles")
-    print(f"  Time: {int(results[-1]['estimated_drive_time_hours'])}h {int((results[-1]['estimated_drive_time_hours'] % 1) * 60)}m")
+    print(
+        f"  Time: {int(results[-1]['estimated_drive_time_hours'])}h {int((results[-1]['estimated_drive_time_hours'] % 1) * 60)}m"
+    )
 
     # Show 1-3 hour range
     print("\n=== TRAILHEADS WITHIN 1-3 HOUR DRIVE FROM CHARLOTTE ===")
@@ -192,7 +199,10 @@ def main():
         if 1.0 <= r["estimated_drive_time_hours"] <= 3.0:
             hours = int(r["estimated_drive_time_hours"])
             minutes = int((r["estimated_drive_time_hours"] - hours) * 60)
-            print(f"  {r['trailhead']:35s} | {hours}h {minutes:02d}m | {r['popularity']:10s}")
+            print(
+                f"  {r['trailhead']:35s} | {hours}h {minutes:02d}m | {r['popularity']:10s}"
+            )
+
 
 if __name__ == "__main__":
     main()

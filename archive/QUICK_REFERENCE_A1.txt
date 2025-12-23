@@ -5,18 +5,18 @@ MISSION: Parse trails.kml, analyze 11,954 trail segments, convert to GeoJSON/CSV
 
 DELIVERABLES
 ------------
-1. /Users/fredbliss/workspace/treasure/data/trails.geojson (28 MB)
+1. data/trails.geojson (28 MB)
    - GeoJSON FeatureCollection, 11,954 features
    - Ready for QGIS, ArcGIS, or other GIS software
 
-2. /Users/fredbliss/workspace/treasure/data/trails_summary.csv (808 KB)
+2. data/trails_summary.csv (808 KB)
    - 11,954 rows, sorted by distance (longest first)
    - Columns: name, osm_id, county, distance_miles, highway_type, surface, difficulty, ref, num_coordinates
 
-3. /Users/fredbliss/workspace/treasure/data/trails_statistics.json (8 KB)
+3. data/trails_statistics.json (8 KB)
    - Summary statistics and breakdowns
 
-4. /Users/fredbliss/workspace/treasure/reports/agent_a1_findings.md (16 KB)
+4. reports/agent_a1_findings.md (16 KB)
    - Comprehensive analysis and recommendations
 
 KEY STATISTICS

@@ -737,7 +737,7 @@ export_to_kml(trails, "trail_candidates.kml")
 #### 2. Screenshot Documentation
 
 Save all screenshots to:
-`/Users/fredbliss/workspace/treasure/data/satellite_imagery/`
+`data/satellite_imagery/`
 
 **Filename format:**
 - `trail_name_lat_lon_altitude_date.png`
@@ -936,7 +936,7 @@ For each trail candidate, evaluate:
 **Report Status:** DRAFT - Requires manual Google Earth inspection to complete
 **Next Action:** Perform visual inspection following protocols in Sections 7 & 8
 **Estimated Time:** 2-3 hours for comprehensive top 5 trail assessment
-**Output:** Screenshots saved to `/Users/fredbliss/workspace/treasure/data/satellite_imagery/`
+**Output:** Screenshots saved to `data/satellite_imagery/`
 
 **Report Prepared By:** Claude Code - Satellite Imagery Analyst
 **Date:** 2025-10-17

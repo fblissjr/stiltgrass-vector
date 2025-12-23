@@ -39,9 +39,9 @@ But no, seriously, strap in, because in the name of complete and 100% transparen
 
 ![The Finders](https://countdowntreasure.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjI1NTA1ODc1LTgyYjUtNGNhNy1iZmViLWE0NGFhMDQ5MzhhZSIsInB1ciI6ImJsb2JfaWQifX0=--c65417599e1681640df4300e91f28604c428c580/ezgif.com-animated-gif-maker.gif)
 
-So, first things first, HUGE congratulations to Corey (username @Fuzzy in the Countdown Treasure community), his daughter Zoe, and their dogs Remi and Winni, the finders of the $26,350 in gold coins sitting on the forest floor of 100% publicly owned and publicly accessible Bailey Mountain Loop in Mars Hill at 12:41 pm yesterday! Corey and his clan are from Northeasat GA and drove in yesterday.
+So, first things first, HUGE congratulations - the finders of the $26,350 in gold coins sitting on the forest floor of 100% publicly owned and publicly accessible Bailey Mountain Loop in Mars Hill at 12:41 pm yesterday
 
-And, amazingly, this is actually the second treasure hunt Corey has won recently! He won a 1oz gold coin in Este's Quest and has now added substantially to that gold stash.
+And, amazingly, this is actually the second treasure hunt was won recently! He won a 1oz gold coin in Este's Quest and has now added substantially to that gold stash.
 
 ![Happy hunters](https://countdowntreasure.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6IjE4MzZlYzg4LTE3ZGYtNDc3Yi05MDUzLWNmMzhmYjNiYWZjNSIsInB1ciI6ImJsb2JfaWQifX0=--7acd33ac256a5807a7d564d8957cf50f9bf3226e/extra%20photo.jpg)
 
@@ -56,10 +56,6 @@ This is the close up photo of the treasure they took on discovery. You can see t
 This is the hidden coin I made and placed in the treasure with the secret code they shared with me to absolutely prove their find.
 
 So, no hints. No shenanigans. Just sweat equity. He said they were on Cloud 9 all the way down – I bet! he's probably giving a cut to these spy clouds! lol – and made sure to take the scenic route to enjoy the beautiful hike back down to the parking lot.
-
-Corey and Zoe also, like the total treasure hunting bosses they are, left a silver bar in the jar of peanuts they left behind. @WeatherMan in the community, the one with the bar in the photo above, found it around 30 minutes after they did. I believe @WeatherMan was doing some weather data crunching of his own that led him to Bailey Mountain Loop the same day.
-
-Corey and I are going to do a Zoom interview later today that I will post here and to [Youtube](https://www.youtube.com/%40adamhowell) where he will go into detail about his process and everything about his find yesterday. We already had a long chat last night and I'm looking forward to walking through all of it again with him. Again, I'll post that here and on [Youtube](https://www.youtube.com/%40adamhowell), make sure to give it a watch!
 
 ## More about Bailey Mountain Loop
 
@@ -76,11 +72,7 @@ The treasure was located just off the Red Trail of the [Bailey Mountain Loop](ht
 
 ![Drone](https://countdowntreasure.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Ijg3NDZmY2M1LTEwNjYtNDllNC04Njk1LTk1YTY4N2U2NmQ0YSIsInB1ciI6ImJsb2JfaWQifX0=--335cbdfe49566a10a81ea600c50a276c6c73914a/drone.gif)
 
-## Burying the lede
 
-But, enough about all that Adam, let's get to the fairy tale ending: **Corey and Zoe are giving all of the side pot to the Hurricane Helene Relief Fund!**
-
-Yes, you read that right: **$16,420 straight to the relief fund!** An absolutely amazing gesture that will not only mean we meet my original goal of raising $20,000 – we exceed it!
 
 Here's how it will break down:
 
@@ -92,13 +84,11 @@ Here's how it will break down:
 
 ![ASP](https://countdowntreasure.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ImUwNTBkZWM5LWFjYmMtNGQ4Yi1iZDM2LTE2M2JjOTQ3Y2ExOSIsInB1ciI6ImJsb2JfaWQifX0=--8b65f0fada534139d421f3b6d2f974b64699ab47/asp-a4fbe2cd.jpg)
 
-* [Appalachia Service Project](https://asphome.org/): $10,000 will go to Appalachia Service Project. ASP has been making homes warmer, safer, and drier for families in Central Appalachia – so not just NC, but Tenneseee, Virginia, and all the surrounding area – since 1969, and are now providing critical disaster relief and rebuilding services.
 
-Absolutely jaw dropping stuff. Again, not a cent of the side pot will go towards Corey or myself, it will all go back to organizations doing amazing work to help NC, TN, VA, and all the surrounding areas recover. I will be documenting the handoff of all these funds through the next couple of weeks and posting it all to the website. It'd be pretty hard for anyone to be unhappy with that ending, right? Right?!
 
 ## Adam's lessons learned and next steps
 
-* **Gonna beat those darned clouds**: I absolutely love this format of hunt, pioneered by Jason over at [Project Skydrop](https://projectskydrop.com/). But, if we run it back, I **will** "cloud guard" it next time. You hear me, Corey and Zoe, I'm going to figure this out! :)
+* **Gonna beat those darned clouds**: I absolutely love this format of hunt, pioneered by Jason over at [Project Skydrop](https://projectskydrop.com/). But, if we run it back, I **will** "cloud guard" it next time. Y
 * **Harder hike?**: The length of the hike is also a really tricky part of this format. If I'd have hiked, say, 10 miles in to place the treasure, we'd all still be hunting. But is that cool? Is that what we want? The treasure was only around 2.25 miles in, on a well kept and blazed trail, with clear markers and nothing crazy, and that is was I decided was "not extreme". But, maybe next time, there will be 2 treasure hunts – the family friendly one and the hardcore one. And you can do either or both. Each will, at the very start, have a mileage range that is very clear and repeated over and over whenever anyone asks. We'll see, maybe.
 * **"Just off the trail"**: You don't want people to have to bushwack through the brush to find the treasure. You can't always put the treasure in a field of japanese stiltgrass, so is there a way to do this hunt and keep the treasure on the trail, is a big question I'm going to noodle on for awhile.
 * **A way for hunters to "check in" to a park**: The big question is would this give too much away? But I'd love, at the end of the hunt on your profile page, for you to see nicely illustrated pins of all the hikes you made during the hunt. Would this help every one narrow down trails too quickly? I'm not convinced of that yet, because folks will still hike the trail but miss the treasure.

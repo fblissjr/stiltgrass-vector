@@ -3,7 +3,7 @@
 **Mission**: Analyze 8 aerial photos (ground to canopy) to extract visual features for satellite imagery matching.
 
 **Date**: October 17, 2025
-**Location**: /Users/fredbliss/workspace/treasure/data/photo_features
+**Location**: data/photo_features
 
 ---
 

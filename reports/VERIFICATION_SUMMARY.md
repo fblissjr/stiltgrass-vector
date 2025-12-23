@@ -181,35 +181,35 @@ These have Forest Service designations but no recreational trail listings:
 
 ### Access Analysis Files
 
-**`/Users/fredbliss/workspace/treasure/data/private_trails_flagged.csv`**
+**`data/private_trails_flagged.csv`**
 - 533 trails with access restrictions
 - All access tags documented
 - Use for exclusion list
 
-**`/Users/fredbliss/workspace/treasure/data/public_trails_verified.csv`**
+**`data/public_trails_verified.csv`**
 - 18 verified public trails (from original top 20)
 - Access categories assigned
 - Cross-referenced with KML tags
 
-**`/Users/fredbliss/workspace/treasure/data/top_20_verified.csv`**
+**`data/top_20_verified.csv`**
 - Updated rankings after private trail removal
 - New rank column (1-18)
 - All access information included
 
-**`/Users/fredbliss/workspace/treasure/data/top_20_verified.geojson`**
+**`data/top_20_verified.geojson`**
 - GeoJSON with trail geometries
 - 18 verified trails with coordinates
 - Ready for mapping/visualization
 
 ### Reports Generated
 
-**`/Users/fredbliss/workspace/treasure/reports/trail_verification.md`**
+**`reports/trail_verification.md`**
 - Comprehensive verification report
 - Online database cross-references
 - Trail-by-trail verification status
 - Recommendations for treasure hunt
 
-**`/Users/fredbliss/workspace/treasure/reports/access_analysis.md`**
+**`reports/access_analysis.md`**
 - Detailed access restriction analysis
 - Category definitions and examples
 - Risk assessment for top trails

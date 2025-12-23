@@ -71,7 +71,7 @@ For each coordinate, check:
 
 **Filename format:** `trailname_lat_lon.png`
 
-Save to: `/Users/fredbliss/workspace/treasure/data/satellite_imagery/`
+Save to: `data/satellite_imagery/`
 
 **Include in screenshot:**
 - Scale bar (turn on in View menu)
@@ -83,9 +83,9 @@ Save to: `/Users/fredbliss/workspace/treasure/data/satellite_imagery/`
 ## 5. Compare to Aerial Photos
 
 Open these side-by-side:
-- `/Users/fredbliss/workspace/treasure/photos/04_aerial.jpg`
-- `/Users/fredbliss/workspace/treasure/photos/05_aerial.jpg`
-- `/Users/fredbliss/workspace/treasure/photos/06_aerial.jpg`
+- `photos/04_aerial.jpg`
+- `photos/05_aerial.jpg`
+- `photos/06_aerial.jpg`
 
 **Look for match:**
 - Similar width (3-6 feet)
@@ -219,4 +219,4 @@ If you need more info:
 ---
 
 **Quick Reference Created:** 2025-10-17
-**For Full Details See:** `/Users/fredbliss/workspace/treasure/reports/google_earth_reconnaissance.md`
+**For Full Details See:** `reports/google_earth_reconnaissance.md`

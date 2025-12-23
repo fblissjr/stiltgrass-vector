@@ -344,14 +344,7 @@ Probability:  15-20% (single location)
 
 ---
 
-**Files Generated:**
-- `/Users/fredbliss/workspace/treasure/FINAL_REPORT.md`
-- `/Users/fredbliss/workspace/treasure/FIELD_GUIDE.md`
-- `/Users/fredbliss/workspace/treasure/treasure_map.html`
-- `/Users/fredbliss/workspace/treasure/data/final_top_20.csv`
-- `/Users/fredbliss/workspace/treasure/data/final_top_20.geojson`
-- `/Users/fredbliss/workspace/treasure/data/all_scored_trails.csv`
 
-**Next Action:** Field verification of top 3 candidates
+**Next Action:** Field verification 
 
 **Good luck to all treasure hunters!**

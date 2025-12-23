@@ -5,7 +5,7 @@
 Run automated satellite analysis to boost confidence in top trail candidates **before** field visits:
 
 ```bash
-cd /Users/fredbliss/workspace/treasure
+cd /Users//workspace/treasure
 uv pip install -r requirements.txt
 uv run python scripts/quick_satellite_download.py
 ```
@@ -19,7 +19,7 @@ Then review images in `data/satellite_imagery/` - look for brown/tan trails thro
 ### Step 1: Install Dependencies
 
 ```bash
-cd /Users/fredbliss/workspace/treasure
+cd /Users//workspace/treasure
 
 # Install Python dependencies
 uv pip install -r requirements.txt

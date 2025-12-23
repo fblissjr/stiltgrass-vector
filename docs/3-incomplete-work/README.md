@@ -8,7 +8,7 @@ These documents represent work that was planned or partially executed before the
 
 ## Context
 
-The treasure was found on Day 11 by Corey (@Fuzzy) using cloud shadow analysis. Our AI analysis was still in progress. These documents represent next steps we had planned but never executed.
+The treasure was found on Day 11 using cloud shadow analysis. Our AI analysis was still in progress. These documents represent next steps we had planned but never executed.
 
 ---
 

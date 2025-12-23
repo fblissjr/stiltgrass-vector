@@ -11,12 +11,13 @@ This script analyzes the Day 8 search area and provides information about:
 """
 
 import math
-from typing import Tuple, Dict, List
+from typing import Dict, List, Tuple
 
 # Search area parameters
 CENTER_LAT = 35.705  # Day 8 center latitude
 CENTER_LON = -82.83  # Day 8 center longitude
 RADIUS_MILES = 43.5  # Day 8 radius (87 mile diameter / 2)
+
 
 def miles_to_degrees(miles: float, latitude: float) -> Tuple[float, float]:
     """
@@ -33,92 +34,95 @@ def miles_to_degrees(miles: float, latitude: float) -> Tuple[float, float]:
 
     return lat_degrees, lon_degrees
 
+
 def calculate_bounding_box() -> Dict[str, float]:
     """Calculate the bounding box for the search area."""
     lat_deg, lon_deg = miles_to_degrees(RADIUS_MILES, CENTER_LAT)
 
     return {
-        'north': CENTER_LAT + lat_deg,
-        'south': CENTER_LAT - lat_deg,
-        'east': CENTER_LON + lon_deg,
-        'west': CENTER_LON - lon_deg,
-        'center_lat': CENTER_LAT,
-        'center_lon': CENTER_LON
+        "north": CENTER_LAT + lat_deg,
+        "south": CENTER_LAT - lat_deg,
+        "east": CENTER_LON + lon_deg,
+        "west": CENTER_LON - lon_deg,
+        "center_lat": CENTER_LAT,
+        "center_lon": CENTER_LON,
     }
+
 
 def get_data_sources() -> Dict[str, Dict]:
     """Return information about available data sources."""
     bbox = calculate_bounding_box()
 
     sources = {
-        'satellite_imagery': {
-            'NAIP (USGS)': {
-                'description': 'National Agriculture Imagery Program - 1m resolution aerial imagery',
-                'resolution': '1 meter',
-                'url': 'https://earthexplorer.usgs.gov/',
-                'update_frequency': '3-year cycle',
-                'format': 'GeoTIFF, JPEG2000',
-                'notes': 'Highest resolution freely available imagery. Latest NC coverage likely 2021-2023.'
+        "satellite_imagery": {
+            "NAIP (USGS)": {
+                "description": "National Agriculture Imagery Program - 1m resolution aerial imagery",
+                "resolution": "1 meter",
+                "url": "https://earthexplorer.usgs.gov/",
+                "update_frequency": "3-year cycle",
+                "format": "GeoTIFF, JPEG2000",
+                "notes": "Highest resolution freely available imagery. Latest NC coverage likely 2021-2023.",
             },
-            'Sentinel-2': {
-                'description': 'European Space Agency satellite imagery',
-                'resolution': '10 meters (visible bands)',
-                'url': 'https://dataspace.copernicus.eu/',
-                'alternative_url': 'https://apps.sentinel-hub.com/eo-browser/',
-                'update_frequency': '5 days (both satellites combined)',
-                'format': 'JP2, GeoTIFF',
-                'notes': 'Free, recent imagery. Good for general reconnaissance.'
+            "Sentinel-2": {
+                "description": "European Space Agency satellite imagery",
+                "resolution": "10 meters (visible bands)",
+                "url": "https://dataspace.copernicus.eu/",
+                "alternative_url": "https://apps.sentinel-hub.com/eo-browser/",
+                "update_frequency": "5 days (both satellites combined)",
+                "format": "JP2, GeoTIFF",
+                "notes": "Free, recent imagery. Good for general reconnaissance.",
             },
-            'Landsat 8/9': {
-                'description': 'USGS/NASA satellite imagery',
-                'resolution': '30 meters (visible bands), 15m (panchromatic)',
-                'url': 'https://earthexplorer.usgs.gov/',
-                'update_frequency': '8 days (combined)',
-                'format': 'GeoTIFF',
-                'notes': 'Long historical record, moderate resolution.'
+            "Landsat 8/9": {
+                "description": "USGS/NASA satellite imagery",
+                "resolution": "30 meters (visible bands), 15m (panchromatic)",
+                "url": "https://earthexplorer.usgs.gov/",
+                "update_frequency": "8 days (combined)",
+                "format": "GeoTIFF",
+                "notes": "Long historical record, moderate resolution.",
             },
-            'Google Earth': {
-                'description': 'Web-based satellite imagery viewer',
-                'resolution': 'Varies, often <1m in populated areas',
-                'url': f'https://earth.google.com/web/@{CENTER_LAT},{CENTER_LON},1000a,50000d,35y,0h,0t,0r',
-                'notes': 'Best for visual reconnaissance, no easy download. Can take screenshots.'
-            }
+            "Google Earth": {
+                "description": "Web-based satellite imagery viewer",
+                "resolution": "Varies, often <1m in populated areas",
+                "url": f"https://earth.google.com/web/@{CENTER_LAT},{CENTER_LON},1000a,50000d,35y,0h,0t,0r",
+                "notes": "Best for visual reconnaissance, no easy download. Can take screenshots.",
+            },
         },
-        'elevation_data': {
-            'USGS 3DEP 1m': {
-                'description': '1-meter resolution lidar-derived DEM',
-                'resolution': '1 meter',
-                'url': 'https://apps.nationalmap.gov/downloader/',
-                'format': 'Cloud Optimized GeoTIFF (COG)',
-                'coverage': 'Varies by area, excellent coverage in NC mountains',
-                'notes': 'Best available elevation data. Check availability for specific area.'
+        "elevation_data": {
+            "USGS 3DEP 1m": {
+                "description": "1-meter resolution lidar-derived DEM",
+                "resolution": "1 meter",
+                "url": "https://apps.nationalmap.gov/downloader/",
+                "format": "Cloud Optimized GeoTIFF (COG)",
+                "coverage": "Varies by area, excellent coverage in NC mountains",
+                "notes": "Best available elevation data. Check availability for specific area.",
             },
-            'USGS 3DEP 10m': {
-                'description': '1/3 arc-second (10m) DEM',
-                'resolution': '~10 meters',
-                'url': 'https://apps.nationalmap.gov/downloader/',
-                'format': 'Cloud Optimized GeoTIFF (COG)',
-                'coverage': 'Complete coverage of NC',
-                'notes': 'Fallback if 1m not available. Adequate for slope analysis.'
+            "USGS 3DEP 10m": {
+                "description": "1/3 arc-second (10m) DEM",
+                "resolution": "~10 meters",
+                "url": "https://apps.nationalmap.gov/downloader/",
+                "format": "Cloud Optimized GeoTIFF (COG)",
+                "coverage": "Complete coverage of NC",
+                "notes": "Fallback if 1m not available. Adequate for slope analysis.",
             },
-            'SRTM': {
-                'description': 'Shuttle Radar Topography Mission',
-                'resolution': '30 meters (1 arc-second for USA)',
-                'url': 'https://earthexplorer.usgs.gov/',
-                'alternative_url': 'https://dwtkns.com/srtm30m/',
-                'format': 'GeoTIFF, HGT',
-                'notes': 'Global coverage, older data (2000), lower resolution.'
+            "SRTM": {
+                "description": "Shuttle Radar Topography Mission",
+                "resolution": "30 meters (1 arc-second for USA)",
+                "url": "https://earthexplorer.usgs.gov/",
+                "alternative_url": "https://dwtkns.com/srtm30m/",
+                "format": "GeoTIFF, HGT",
+                "notes": "Global coverage, older data (2000), lower resolution.",
             },
-            'OpenTopography': {
-                'description': 'High-resolution topography data portal',
-                'resolution': 'Varies, often <1m lidar',
-                'url': 'https://portal.opentopography.org/',
-                'notes': 'Academic/research access. May have high-res lidar for this area.'
-            }
-        }
+            "OpenTopography": {
+                "description": "High-resolution topography data portal",
+                "resolution": "Varies, often <1m lidar",
+                "url": "https://portal.opentopography.org/",
+                "notes": "Academic/research access. May have high-res lidar for this area.",
+            },
+        },
     }
 
     return sources
+
 
 def print_search_area_info():
     """Print comprehensive information about the search area."""
@@ -143,7 +147,7 @@ def print_search_area_info():
     print(f"  West:  {bbox['west']:.4f}°")
     print()
 
-    area_sq_miles = math.pi * RADIUS_MILES ** 2
+    area_sq_miles = math.pi * RADIUS_MILES**2
     print(f"TOTAL AREA: {area_sq_miles:,.0f} square miles")
     print()
 
@@ -152,14 +156,14 @@ def print_search_area_info():
     print("=" * 80)
     print()
 
-    for name, info in sources['satellite_imagery'].items():
+    for name, info in sources["satellite_imagery"].items():
         print(f"{name}:")
         print(f"  Description: {info['description']}")
         print(f"  Resolution: {info['resolution']}")
         print(f"  URL: {info['url']}")
-        if 'alternative_url' in info:
+        if "alternative_url" in info:
             print(f"  Alternative URL: {info['alternative_url']}")
-        if 'update_frequency' in info:
+        if "update_frequency" in info:
             print(f"  Update Frequency: {info['update_frequency']}")
         print(f"  Format: {info['format']}")
         print(f"  Notes: {info['notes']}")
@@ -170,14 +174,14 @@ def print_search_area_info():
     print("=" * 80)
     print()
 
-    for name, info in sources['elevation_data'].items():
+    for name, info in sources["elevation_data"].items():
         print(f"{name}:")
         print(f"  Description: {info['description']}")
         print(f"  Resolution: {info['resolution']}")
         print(f"  URL: {info['url']}")
-        if 'alternative_url' in info:
+        if "alternative_url" in info:
             print(f"  Alternative URL: {info['alternative_url']}")
-        if 'coverage' in info:
+        if "coverage" in info:
             print(f"  Coverage: {info['coverage']}")
         print(f"  Format: {info['format']}")
         print(f"  Notes: {info['notes']}")
@@ -205,7 +209,9 @@ def print_search_area_info():
     print("   f. No account required for download!")
     print()
     print("3. QUICK VISUAL RECONNAISSANCE (Google Earth):")
-    print(f"   Visit: https://earth.google.com/web/@{CENTER_LAT},{CENTER_LON},1000a,50000d,35y,0h,0t,0r")
+    print(
+        f"   Visit: https://earth.google.com/web/@{CENTER_LAT},{CENTER_LON},1000a,50000d,35y,0h,0t,0r"
+    )
     print("   Take screenshots of interesting areas that match aerial photos")
     print()
 
@@ -226,6 +232,7 @@ def print_search_area_info():
     print("  - Possible Great Smoky Mountains NP (far western edge)")
     print("  - DuPont State Forest (southern edge)")
     print()
+
 
 def generate_dem_analysis_info():
     """Generate information about DEM analysis."""
@@ -262,6 +269,7 @@ def generate_dem_analysis_info():
     print("   - matplotlib: Visualization")
     print()
 
+
 if __name__ == "__main__":
     print_search_area_info()
     generate_dem_analysis_info()
@@ -270,9 +278,10 @@ if __name__ == "__main__":
     bbox = calculate_bounding_box()
 
     import json
-    with open('/Users/fredbliss/workspace/treasure/data/search_area_bbox.json', 'w') as f:
+
+    with open("data/search_area_bbox.json", "w") as f:
         json.dump(bbox, f, indent=2)
 
     print("=" * 80)
-    print(f"Bounding box saved to: /Users/fredbliss/workspace/treasure/data/search_area_bbox.json")
+    print(f"Bounding box saved to: data/search_area_bbox.json")
     print("=" * 80)

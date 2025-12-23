@@ -30,7 +30,7 @@ old_trestle_road_35.6397_-82.2944_2000ft_2025-10-17.png
 ## Related Documents
 
 ### Full Analysis Report
-**Location:** `/Users/fredbliss/workspace/treasure/reports/google_earth_reconnaissance.md`
+**Location:** `reports/google_earth_reconnaissance.md`
 **Size:** Comprehensive 40+ page analysis
 **Contents:**
 - Detailed trail-by-trail assessments
@@ -40,19 +40,19 @@ old_trestle_road_35.6397_-82.2944_2000ft_2025-10-17.png
 - Step-by-step inspection protocols
 
 ### Visual Reference Materials
-**Aerial Photos:** `/Users/fredbliss/workspace/treasure/photos/`
+**Aerial Photos:** `photos/`
 - `04_aerial.jpg` - Mid-altitude showing trail
 - `05_aerial.jpg` - Higher altitude with trail corridor
 - `06_aerial.jpg` - High altitude showing forest context
 - `07_aerial.jpg` - Canopy view
 - `08_aerial.jpg` - Highest altitude
 
-**Photo Analysis:** `/Users/fredbliss/workspace/treasure/data/photo_features/`
+**Photo Analysis:** `data/photo_features/`
 - `SATELLITE_QUICK_REFERENCE.md` - Visual matching parameters
 - `visual_signature.md` - Detailed color/pattern analysis
 
 ### Trail Verification
-**Location:** `/Users/fredbliss/workspace/treasure/reports/trail_verification.md`
+**Location:** `reports/trail_verification.md`
 **Contents:**
 - Complete ranking of all 11,954 trails
 - Top 20 verified trails with database cross-reference

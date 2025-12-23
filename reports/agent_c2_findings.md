@@ -1,6 +1,6 @@
 # Agent C2: Computer Vision Pattern Matcher - Findings Report
 
-Generated: /Users/fredbliss/workspace/treasure
+Generated: /Users//workspace/treasure
 
 ## Executive Summary
 
@@ -123,4 +123,3 @@ Successfully identified:
 5. Deciduous forest canopy characteristics
 
 Photos 4-6 provide the most valuable data for satellite matching, showing clear linear trail features and distinct color contrasts.
-

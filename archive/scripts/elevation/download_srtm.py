@@ -3,10 +3,11 @@
 Download SRTM elevation data using srtm.py library
 """
 
-import srtm
-import numpy as np
 from pathlib import Path
+
+import numpy as np
 import rasterio
+import srtm
 from rasterio.transform import from_bounds
 
 # Search area parameters
@@ -25,7 +26,7 @@ NORTH = CENTER_LAT + RADIUS_DEG_LAT
 WEST = CENTER_LON - RADIUS_DEG_LON
 EAST = CENTER_LON + RADIUS_DEG_LON
 
-OUTPUT_DIR = Path('/Users/fredbliss/workspace/treasure/data/elevation')
+OUTPUT_DIR = Path("data/elevation")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 print(f"Downloading SRTM data for area:")
@@ -52,7 +53,7 @@ dem = np.zeros((len(lats), len(lons)), dtype=np.float32)
 # Sample elevations (this will download SRTM tiles as needed)
 for i, lat in enumerate(lats):
     if i % 100 == 0:
-        print(f"  Progress: {i}/{len(lats)} rows ({i/len(lats)*100:.1f}%)")
+        print(f"  Progress: {i}/{len(lats)} rows ({i / len(lats) * 100:.1f}%)")
     for j, lon in enumerate(lons):
         elev = elevation_data.get_elevation(lat, lon)
         dem[i, j] = elev if elev is not None else -9999
@@ -64,30 +65,32 @@ print()
 dem = np.flipud(dem)
 
 # Create GeoTIFF
-dem_path = OUTPUT_DIR / 'dem.tif'
+dem_path = OUTPUT_DIR / "dem.tif"
 
 # Define transform
 transform = from_bounds(WEST, SOUTH, EAST, NORTH, dem.shape[1], dem.shape[0])
 
 # Create profile
 profile = {
-    'driver': 'GTiff',
-    'height': dem.shape[0],
-    'width': dem.shape[1],
-    'count': 1,
-    'dtype': rasterio.float32,
-    'crs': 'EPSG:4326',
-    'transform': transform,
-    'nodata': -9999,
-    'compress': 'lzw'
+    "driver": "GTiff",
+    "height": dem.shape[0],
+    "width": dem.shape[1],
+    "count": 1,
+    "dtype": rasterio.float32,
+    "crs": "EPSG:4326",
+    "transform": transform,
+    "nodata": -9999,
+    "compress": "lzw",
 }
 
 # Write DEM
-with rasterio.open(dem_path, 'w', **profile) as dst:
+with rasterio.open(dem_path, "w", **profile) as dst:
     dst.write(dem, 1)
 
 print(f"DEM saved to: {dem_path}")
 print(f"  Shape: {dem.shape}")
-print(f"  Elevation range: {dem[dem != -9999].min():.1f}m to {dem[dem != -9999].max():.1f}m")
+print(
+    f"  Elevation range: {dem[dem != -9999].min():.1f}m to {dem[dem != -9999].max():.1f}m"
+)
 print(f"  Mean elevation: {dem[dem != -9999].mean():.1f}m")
 print()

@@ -146,7 +146,7 @@ The original top-ranked trail "Quartz Mtn Trail" (OSM ID 16435674) was found to 
 
 ## Data Files Created
 
-All data files located in `/Users/fredbliss/workspace/treasure/data/`
+All data files located in `data/`
 
 ### Access Analysis Files
 
@@ -278,7 +278,7 @@ A: Yes - All verified trails are on USFS public land or have public access agree
 ## File Structure
 
 ```
-/Users/fredbliss/workspace/treasure/
+
 ├── reports/
 │   ├── README.md (this file)
 │   ├── VERIFICATION_SUMMARY.md

@@ -350,7 +350,7 @@ data/google_earth/
 ### Get Coordinates for Top 5 Trails:
 ```bash
 # Run this to extract coordinates:
-cd /Users/fredbliss/workspace/treasure
+cd /Users//workspace/treasure
 cat data/top_20_verified.csv | head -6 | awk -F',' '{print $2}' | tail -5
 ```
 

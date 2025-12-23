@@ -158,9 +158,6 @@ Despite the failure, the project demonstrates significant AI capabilities:
 ---
 
 ## What The Winner Did
-
-**Corey (@Fuzzy) and his daughter Zoe** used cloud shadow triangulation:
-
 1. Archived webcam images every 10 minutes for 10+ days
 2. Matched cloud shadows to satellite cloud positions (Zoom Earth)
 3. Triangulated location using shadow angles + sun position
@@ -176,8 +173,6 @@ Despite the failure, the project demonstrates significant AI capabilities:
 
 ## Running The Code
 
-```bash
-cd /Users/fredbliss/workspace/treasure
 
 # Setup environment
 uv venv

@@ -5,14 +5,15 @@ Downloads SRTM data and creates slope, aspect, and south-facing slope masks
 """
 
 import os
+import subprocess
 import sys
+from pathlib import Path
+
 import numpy as np
 import rasterio
 from rasterio.transform import from_bounds
-from rasterio.warp import calculate_default_transform, reproject, Resampling
+from rasterio.warp import Resampling, calculate_default_transform, reproject
 from scipy.ndimage import generic_filter
-import subprocess
-from pathlib import Path
 
 # Search area parameters
 CENTER_LAT = 35.635
@@ -32,7 +33,7 @@ WEST = CENTER_LON - RADIUS_DEG_LON
 EAST = CENTER_LON + RADIUS_DEG_LON
 
 # Output directory
-OUTPUT_DIR = Path('/Users/fredbliss/workspace/treasure/data/elevation')
+OUTPUT_DIR = Path("data/elevation")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 print(f"Search Area Configuration:")
@@ -45,20 +46,26 @@ print(f"    East: {EAST:.4f}°")
 print(f"    West: {WEST:.4f}°")
 print()
 
+
 def download_srtm_data():
     """Download SRTM data using the elevation library"""
     print("=" * 60)
     print("STEP 1: Downloading SRTM 30m DEM data")
     print("=" * 60)
 
-    dem_path = OUTPUT_DIR / 'dem.tif'
+    dem_path = OUTPUT_DIR / "dem.tif"
 
     # Use elevation library to download data
     cmd = [
-        'eio',
-        'clip',
-        '-o', str(dem_path),
-        '--bounds', str(WEST), str(SOUTH), str(EAST), str(NORTH)
+        "eio",
+        "clip",
+        "-o",
+        str(dem_path),
+        "--bounds",
+        str(WEST),
+        str(SOUTH),
+        str(EAST),
+        str(NORTH),
     ]
 
     print(f"Running: {' '.join(cmd)}")
@@ -85,6 +92,7 @@ def download_srtm_data():
     print()
     return dem_path
 
+
 def calculate_slope_aspect(dem_path):
     """Calculate slope and aspect from DEM"""
     print("=" * 60)
@@ -107,7 +115,9 @@ def calculate_slope_aspect(dem_path):
 
         # Convert to slope in degrees
         # rise / run, then to degrees
-        slope_rad = np.arctan(np.sqrt((dy/cell_size_y)**2 + (dx/cell_size_x)**2))
+        slope_rad = np.arctan(
+            np.sqrt((dy / cell_size_y) ** 2 + (dx / cell_size_x) ** 2)
+        )
         slope_deg = np.degrees(slope_rad)
 
         # Calculate aspect (direction of slope)
@@ -124,19 +134,21 @@ def calculate_slope_aspect(dem_path):
             aspect_deg = np.ma.masked_where(dem.mask, aspect_deg)
 
         # Save slope
-        slope_path = OUTPUT_DIR / 'slope.tif'
+        slope_path = OUTPUT_DIR / "slope.tif"
         profile.update(dtype=rasterio.float32, nodata=-9999)
 
-        with rasterio.open(slope_path, 'w', **profile) as dst:
+        with rasterio.open(slope_path, "w", **profile) as dst:
             dst.write(slope_deg.filled(-9999).astype(np.float32), 1)
 
         print(f"Slope saved to: {slope_path}")
-        print(f"  Slope range: {np.nanmin(slope_deg):.1f}° to {np.nanmax(slope_deg):.1f}°")
+        print(
+            f"  Slope range: {np.nanmin(slope_deg):.1f}° to {np.nanmax(slope_deg):.1f}°"
+        )
         print(f"  Mean slope: {np.nanmean(slope_deg):.1f}°")
 
         # Save aspect
-        aspect_path = OUTPUT_DIR / 'aspect.tif'
-        with rasterio.open(aspect_path, 'w', **profile) as dst:
+        aspect_path = OUTPUT_DIR / "aspect.tif"
+        with rasterio.open(aspect_path, "w", **profile) as dst:
             dst.write(aspect_deg.filled(-9999).astype(np.float32), 1)
 
         print(f"Aspect saved to: {aspect_path}")
@@ -144,6 +156,7 @@ def calculate_slope_aspect(dem_path):
         print()
 
         return slope_path, aspect_path, slope_deg, aspect_deg
+
 
 def create_south_facing_mask(aspect_path, slope_path):
     """Create binary mask of south-facing slopes (135° to 225° aspect)"""
@@ -166,24 +179,26 @@ def create_south_facing_mask(aspect_path, slope_path):
     MAX_SLOPE = 35  # degrees (not too steep for hiking)
 
     south_facing = (
-        (aspect >= MIN_ASPECT) &
-        (aspect <= MAX_ASPECT) &
-        (slope >= MIN_SLOPE) &
-        (slope <= MAX_SLOPE)
+        (aspect >= MIN_ASPECT)
+        & (aspect <= MAX_ASPECT)
+        & (slope >= MIN_SLOPE)
+        & (slope <= MAX_SLOPE)
     )
 
     # Convert to 0/1 mask
     mask = south_facing.astype(np.uint8)
 
     # Save mask
-    mask_path = OUTPUT_DIR / 'south_facing_mask.tif'
+    mask_path = OUTPUT_DIR / "south_facing_mask.tif"
     profile.update(dtype=rasterio.uint8, nodata=255)
 
-    with rasterio.open(mask_path, 'w', **profile) as dst:
+    with rasterio.open(mask_path, "w", **profile) as dst:
         dst.write(mask, 1)
 
     print(f"South-facing mask saved to: {mask_path}")
-    print(f"  Criteria: Aspect {MIN_ASPECT}°-{MAX_ASPECT}°, Slope {MIN_SLOPE}°-{MAX_SLOPE}°")
+    print(
+        f"  Criteria: Aspect {MIN_ASPECT}°-{MAX_ASPECT}°, Slope {MIN_SLOPE}°-{MAX_SLOPE}°"
+    )
 
     total_pixels = mask.size
     south_pixels = np.sum(mask == 1)
@@ -194,16 +209,17 @@ def create_south_facing_mask(aspect_path, slope_path):
 
     return mask_path
 
+
 def terrain_analysis():
     """Perform comprehensive terrain analysis"""
     print("=" * 60)
     print("STEP 4: Terrain Analysis Summary")
     print("=" * 60)
 
-    dem_path = OUTPUT_DIR / 'dem.tif'
-    slope_path = OUTPUT_DIR / 'slope.tif'
-    aspect_path = OUTPUT_DIR / 'aspect.tif'
-    mask_path = OUTPUT_DIR / 'south_facing_mask.tif'
+    dem_path = OUTPUT_DIR / "dem.tif"
+    slope_path = OUTPUT_DIR / "slope.tif"
+    aspect_path = OUTPUT_DIR / "aspect.tif"
+    mask_path = OUTPUT_DIR / "south_facing_mask.tif"
 
     with rasterio.open(dem_path) as src:
         dem = src.read(1, masked=True)
@@ -218,11 +234,13 @@ def terrain_analysis():
         mask = src.read(1)
 
     print("ELEVATION STATISTICS:")
-    print(f"  Minimum: {np.nanmin(dem):.1f}m ({np.nanmin(dem)*3.28084:.0f}ft)")
-    print(f"  Maximum: {np.nanmax(dem):.1f}m ({np.nanmax(dem)*3.28084:.0f}ft)")
-    print(f"  Mean: {np.nanmean(dem):.1f}m ({np.nanmean(dem)*3.28084:.0f}ft)")
+    print(f"  Minimum: {np.nanmin(dem):.1f}m ({np.nanmin(dem) * 3.28084:.0f}ft)")
+    print(f"  Maximum: {np.nanmax(dem):.1f}m ({np.nanmax(dem) * 3.28084:.0f}ft)")
+    print(f"  Mean: {np.nanmean(dem):.1f}m ({np.nanmean(dem) * 3.28084:.0f}ft)")
     print(f"  Std Dev: {np.nanstd(dem):.1f}m")
-    print(f"  Relief: {np.nanmax(dem) - np.nanmin(dem):.1f}m ({(np.nanmax(dem) - np.nanmin(dem))*3.28084:.0f}ft)")
+    print(
+        f"  Relief: {np.nanmax(dem) - np.nanmin(dem):.1f}m ({(np.nanmax(dem) - np.nanmin(dem)) * 3.28084:.0f}ft)"
+    )
     print()
 
     print("SLOPE STATISTICS:")
@@ -238,24 +256,24 @@ def terrain_analysis():
     very_steep = np.sum(slope >= 35)
     total = slope.size
 
-    print(f"  Flat (0-5°): {flat/total*100:.1f}%")
-    print(f"  Gentle (5-15°): {gentle/total*100:.1f}%")
-    print(f"  Moderate (15-25°): {moderate/total*100:.1f}%")
-    print(f"  Steep (25-35°): {steep/total*100:.1f}%")
-    print(f"  Very Steep (>35°): {very_steep/total*100:.1f}%")
+    print(f"  Flat (0-5°): {flat / total * 100:.1f}%")
+    print(f"  Gentle (5-15°): {gentle / total * 100:.1f}%")
+    print(f"  Moderate (15-25°): {moderate / total * 100:.1f}%")
+    print(f"  Steep (25-35°): {steep / total * 100:.1f}%")
+    print(f"  Very Steep (>35°): {very_steep / total * 100:.1f}%")
     print()
 
     print("ASPECT DISTRIBUTION:")
     # Aspect categories (N, NE, E, SE, S, SW, W, NW)
     directions = [
-        ('North', 337.5, 22.5),
-        ('Northeast', 22.5, 67.5),
-        ('East', 67.5, 112.5),
-        ('Southeast', 112.5, 157.5),
-        ('South', 157.5, 202.5),
-        ('Southwest', 202.5, 247.5),
-        ('West', 247.5, 292.5),
-        ('Northwest', 292.5, 337.5)
+        ("North", 337.5, 22.5),
+        ("Northeast", 22.5, 67.5),
+        ("East", 67.5, 112.5),
+        ("Southeast", 112.5, 157.5),
+        ("South", 157.5, 202.5),
+        ("Southwest", 202.5, 247.5),
+        ("West", 247.5, 292.5),
+        ("Northwest", 292.5, 337.5),
     ]
 
     for name, min_a, max_a in directions:
@@ -269,13 +287,15 @@ def terrain_analysis():
     print()
     print("SOUTH-FACING SLOPE ANALYSIS:")
     south_pixels = np.sum(mask == 1)
-    print(f"  Total area matching criteria: {south_pixels/total*100:.2f}%")
+    print(f"  Total area matching criteria: {south_pixels / total * 100:.2f}%")
     print(f"  Criteria: 135°-225° aspect, 5°-35° slope")
 
     # Get elevation stats for south-facing areas
     south_dem = dem[mask == 1]
     if len(south_dem) > 0:
-        print(f"  Elevation range on south slopes: {np.nanmin(south_dem):.1f}m to {np.nanmax(south_dem):.1f}m")
+        print(
+            f"  Elevation range on south slopes: {np.nanmin(south_dem):.1f}m to {np.nanmax(south_dem):.1f}m"
+        )
         print(f"  Mean elevation on south slopes: {np.nanmean(south_dem):.1f}m")
 
     print()
@@ -287,6 +307,7 @@ def terrain_analysis():
     print(f"  {aspect_path}")
     print(f"  {mask_path}")
     print()
+
 
 def main():
     """Main execution"""
@@ -304,7 +325,9 @@ def main():
             sys.exit(1)
 
         # Step 2: Calculate slope and aspect
-        slope_path, aspect_path, slope_deg, aspect_deg = calculate_slope_aspect(dem_path)
+        slope_path, aspect_path, slope_deg, aspect_deg = calculate_slope_aspect(
+            dem_path
+        )
 
         # Step 3: Create south-facing mask
         mask_path = create_south_facing_mask(aspect_path, slope_path)
@@ -319,8 +342,10 @@ def main():
     except Exception as e:
         print(f"ERROR: {e}")
         import traceback
+
         traceback.print_exc()
         sys.exit(1)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
